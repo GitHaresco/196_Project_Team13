@@ -1,0 +1,137 @@
+(footprint "CAP CER 0.1UF 50V X7R 1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C"
+		(at 0.762 -0.508 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ef197238-4c9d-4b22-a1a4-3a1f8842796c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0.1uF"
+		(at 0.508 -3.556 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7f8cf7e-ba11-4042-b747-6c302f839956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6490/3372_1206B104K500BD.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94a92f82-2e87-45ae-814f-126d3dcdf395")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CAP CER 0.1UF 50V X7R 1206"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfbbc9b3-e22c-4831-a33b-8f1233657dbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.588748 0.24)
+		(end 3.011252 0.24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2a1e934-06f8-42f4-8369-e6c549a4dca1")
+	)
+	(fp_line
+		(start 1.588748 2.06)
+		(end 3.011252 2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70ca678c-bff7-444f-aff1-56d605348537")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 4.6 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "41e25ac2-c3f5-4e8c-868a-cd0f61a1979c")
+	)
+	(fp_rect
+		(start 0.7 0.35)
+		(end 3.9 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "23b8a9f7-a346-4545-b69b-73578cfe1936")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.794 -2.286 0)
+		(layer "F.Fab")
+		(uuid "0d01bdd4-80a5-4181-905b-29f2cd726b2a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.825 1.15)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "abdbdab9-e240-438a-9295-86b1e58a9da9")
+	)
+	(pad "2" smd roundrect
+		(at 3.775 1.15)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "16ffc596-88f6-44f8-8b1f-90348c7ffef4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/1206 Capacitors/Ceramic_Capacitor_1206_h32mil.step"
+		(offset
+			(xyz 2.25 -1.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

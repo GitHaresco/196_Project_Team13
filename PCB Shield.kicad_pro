@@ -244,8 +244,12 @@
     "equivalence_files": []
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "196_Project_Footprints"
+    ],
+    "pinned_symbol_libs": [
+      "196_Project"
+    ]
   },
   "meta": {
     "filename": "PCB Shield.kicad_pro",

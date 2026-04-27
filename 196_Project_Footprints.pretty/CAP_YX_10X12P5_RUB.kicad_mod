@@ -1,0 +1,237 @@
+(footprint "CAP_YX_10X12P5_RUB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "25ZLH470MEFC10X12.5 ")
+	(property "Reference" "REF**"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b31fb34-e854-4338-80d1-d7e9d071bf0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP_YX_10X12P5_RUB"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "161cfea5-242a-4f10-ba65-92cc9ebab6e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "439e1ba1-7a48-4b68-b149-0b3c3d25701f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "CAP ALUM 470UF 20% 25V RADIAL TH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "340999a8-bed0-42b8-a1bd-e078befee762")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.2691 0)
+		(end -2.9991 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd44d168-6b1f-44b8-a15f-4d3a4d0fecc7")
+	)
+	(fp_line
+		(start -3.6341 -0.635)
+		(end -3.6341 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14f20365-48c7-4da0-8177-cac95b9dd3cf")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.8721 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2ed30b53-adf9-4a59-aea9-04b197d97a87")
+	)
+	(fp_line
+		(start -2.9991 -2.264336)
+		(end 0.235664 -5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f780a6be-1496-4898-acb4-9ae659c2d923")
+	)
+	(fp_line
+		(start -2.9991 2.264336)
+		(end -2.9991 -2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f369d5e-691b-4978-ba8b-84d28a10359a")
+	)
+	(fp_line
+		(start 0.235664 -5.4991)
+		(end 4.764337 -5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "109399ea-bcdb-4572-9ad2-754cd340b16e")
+	)
+	(fp_line
+		(start 0.235664 5.4991)
+		(end -2.9991 2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4f98826-b5b4-46c2-b949-4493c799f4a6")
+	)
+	(fp_line
+		(start 4.764337 -5.4991)
+		(end 7.9991 -2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a86717f-f410-4c21-9518-a3fee366ad60")
+	)
+	(fp_line
+		(start 4.764337 5.4991)
+		(end 0.235664 5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "704ab232-7e00-42e9-994e-289e49e6b575")
+	)
+	(fp_line
+		(start 7.9991 -2.264336)
+		(end 7.9991 2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e14eee0-31fe-4536-8a11-d7fc5a4a10f3")
+	)
+	(fp_line
+		(start 7.9991 2.264336)
+		(end 4.764337 5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8916e405-3e3e-4ffc-9b23-b731023ad1a0")
+	)
+	(fp_line
+		(start -4.2691 0)
+		(end -2.9991 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c91d50ff-61d2-4399-bfe4-33a23e955957")
+	)
+	(fp_line
+		(start -3.6341 -0.635)
+		(end -3.6341 0.635)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26e00737-3514-4c18-af94-1b224c1d7abc")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.7451 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "92a4dda9-60b0-43e5-9a13-5e6e77838f86")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "443102d5-91eb-450c-b38f-c0a6dfa779e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ae64855-a287-4cee-889c-cf41feb9640b")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "479ceca6-db62-42aa-92b7-f68066af8983")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/CAP_YX_10X12P5_RUB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

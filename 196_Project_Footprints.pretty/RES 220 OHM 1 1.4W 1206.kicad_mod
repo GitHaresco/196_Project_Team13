@@ -1,0 +1,128 @@
+(footprint "RES 220 OHM 1 1.4W 1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "R"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4fe547bc-a1d3-4f3e-adf1-39298c5ac62c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "62.6"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "864e0c18-de0d-45d1-9011-153403bd5524")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc994411-d15c-4d6d-8513-f07384296eed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "840861e8-6fff-4afd-a84e-3b3b918d0693")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.558936 0.158)
+		(end 3.013064 0.158)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70b54a2c-f11c-469b-b10e-6c0d9de17a83")
+	)
+	(fp_line
+		(start 1.558936 1.978)
+		(end 3.013064 1.978)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02255acb-0759-4f33-8963-29ede674342a")
+	)
+	(fp_rect
+		(start 0.006 -0.062)
+		(end 4.566 2.198)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9b7495d9-8a75-4232-878b-1c786abd2c8f")
+	)
+	(fp_rect
+		(start 0.686 0.268)
+		(end 3.886 1.868)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a07c49f0-9c17-4bde-b523-94a7112e6799")
+	)
+	(pad "1" smd roundrect
+		(at 0.8235 1.068)
+		(size 1.125 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.222222)
+		(uuid "819e79cf-846f-4d62-baae-d2e2ee884b78")
+	)
+	(pad "2" smd roundrect
+		(at 3.7485 1.068)
+		(size 1.125 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.222222)
+		(uuid "dcb66aee-e30a-4e74-a95b-78fceebf45fb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/Resistor_1206.step"
+		(offset
+			(xyz 2.2 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
