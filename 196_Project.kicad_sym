@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1A PCB 196:74AHCT125S14-13"
+		(property "Footprint" "196_Project_Footprints:74AHCT125S14-13"
 			(at 8.89 16.002 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -423,7 +423,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "1A PCB 196:Buzzer XDCR_AI-3035-TWT-3V-R"
+		(property "Footprint" "196_Project_Footprints:Buzzer XDCR_AI-3035-TWT-3V-R"
 			(at 10.16 17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -737,7 +737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1A PCB 196:CAP_YX_10X12P5_RUB"
+		(property "Footprint" "196_Project_Footprints:CAP_YX_10X12P5_RUB"
 			(at 0 7.112 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -857,7 +857,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 0 0)
 				(length 2.54)
 				(name ""
@@ -875,7 +875,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name ""
@@ -989,7 +989,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 3.048 0.762 0)
+			(at 3.81 4.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -999,7 +999,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 5.08 -1.27 0)
+			(at 4.064 3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1008,7 +1008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1A PCB 196:CAP CER 0.1UF 50V X7R 1206"
+		(property "Footprint" "196_Project_Footprints:CAP CER 0.1UF 50V X7R 1206"
 			(at 2.286 10.668 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1044,7 +1044,7 @@
 		(symbol "CAP_CER_0.1UF_50V_X7R_1206_0_1"
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy 3.048 -2.032) (xy 3.048 2.032)
 				)
 				(stroke
 					(width 0.508)
@@ -1056,7 +1056,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy 4.572 -2.032) (xy 4.572 2.032)
 				)
 				(stroke
 					(width 0.508)
@@ -1069,7 +1069,7 @@
 		)
 		(symbol "CAP_CER_0.1UF_50V_X7R_1206_1_1"
 			(pin passive line
-				(at 0 3.81 270)
+				(at 0 0 0)
 				(length 2.794)
 				(name ""
 					(effects
@@ -1087,7 +1087,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
+				(at 7.62 0 180)
 				(length 2.794)
 				(name ""
 					(effects
@@ -1114,7 +1114,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 3.048 0.762 0)
+			(at 2.794 5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 4.318 -1.27 0)
+			(at 4.064 3.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1133,7 +1133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1A PCB 196:CAP SMD 1206 X7R 1UF 10 25V"
+		(property "Footprint" "196_Project_Footprints:CAP SMD 1206 X7R 1UF 10 25V"
 			(at 2.286 10.668 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1163,6 +1163,504 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CAP_SMD_1206_X7R_1UF_25V_0_1"
+			(polyline
+				(pts
+					(xy 3.048 -2.032) (xy 3.048 2.032)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -2.032) (xy 4.572 2.032)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CAP_SMD_1206_X7R_1UF_25V_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ESDA6V1L"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 20.32 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ESDA6V1L"
+			(at 20.32 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "196_Project_Footprints:SOT_DA6V1L_STM-M"
+			(at 10.16 12.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
+			(at 7.62 14.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "TVS DIODE 5.25VWM SOT23-3"
+			(at -0.508 7.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ESDA6V1L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOT_DA6V1L_STM SOT_DA6V1L_STM-M SOT_DA6V1L_STM-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ESDA6V1L_0_1"
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 -12.7)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 15.24 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 15.24 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -12.7) (xy 33.02 -12.7)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 1.905) (xy 15.24 -1.905)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 1.905) (xy 15.875 1.905)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 0) (xy 18.415 1.905)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 0) (xy 18.415 -1.905)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -1.905) (xy 14.605 -1.905)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -8.255) (xy 15.875 -8.255)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -10.16) (xy 15.24 -8.255)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -10.16) (xy 15.24 -12.065)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -10.16) (xy 18.415 -8.255)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -12.065) (xy 14.605 -12.065)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.415 0) (xy 27.94 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.415 -1.905) (xy 18.415 1.905)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.415 -8.255) (xy 18.415 -12.065)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.415 -10.16) (xy 27.94 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.415 -12.065) (xy 15.24 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 27.94 -5.08) (xy 27.94 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 27.94 -5.08) (xy 27.94 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 2.54) (xy 7.62 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -5.08) (xy 27.94 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -12.7) (xy 33.02 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ESDA6V1L_1_1"
+			(pin bidirectional line
+				(at 0 0 0)
+				(length 7.62)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -1197,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1A PCB 196:LED0805N_CML"
+		(property "Footprint" "196_Project_Footprints:LED0805N_CML"
 			(at 6.858 11.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1387,7 +1885,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1A PCB 196:Pot 3361P-1-103GLF"
+		(property "Footprint" "196_Project_Footprints:Pot 3361P-1-103GLF"
 			(at 4.572 21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1723,7 +2221,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1A PCB 196:Pot 3361P-1-104GLF"
+		(property "Footprint" "196_Project_Footprints:Pot 3361P-1-104GLF"
 			(at 4.572 21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1746,7 +2244,7 @@
 				)
 			)
 		)
-		(property "Description" "TRIMMER 10K OHM 0.5W GW TOP ADJ"
+		(property "Description" "3361P-1-104GLF"
 			(at -0.508 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,7 +2568,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "1A PCB 196:RES 220 OHM 1% 1/4W 1206"
+		(property "Footprint" "196_Project_Footprints:RES 220 OHM 1 1.4W 1206"
 			(at 0.508 8.128 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2756,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "1A PCB 196:RES 61.2 OHM 1 14W 1206"
+		(property "Footprint" "196_Project_Footprints:RES 61.2 OHM 1 14W 1206"
 			(at 0.508 8.128 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2289,6 +2787,130 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RES_61.2_OHM_1%_1/4W_1206_0_0"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.905) (xy 4.445 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.905) (xy 5.715 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.905) (xy 6.985 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.905) (xy 8.255 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.905) (xy 9.525 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.905) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RES_61.2_OHM_1%_1/4W_1206_1_0"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 		)
@@ -2325,7 +2947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TB002-500-02BE:CUI_TB002-500-02BE"
+		(property "Footprint" "196_Project_Footprints:Conn CUI_TB002-500-02BE"
 			(at 6.604 17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2430,6 +3052,90 @@
 						)
 					)
 				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OSTT7020150"
+		(extends "TB002-500-02BE")
+		(property "Reference" "J"
+			(at -5.58 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OSTT7020150"
+			(at -5.08 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "196_Project_Footprints:CONN2_OSTT7020150_OST"
+			(at 6.604 17.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/388/OSTT7xx0150.pdf"
+			(at 6.604 17.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TERMINAL BLOCK, SCREW TYPE, 5.00"
+			(at 6.604 17.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 6.604 17.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(embedded_fonts no)
