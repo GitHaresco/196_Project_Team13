@@ -1,13 +1,13 @@
-(footprint "RN73H2BTTD61R2F100"
+(footprint "CRCW120616R2FKEA"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 2 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "46fac20b-d19d-4903-8c3e-2bb03e828eac")
+		(uuid "5df19ce1-6cec-4f0a-b6f6-a5f078374a02")
 		(effects
 			(font
 				(size 1 1)
@@ -15,12 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "62.6"
-		(at 0 1 0)
+	(property "Value" "CRCW120616R2FKEA"
+		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "0a2a0d71-03d0-4a0d-9a45-11abcbd755e5")
+		(uuid "851da48a-c52e-4654-b689-d23ecf868443")
 		(effects
 			(font
 				(size 1 1)
@@ -28,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+	(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "089eb432-f111-4812-96d6-5ce54f472600")
+		(uuid "b8c2efae-5e4a-465c-8181-c0683146991e")
 		(effects
 			(font
 				(size 1 1)
@@ -41,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
+	(property "Description" "RES SMD 16.2 OHM 1% 1/4W 1206"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c23aa88-dcd3-48bd-8a31-0479c60c8e24")
+		(uuid "296c37cd-86ef-4483-aee1-fc3095b81626")
 		(effects
 			(font
 				(size 1 1)
@@ -54,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1.558936 0.158)
@@ -64,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "784fcf87-b2e7-490f-b9ab-460204f04056")
+		(uuid "742c0e56-f8f8-40ba-ad98-812eef478994")
 	)
 	(fp_line
 		(start 1.558936 1.978)
@@ -74,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "13c83433-3c8d-4401-b8a6-4ad9c3819ebe")
+		(uuid "b20dfbfc-4233-4c67-8ff3-dabfd54f9b8a")
 	)
 	(fp_rect
 		(start 0.006 -0.062)
@@ -85,7 +84,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8e71ae68-5481-417a-bb90-2f578a54ba1f")
+		(uuid "0efc5c36-8eb4-4a0c-89b4-8a6d68dad2e9")
 	)
 	(fp_rect
 		(start 0.686 0.268)
@@ -96,26 +95,38 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "da1b315d-7cd5-4b79-91ac-2ba845b259bb")
+		(uuid "8ec09f2b-c0d3-4d8e-bd7d-a2d51fc1872a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "217cfbc9-7b76-4e92-8f9a-67da905cf658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" smd roundrect
 		(at 0.8235 1.068)
 		(size 1.125 1.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.222222)
-		(uuid "e52803be-e7b6-4ecd-9c01-35d5cf34cbc0")
+		(uuid "23473b3f-e5c6-4e13-8118-0b3b67d0f166")
 	)
 	(pad "2" smd roundrect
 		(at 3.7485 1.068)
 		(size 1.125 1.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.222222)
-		(uuid "44ba17ef-9df8-44b0-b123-b7b442b43539")
+		(uuid "b17b5ac3-dfc5-4c3c-b0ee-34a82d3e2fc5")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d models/Resistor_1206.step"
 		(offset
-			(xyz 2.2 -1 0)
+			(xyz 2.5 -1 0)
 		)
 		(scale
 			(xyz 1 1 1)
