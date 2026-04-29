@@ -1,0 +1,11 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\Owner\Documents\KiCad\ECE 196\196_Project_Team13\Other Things\Simulations\196 Circuit Planning.asc
+Start Time: Tue Apr 28 19:55:40 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.085 seconds.
+

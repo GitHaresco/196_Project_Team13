@@ -479,7 +479,7 @@
   },
   "meta": {
     "filename": "PCB Shield.kicad_pro",
-    "version": 3
+    "version": 1
   },
   "net_settings": {
     "classes": [
@@ -494,17 +494,15 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 5
+      "version": 3
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -715,7 +713,7 @@
         "uuid": "9e193586-b0fa-43d6-aa55-137433de4788"
       }
     ],
-    "used_designators": "R5,R10-13,J3,J13,J16,J18,#PWR1-2,#PWR7,#PWR17,#PWR19,#PWR21,#PWR23,#PWR26,#PWR28,#PWR30-48,Q1-2,C1-4,C6,C9,C11",
+    "used_designators": "#FLG1-3,R1-9,J1-17,D1-8,#PWR1-29,C1-10,LS1,Q1,U1-3,VR1-2",
     "variants": []
   },
   "sheets": [

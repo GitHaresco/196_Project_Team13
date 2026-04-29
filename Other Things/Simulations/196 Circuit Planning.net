@@ -1,0 +1,21 @@
+* C:\Users\Owner\Documents\KiCad\ECE 196\196_Project_Team13\Other Things\Simulations\196 Circuit Planning.asc
+XX1 N007 N008 0 irlml2502
+V1 N001 0 5
+R1 N006 N007 62.2
+V2 N008 0 PULSE(0 3.3 0 1u 1u 1m 2m)
+D1 N002 N006 LED
+D2 N001 N002 LED
+R2 N008 0 220
+D3 N003 N006 LED
+D4 N001 N003 LED
+D5 N004 N006 LED
+D6 N001 N004 LED
+D7 N005 N006 LED
+D8 N001 N005 LED
+.model D D
+.lib C:\Users\Owner\AppData\Local\LTspice\lib\cmp\standard.dio
+.include irlml2502.lib.txt
+.tran 5m
+.model LED D(IS=9e-19 N=2 RS=3)
+.backanno
+.end

@@ -1,4 +1,4 @@
-(footprint "Buzzer XDCR_AI-3035-TWT-3V-R"
+(footprint "AI-3035-TWT-3V-R"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.632655 -16.545255 0)
 		(layer "F.SilkS")
-		(uuid "1d9bd47b-d454-4525-b9ba-bd5cacdb1966")
+		(uuid "b4cb269e-965f-4240-a589-904a6a50394c")
 		(effects
 			(font
 				(size 1.003709 1.003709)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "Buzzer XDCR_AI-3035-TWT-3V-R"
+	(property "Value" "AI-3035-TWT-3V-R"
 		(at 10.81601 16.5337 0)
 		(layer "F.Fab")
-		(uuid "e5dad693-e0b1-4b78-945c-5ff3ad2fae7f")
+		(uuid "3845306b-64aa-4a6b-ab80-a54ad49be801")
 		(effects
 			(font
 				(size 1.002205 1.002205)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a69d2291-14d7-45f8-aa01-27891ede96b9")
+		(uuid "10ae3c83-65d0-4aef-9c9d-23b8e615bbaf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5657d857-04c6-4ccf-8018-b2848d5845be")
+		(uuid "3dd1fb51-0552-496e-bf2a-5e8654439f52")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ff77ea54-ab4d-40da-a88a-6f9059ed0432")
+		(uuid "560c4e03-12ef-46b5-9703-40534bc1135f")
 	)
 	(fp_line
 		(start -17.145 -0.635)
@@ -67,7 +67,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0607d6a6-6665-44f9-95a8-f36688625fa1")
+		(uuid "b23988b1-fffa-42a4-90e5-800142ad37ab")
 	)
 	(fp_line
 		(start 17.145 0)
@@ -77,7 +77,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fdcde728-656d-4a79-8c83-196b35ae13a2")
+		(uuid "f2f6cc1b-eea2-4b13-9e75-4ef2501d32a7")
 	)
 	(fp_circle
 		(center 0 0)
@@ -88,7 +88,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "de80710b-1fcc-4e27-98a2-8609eced3588")
+		(uuid "e80151a3-3780-42e8-b2f8-5074fc56e759")
 	)
 	(fp_circle
 		(center 0 0)
@@ -99,7 +99,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e823d212-64af-4c8f-a029-93e0f64fbcbf")
+		(uuid "31eb55c5-233f-4303-aca1-77f0b3792c2f")
 	)
 	(fp_line
 		(start -17.78 0)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ec007cff-5261-47b9-b9f0-af4ba1168993")
+		(uuid "d3bbf6b4-3b45-4a27-870e-24f935dcb0b3")
 	)
 	(fp_line
 		(start -17.145 -0.635)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d5bfb505-8f1e-4153-b798-be707bb0d9ec")
+		(uuid "cf721472-e947-415d-8786-6ab77e9c0275")
 	)
 	(fp_line
 		(start 17.145 0)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8bbdb0d9-6a83-4638-b82b-231cef5ff71a")
+		(uuid "cbb30bae-66a8-4af1-9800-17ccfc8de144")
 	)
 	(fp_circle
 		(center 0 0)
@@ -140,7 +140,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6a027aae-6cce-4bb1-a49a-3fd23ede098c")
+		(uuid "7ba14a0a-1b4b-476d-8a86-7a0cacfb6c30")
 	)
 	(pad "N" thru_hole circle
 		(at 7.5 0)
@@ -149,7 +149,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "722e5ecc-16da-4872-99d7-54553c45c819")
+		(uuid "e28a547b-616f-4c9b-b52e-b4b33d3c6f0f")
 	)
 	(pad "P" thru_hole circle
 		(at -7.5 0)
@@ -158,7 +158,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "aa1fec67-ff73-421d-bf1b-0b798d621cc0")
+		(uuid "7911c475-3ee2-4f1f-a097-680dfefdd73d")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d models/AI-3035-TWT-3V-R.step"

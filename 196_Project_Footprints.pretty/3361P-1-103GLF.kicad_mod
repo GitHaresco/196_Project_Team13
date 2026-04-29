@@ -1,4 +1,4 @@
-(footprint "Pot 3361P-1-103GLF"
+(footprint "3361P-1-103GLF"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -1.825 -4.635 0)
 		(layer "F.SilkS")
-		(uuid "b79181e9-1ca7-4168-940f-b7f8cd0b7899")
+		(uuid "5541b045-5fed-4f55-a684-f1900038781f")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "10K"
 		(at 7.065 4.635 0)
 		(layer "F.Fab")
-		(uuid "040a1f18-7b42-4b79-9168-d79d9e6bb910")
+		(uuid "1c389115-e147-4051-8557-ac5a3267ac20")
 		(effects
 			(font
 				(size 1 1)
@@ -25,22 +25,22 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3361.pdf"
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3361P-1-103GLF/1088368"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "11f4fddf-531c-4bac-b641-721deceff8a5")
+		(uuid "be8d5e54-960b-44ba-9ba0-98b20fa583ce")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "TRIMMER 10K OHM 0.5W GW TOP ADJ"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1cb482d2-adac-44ba-b3ed-ef309bc067c6")
+		(uuid "df7be209-3b8e-4c34-b453-b24f9071b4d8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fab246dc-2398-480f-b61e-e24d4dbedcaa")
+		(uuid "e39c29d4-73d9-4d34-b80e-92ae7b6dfe30")
 	)
 	(fp_line
 		(start 3.52 -3.355)
@@ -67,7 +67,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "57c3211c-062d-40b0-9c98-a873137ad7b3")
+		(uuid "394b9232-7491-421c-bbda-e0dbfe57166f")
 	)
 	(fp_line
 		(start 3.52 -0.915)
@@ -77,7 +77,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "da11a5f7-4260-49ab-878b-5dca07b75b10")
+		(uuid "af98331c-b060-48e9-a28f-1af138568466")
 	)
 	(fp_line
 		(start 3.52 0.915)
@@ -87,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "878ffa1f-8b31-44f6-b9d3-99ec671a0cd6")
+		(uuid "f51ead43-f574-4392-9429-d1c9f024127d")
 	)
 	(fp_line
 		(start 3.52 3.355)
@@ -97,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c0fb1cee-983b-4f91-b752-41f0bcbd8650")
+		(uuid "39f6ded6-dbf0-4168-9498-f6a814f8880b")
 	)
 	(fp_circle
 		(center -5.7 -3)
@@ -108,7 +108,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "efbba29f-f2d2-48d1-9086-8b2832cafe1b")
+		(uuid "d8b32882-f839-40bd-a0ea-abea226005cb")
 	)
 	(fp_line
 		(start -5.1 -3.385)
@@ -118,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "17bed195-8020-4c77-8be7-7188d019cb48")
+		(uuid "87e4c6ec-cc18-4cf0-b860-53dbb81a6f8e")
 	)
 	(fp_line
 		(start -5.1 3.385)
@@ -128,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1a5ca236-b5ef-4748-8bee-a5c45badd3ee")
+		(uuid "04685d44-0ae1-4d36-acb3-4f62a35bc9ef")
 	)
 	(fp_line
 		(start -3.77 -3.605)
@@ -138,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "522e28c5-2760-4847-9b98-36fbbac605be")
+		(uuid "f9a0f307-1f68-4aaf-97dc-cdf17bed5320")
 	)
 	(fp_line
 		(start -3.77 -3.385)
@@ -148,7 +148,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b0ea7ad1-ef96-4b60-9866-40a35fc0e3f4")
+		(uuid "88fe4da9-7d86-4cf3-8d78-e4b2a46b4662")
 	)
 	(fp_line
 		(start -3.77 3.385)
@@ -158,7 +158,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ec663944-912e-484c-a547-f14d7d09fb5a")
+		(uuid "9f8b3db7-9235-476c-8435-b1cea3e441c4")
 	)
 	(fp_line
 		(start -3.77 3.605)
@@ -168,7 +168,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "77f31633-3706-4762-a30e-939a6aa806cd")
+		(uuid "53969b68-8116-480d-83c7-bb2ee02ee734")
 	)
 	(fp_line
 		(start 3.77 -3.605)
@@ -178,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5525f559-5a6e-410e-b9aa-ecd89499944a")
+		(uuid "29275990-c075-4efc-b6e2-622a473b9544")
 	)
 	(fp_line
 		(start 3.77 -0.845)
@@ -188,7 +188,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "777af406-80c5-4e56-ade7-cb6b586aaf47")
+		(uuid "8928589e-1841-4775-8f4c-46cbfe0ee3bb")
 	)
 	(fp_line
 		(start 3.77 0.845)
@@ -198,7 +198,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "aa69646e-0497-4b0a-9047-a4a5dd36458d")
+		(uuid "d9a9b71e-d8e5-4d24-befc-7ad1af1971a7")
 	)
 	(fp_line
 		(start 3.77 3.605)
@@ -208,7 +208,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bc716fe4-19de-42c9-a9b3-c13bdb781c7b")
+		(uuid "4ddeb210-00a5-456e-a411-3253615e7784")
 	)
 	(fp_line
 		(start 5.1 -0.845)
@@ -218,7 +218,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f1630158-fdef-4601-8c4c-7ad4bb6fc547")
+		(uuid "c678e80e-1e5b-4000-8ccd-2e46aef1896e")
 	)
 	(fp_line
 		(start 5.1 0.845)
@@ -228,7 +228,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0cc595ad-146f-492b-8584-4afa5034e823")
+		(uuid "82324e4e-d578-4762-8492-6f41514256df")
 	)
 	(fp_line
 		(start -3.52 -3.355)
@@ -238,7 +238,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b0dff535-ccfb-4414-b51a-08760b4ddaf4")
+		(uuid "3f2c869d-f7db-4c64-a949-ca82613c2edf")
 	)
 	(fp_line
 		(start -3.52 3.355)
@@ -248,7 +248,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "357be9b8-437d-4b40-a9bc-1757c623dd7c")
+		(uuid "6e05ad99-f2b0-49b0-8583-07bf22b4a537")
 	)
 	(fp_line
 		(start 3.52 -3.355)
@@ -258,7 +258,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1a3ffe43-4590-4762-96e9-f25388a09818")
+		(uuid "5aaff231-7b25-4bc2-9f22-aa227be62a66")
 	)
 	(fp_line
 		(start 3.52 3.355)
@@ -268,7 +268,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dc4bf644-6c8c-48cd-9744-b2e7c081aaec")
+		(uuid "f38eadda-2800-4baf-b8f4-dcec63a746c9")
 	)
 	(fp_circle
 		(center -5.7 -3)
@@ -279,28 +279,28 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b4779576-81c9-4392-8b34-abcb28742907")
+		(uuid "b7b6a69d-087b-4eb2-9b53-7d89da63a586")
 	)
 	(pad "1" smd rect
 		(at -3.2 -2.54)
 		(size 3.3 1.19)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "df30b9da-8e48-4146-80ec-971d0714f0d7")
+		(uuid "57029e7e-1bd8-4f93-b95b-384aec44a1f9")
 	)
 	(pad "2" smd rect
 		(at 3.2 0)
 		(size 3.3 1.19)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "2840fecf-10d3-47f2-bd2a-99abc583dfd2")
+		(uuid "02c4226c-7a59-4eab-a521-183d288bc28b")
 	)
 	(pad "3" smd rect
 		(at -3.2 2.54)
 		(size 3.3 1.19)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "1a7a1185-0ac4-49ab-a484-ae6541c01f14")
+		(uuid "a2d2f433-bcc1-4084-a4f4-502999be9f90")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d models/3361P-1-103GLF.step"
