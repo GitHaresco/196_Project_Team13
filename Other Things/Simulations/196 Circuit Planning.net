@@ -1,7 +1,7 @@
 * C:\Users\Owner\Documents\KiCad\ECE 196\196_Project_Team13\Other Things\Simulations\196 Circuit Planning.asc
 XX1 N007 N008 0 irlml2502
 V1 N001 0 5
-R1 N006 N007 62.2
+R1 N006 N007 16.2
 V2 N008 0 PULSE(0 3.3 0 1u 1u 1m 2m)
 D1 N002 N006 LED
 D2 N001 N002 LED

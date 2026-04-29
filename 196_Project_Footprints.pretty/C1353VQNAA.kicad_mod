@@ -1,0 +1,99 @@
+(footprint "C1353VQNAA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.032 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a225ffe0-042f-48b9-a6e6-07e7816fd4bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C1353VQNAA"
+		(at 0 -7.112 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d20be098-6032-4084-99db-109c041271a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ea538a0-3303-4f9c-8248-a2578c155190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SWITCH ROCKER DPST-NO 20A 250V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a98e6e70-e635-4581-807f-685049d46b71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.612 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb53765f-7ba0-4771-bf71-b2ef7d19bd27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 6.35 1.897)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8abefe0e-e5b8-4ca8-a253-d3ced0b570d8")
+	)
+	(pad "2" thru_hole roundrect
+		(at 1.778 1.77)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.07142857143)
+		(uuid "2a182aee-c46f-4573-9297-3fa68498a72c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/Round Power Switch.STEP"
+		(offset
+			(xyz 2 -2 0)
+		)
+		(scale
+			(xyz 0.5 0.5 0.5)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
