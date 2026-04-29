@@ -2117,7 +2117,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+			(property "Footprint" "196_Project_Footprints:196_Conn_1to20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2843,7 +2843,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+			(property "Footprint" "196_Project_Footprints:196_Conn_20to48"
 				(at -2.032 26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11355,7 +11355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+		(property "Footprint" "196_Project_Footprints:196_Conn_1to20"
 			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11691,7 +11691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+		(property "Footprint" "196_Project_Footprints:196_Conn_20to48"
 			(at 131.318 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -14219,7 +14219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+		(property "Footprint" "196_Project_Footprints:196_Conn_20to48"
 			(at 122.428 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -17555,7 +17555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+		(property "Footprint" "196_Project_Footprints:196_Conn_1to20"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
