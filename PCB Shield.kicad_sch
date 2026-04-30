@@ -1482,7 +1482,7 @@
 					)
 				)
 			)
-			(property "Footprint" "196_Project_Footprints:1206B104K500BD"
+			(property "Footprint" "196_Project_Footprints:CL31B104KBCNNNC"
 				(at 2.286 10.668 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1607,7 +1607,7 @@
 					)
 				)
 			)
-			(property "Footprint" "196_Project_Footprints:1206B105K250JC"
+			(property "Footprint" "196_Project_Footprints:CL31B105KAHNNNE"
 				(at 2.286 10.668 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10989,7 +10989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "196_Project_Footprints:1206B104K500BD"
+		(property "Footprint" "196_Project_Footprints:CL31B104KBCNNNC"
 			(at 278.638 91.186 0)
 			(hide yes)
 			(show_name no)
@@ -12085,7 +12085,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12432,7 +12432,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 131.318 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13215,7 +13215,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x08, script generated"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13709,7 +13709,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -13851,7 +13851,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15250,7 +15250,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 122.428 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -16319,7 +16319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "196_Project_Footprints:1206B105K250JC"
+		(property "Footprint" "196_Project_Footprints:CL31B105KAHNNNE"
 			(at 141.224 98.298 0)
 			(hide yes)
 			(show_name no)
@@ -18872,7 +18872,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21889,7 +21889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "196_Project_Footprints:1206B104K500BD"
+		(property "Footprint" "196_Project_Footprints:CL31B104KBCNNNC"
 			(at 133.604 94.488 0)
 			(hide yes)
 			(show_name no)

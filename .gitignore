@@ -1,0 +1,10 @@
+# KiCad lock/temp/backup files
+*.lck
+*-backups/
+*.bak
+_autosave-*
+*-autosave.*
+.history/
+
+# KiCad local UI/project user settings
+*.kicad_prl

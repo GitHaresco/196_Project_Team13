@@ -159,7 +159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -181,81 +181,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "85c05638-1b48-420e-b3e6-787d093c3fc6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad985ef0-811b-48d1-9f38-bc2731f718b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e3aa708d-c729-4cd6-8e0b-57c7bed9787b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1314a6d2-e00a-49ad-9dc0-ed17c3963194")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8fb76c7c-0154-462f-9f5e-4fc391e7ee24")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/ec2734c6-e0a4-4f0f-849d-282b9f65fbfc")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -820,81 +749,10 @@
 				)
 			)
 		)
-		(property "Part Number" "25ZLH470MEFC10X12.5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26572812-f97a-4e91-b80e-b9a8b4ec490d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f52c607-4562-40c7-a778-4c90d4afee63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ae2fdec5-26a4-4ef5-82e3-122386d0ed9c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a54f655-79b5-4e01-8741-3877d9bc349a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Rubycon"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6d9809aa-e61e-46f4-a7ed-92959fafaf55")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/b8adc68f-200f-4336-a63e-65b855283cf6")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1113,7 +971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00002057.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1135,81 +993,10 @@
 				)
 			)
 		)
-		(property "Part Number" "ESDA6V1L"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "967c319b-1b8a-45e9-ac60-ffeda5da5187")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bef1525-a068-4c39-b9a0-e598ae9a369d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "916ba16a-493a-4878-862f-3519a796b04c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1c90e27-1478-45e3-ad38-1a3ce352ca71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "STMicroelectronics"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9eae8ccd-9861-411f-be6e-775929c4fe35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOT_DA6V1L_STM SOT_DA6V1L_STM-M SOT_DA6V1L_STM-L")
 		(path "/97005dcb-28f7-4b98-82a1-91c6078c945d")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1642,7 +1429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1664,81 +1451,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32a79590-c233-4bd2-a89d-a2956ed5958c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9601d781-0ece-44be-8b2d-a7c01ff14611")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0ebe04e-adbb-401c-b827-71e3d5f4e05b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8c8242fa-e0d1-4de8-b56f-0f46c854acc5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5de8724-3e97-4dc2-a740-4aa0d85760b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/1d3d7ab8-142b-4a89-a742-b769cb880633")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2302,16 +2018,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8110518d-9863-4829-b851-28ac315de3cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/0a8aa2b6-ac44-4b8b-a60a-3d1f3adc776c")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -2459,81 +2181,10 @@
 				)
 			)
 		)
-		(property "Part Number" "25ZLH470MEFC10X12.5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f648f19b-522d-48a7-afee-9cf8e3fa134d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "491c76bc-9410-4087-a92c-84c4cd6222a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18086ff6-6ae8-4714-85c1-1425d7ad3657")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1987be8d-da02-4046-a809-13af352ccb89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Rubycon"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a07abed0-5d67-4d43-b8e5-8b4957f10e01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/e67f177b-fd4f-4bdb-962f-db3c4c0b60ed")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2752,7 +2403,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2765,7 +2416,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 220 OHM 1% 1/4W 1206"
+		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2778,80 +2429,9 @@
 				)
 			)
 		)
-		(property "Part Number" "RMCF1206FT220R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb7e0932-a68e-4a99-82ca-37debc5a410e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f213dc5-3b9c-47be-9e35-a51d294b8abd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec10bfa8-fa3e-4b70-8370-49bea849751b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7178ac6-8a79-436d-af20-bfe333430591")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "709df6bb-9b28-4bcd-8e36-8d8a1a207d85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/bd14d9b4-3ef3-4d5d-a739-f3db11206394")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2955,7 +2535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.amazon.com/SunFounder-Mifare-Reader-Arduino-Raspberry/dp/B07KGBJ9VG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.yvDJePx0UlI-9HsQPl4IT-cq6H78qk2ST37iKjXx1NuBg9FHb-bhDaG-kQeCzBvtwuo5P2XCccBw62fq3kC94eGzlfcMEf17CwxIEm_taLj0WAQLXR0dPY7DZszj9i2bv94jHfeP6H9IyhBq_Ld6oGZSAQnrbGB96Y9ZN1Pg0cvspfr-v9wMIjidH1Y4cL1Y_NoPlV8gUdB_zLFgaHjaBUy3IoshFtxPg6jWcgnMh54.S2thWVIkB0Czhns8cMDZEkgNowdJKAUFPJ15oQyFQ50&dib_tag=se&keywords=RFID+Readers&qid=1777266696&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-3"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2966,7 +2546,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2977,64 +2557,11 @@
 				)
 			)
 		)
-		(property "Part Number" "61300811121"
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5c5e3d04-f20e-4a61-8c76-b7da44794102")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33ba4c07-80fc-44e1-80a1-7423c269c8db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19e16ea9-e086-40e7-b1b1-159d54a22889")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3956965e-c0bd-45d9-adb2-b8831c60d365")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Würth Elektronik"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "022df180-0e54-4451-b8a0-521f10d5bc81")
+			(uuid "951553dd-e6aa-41e5-9fb4-ae36c92f63a2")
 			(effects
 				(font
 					(size 1 1)
@@ -3046,12 +2573,6 @@
 		(path "/251ff576-2371-4fcc-98cf-3f7e222998fb")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3345,7 +2866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3367,81 +2888,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df3b6462-499f-4763-af60-d7f8c35922d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0b5e113-a0a7-4f03-baa2-7a906650b45a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6ca4c9d-78ee-4953-92cb-2e2598497240")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a614145-413b-4205-a1ef-eaf9843d5616")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a2ae90ef-22c0-44fe-b3c6-8f790f04905b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/00fe622b-8024-40cb-a340-1b8879fbdf2d")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3955,7 +3405,7 @@
 			)
 		)
 	)
-	(footprint "196_Project_Footprints:1206B104K500BD"
+	(footprint "196_Project_Footprints:CL31B104KBCNNNC"
 		(layer "F.Cu")
 		(uuid "4a4881eb-8ea8-4d2c-a5af-dc8bed25e9f7")
 		(at 198.8125 112.9625)
@@ -3983,7 +3433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6490/3372_1206B104K500BD.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4009,80 +3459,9 @@
 				)
 			)
 		)
-		(property "Part Number" "1206B104K500BD"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "410d0ea3-4f12-48d6-a4cc-0c519a06e8e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49c4d898-7a7f-4c1e-a763-39d235d6f57d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "622e3e0a-22ff-485a-8d95-14af451e65f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "349ad089-5a13-43b3-9ae1-1f884ce65b1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Aillen"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a07ab4c9-3b4a-4036-890f-0bdd78599de0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/010e798a-46ad-4905-a042-c41db24207de")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4219,16 +3598,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "86e86d84-053b-4e0f-9e4a-931704a7ce07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/0027de58-a87d-4587-a9c4-96ec15d014fd")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -4351,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://puiaudio.com/file/specs-AI-3035-TWT-3V-R.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4362,7 +3747,7 @@
 				)
 			)
 		)
-		(property "Description" "BUZZER PIEZO 3V 30MM TH"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4373,132 +3758,9 @@
 				)
 			)
 		)
-		(property "PARTREV" "E"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13126342-f510-4f1b-a2b7-0852fca5b102")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a96d8c78-223b-40a8-b9e3-9dab63997345")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SNAPEDA_PN" "AI-3035-TWT-3V-R"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16e09f6b-964f-4444-88e1-04cde579c27c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "20.1 mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28e27423-4747-4670-bd57-ebd5da8b5f0b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "PUI Audio, Inc."
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c69e55d-6621-4984-aa4b-aff99600586f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "AI-3035-TWT-3V-R "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1899f1d3-532b-46cc-beb1-8e8815f8cf3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ffb76a0-f7cc-46ea-9183-a5288227aaf4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ed217b0-f5d2-4dc5-8d95-2a9b429c53bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d3ba722-7cc6-467a-a719-e0a4f8c25cb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/07927053-3e0f-4a70-acb6-2fc99977ade2")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "P" "N")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4629,7 +3891,7 @@
 			)
 		)
 	)
-	(footprint "196_Project_Footprints:1206B104K500BD"
+	(footprint "196_Project_Footprints:CL31B104KBCNNNC"
 		(layer "F.Cu")
 		(uuid "50b380ff-7359-4aab-8f77-e43d0e68b9e6")
 		(at 216.0375 93.8125 -90)
@@ -4657,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6490/3372_1206B104K500BD.pdf"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4683,80 +3945,9 @@
 				)
 			)
 		)
-		(property "Part Number" "1206B104K500BD"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c347174c-e5cd-4214-8434-056882939a95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c77a528-ace4-479f-b05e-b4809c549b9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3894ce92-8800-40f2-89e2-83986bfe099e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6abc5f49-871a-4101-9d74-49cde80670df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Aillen"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28eb058a-a541-4b62-b46b-cc5a25761489")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/f73293ef-0fee-42df-a546-78413ac9513b")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4894,81 +4085,10 @@
 				)
 			)
 		)
-		(property "Part Number" "25ZLH470MEFC10X12.5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1c0b7c9-e4bc-4db9-80ad-75054fc40a70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90614005-8e23-486f-8e48-ab513b2ef2c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "baaae5f1-9da7-472e-9141-82f015c7473b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "adb6425c-1357-43c7-a892-cd5a19fc819a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Rubycon"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a84ae30-6db0-46e6-bab6-cd38c1b4fc61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/fc1b6b28-0698-4241-8ac0-299c470bb234")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5186,7 +4306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5197,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 0 OHM JUMPER 1W 1206"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5208,25 +4328,11 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ea9968df-8645-4832-8d2e-fb4c071f812e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "RCS12060000Z0EA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f07ac4b-6e1d-41c5-8d01-e00f6b5cad6a")
+			(uuid "c0fbcad5-0c4d-452c-81ea-6e2e5b3acfb1")
 			(effects
 				(font
 					(size 1 1)
@@ -5237,12 +4343,6 @@
 		(path "/26768d0a-2c5f-480c-a883-86b93cf3d228")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5384,80 +4484,9 @@
 				)
 			)
 		)
-		(property "Part Number" "RC1206FR-074K7L "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb60f927-7e7f-4c36-b1cf-8bfb24278915")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a89d246-1800-4d54-9b16-65d6ee9e145d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1cc6a3c7-0615-4f0c-abf4-bf4a3a9531a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0eebfde-6258-4395-8b0a-c91b72f1451e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "760596f2-a251-4e68-8a7c-3d92689801c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/11af07fb-ee67-449a-869e-89201fb9a8c5")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5562,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5584,81 +4613,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25b1752d-60ec-4900-9bcd-0320d6ac66c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d1f0bd3-8361-4f36-a338-a6ad1a4cf154")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4414796c-ba1c-4635-9b1e-5c5eb28f1a5d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "036fc3e8-ff31-4950-9074-8afdd7ceee08")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0aee35ea-7493-4ee9-8a22-140cb48d127d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/f6a6c72e-8af2-489a-89d0-827597ffa8a9")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6201,7 +5159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6223,81 +5181,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8ee2c13-6878-4724-9eb0-d2c66b7fd0e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43074726-7103-4575-8c07-b5259b185c15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "115dea15-c8b6-43f1-a021-64804ece4cb2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5fb43d5d-5735-40d5-8b2a-f192e2b55be8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7267e4fe-78b5-4e6d-8a06-95f1b53d1c39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/793cf3c9-94e5-4300-aa41-ad98820ae511")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6837,7 +5724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3361.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3361P-1-103GLF/1088368"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6859,119 +5746,9 @@
 				)
 			)
 		)
-		(property "PARTREV" "08/19"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef992b9e-ca36-456c-8eb6-e5a4ada635af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf34c5ec-d07b-43eb-b36a-62cc696434b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.84mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45a72062-f0aa-45a9-9da4-191eb0120ca0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "865f0280-c44f-4422-95ff-b20eaddd1539")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "3361P-1-103GLF"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45a7ddca-5476-442a-bcd1-a84ca03a445b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6eb1941-3793-4fc3-bab2-62f9cc301d56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd1c8110-99f0-469c-bc3b-5d7f13200e17")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a4ef9f0-c06b-449c-8d80-1200e032a33e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/7a283d20-e6e1-4fd7-8b71-157d1b113246")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7275,7 +6052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7297,81 +6074,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11cde75d-8824-442d-8707-e94a945b6825")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93fda6f3-ebc5-4092-992d-df72f615d07a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee02505b-14ff-4e7e-b543-b8a539bc1412")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a736b886-1d26-4ed3-9a0a-91e982df0015")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8dedba62-b71c-491c-a60b-2cd80f0da6c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/36c111b8-e803-423c-b84d-221b60571209")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7940,80 +6646,9 @@
 				)
 			)
 		)
-		(property "Part Number" "RC1206FR-074K7L "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22fd5631-f00a-4875-b4f3-8ec4334e19c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99028952-adb4-4634-8469-97560d7402d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c69bfc74-0f42-42b5-b08e-67249cce4198")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96a57e95-870f-40ec-80d3-b8c67986e805")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a301249a-4a53-40cd-8e02-1b8b25a903b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/b06fbe08-5622-476b-b8e8-7113a4e1b93f")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8118,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8131,7 +6766,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 220 OHM 1% 1/4W 1206"
+		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8144,80 +6779,9 @@
 				)
 			)
 		)
-		(property "Part Number" "RMCF1206FT220R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2cb2db55-3522-44ea-b761-766005b7a7f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d06eef0e-ddfd-4854-aaf7-b1aa27fe3666")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "271c79ca-1677-462f-a3df-4516a87edb99")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68f30ce3-b601-456c-a7bd-95fc6c6cfed5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d656f92-94a4-4016-8f9b-93bfb135b7e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/ca2093c2-4e7b-4fe3-ade5-79715cd12331")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8341,93 +6905,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "403d31a9-4a9a-4996-a13d-7491d60f5b61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40104e54-8dff-4e31-9869-525723e73bbd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4543b128-f91c-4972-824f-b60c6618ac3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "112ca949-8428-4716-a47e-c874318bd605")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f9675438-0b08-4d45-982b-0dbd389c427b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04d6d31c-de17-4589-b177-bf37d6d8cf2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/0b3ae82f-abdf-4a35-aed8-3eafd989bae1")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8631,7 +7111,7 @@
 			)
 		)
 	)
-	(footprint "196_Project_Footprints:1206B105K250JC"
+	(footprint "196_Project_Footprints:CL31B105KAHNNNE"
 		(layer "F.Cu")
 		(uuid "8c587ee9-961f-49db-8011-4aacecea3a57")
 		(at 220.0375 93.8125 -90)
@@ -8659,7 +7139,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5660/3372_1206B105K250JC.pdf"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8672,7 +7152,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP SMD 1206 X7R 1UF 10 25V"
+		(property "Description" "CAP SMD 1206 X7R 1UF 10% 25V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8685,80 +7165,9 @@
 				)
 			)
 		)
-		(property "Part Number" "1206B105K250JC "
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c12fcb79-4222-4a79-95dc-0dff60416fec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b4a6311-d7ac-4222-a848-c0f7cff123c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59f903d3-6e21-47ad-8e64-ce01f710aebc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eaf3ec53-59a4-49c2-8817-9d790d9eead7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Aillen"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c24ddff-7dcd-4fbd-9140-3775eaffd095")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/7c0e8125-d5ab-4f2f-bba3-496581666651")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8874,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8887,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 220 OHM 1% 1/4W 1206"
+		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8900,80 +7309,9 @@
 				)
 			)
 		)
-		(property "Part Number" "RMCF1206FT220R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "843f5ec0-7022-4ef5-a2b3-a412dae27ab1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b5577f01-9e7a-47a0-868b-81d686d4c527")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e6a9e49-ff2d-48ad-a5de-3b8342dac873")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb00bef5-4c2c-4119-afdf-6ae66ca320e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b7887242-c814-4e3f-80b9-8d5aa71e5163")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/c89e1ca4-8f05-4f68-8765-c2409b2a05f4")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9103,80 +7441,9 @@
 				)
 			)
 		)
-		(property "Part Number" "C1353VQNAA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbb9c92c-c436-4845-be9a-e0ecd57cf95d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50783796-c269-419b-853d-994d2f7f682c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d988b61a-d733-496c-83da-4531635f106a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a0682a5-f19d-4cba-9de5-dd8a1699790d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Bulgin"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfbdde62-62d7-4fd9-a85c-31bc73776b40")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/6f87ba55-676b-4bcf-a8fa-283779d0de7a")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -9279,80 +7546,9 @@
 				)
 			)
 		)
-		(property "Part Number" "CRCW120616R2FKEA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9eb3f94c-31ed-4573-8d66-10574c17172a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "faf5bebf-ff05-41a6-a299-cd3972aa8bb6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0513cb0-3382-4a06-a1dc-aea493c83ca9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d225adb-8686-4715-bdca-3a1a33d16ea2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Vishay Dale"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5aa5088d-09cb-4cb9-9c87-71b61c9d5e9e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/799dfe52-82ff-4730-b20f-f60295f4e417")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9468,7 +7664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.amazon.com/128x32-SSD1306-Consumption-Display-Arduino/dp/B07PDFCVXL#averageCustomerReviewsAnchor"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9479,7 +7675,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9490,64 +7686,11 @@
 				)
 			)
 		)
-		(property "Part Number" "61300411121"
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "481f3d0f-656a-4abc-abdd-b302232d7320")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b76ea6ba-4a6f-4765-a41c-b32d84213ac2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2896385f-99f4-4b28-98bb-ae18878ba17a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc3c4df9-5fc6-433b-8642-c3739e8fd3d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Würth Elektronik"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15bbe313-990c-40b9-b65f-0c09c72952df")
+			(uuid "ba46c67f-86e8-4c6d-9121-57ca47a8338d")
 			(effects
 				(font
 					(size 1 1)
@@ -9559,12 +7702,6 @@
 		(path "/312a8431-bc6e-4cce-9c82-0b3307b97f64")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9835,16 +7972,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4225ccf-05c3-4b83-bf52-deef66851c03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/a8fc19f1-a19f-4ae4-afe3-d4dd0f6642ed")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -9989,93 +8132,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffaa6e62-7ed2-4345-82cb-b8551406ce25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42e2a9f0-6dcc-412f-ac80-63b2dd537dbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "877fa760-ab03-41f0-b9d1-7b1b6251b3f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17751e1f-eb75-4895-8215-6fb5e32dfe3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4eea298a-e0bc-4e24-86e7-568c72a10dcf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d85ef79f-13a1-43f3-9c4e-0c3f8bbe583a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/d6f8bac6-9a80-4b9b-a4b8-a1981acca368")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10330,81 +8389,10 @@
 				)
 			)
 		)
-		(property "Part Number" "25ZLH470MEFC10X12.5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49db797b-6776-4fd7-bc0c-1be1ec26e0cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6861837-df6e-4ea7-8561-f3cffcc12cf2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f92dd8e6-2550-4134-b289-183c787e37cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df8886fb-e7ca-4bc3-849b-5aaae32261b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Rubycon"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "881bc4a8-2b8c-40e0-95c2-31e7b28eb6d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/b906bb78-f790-4c2a-9dc4-31b66a21248b")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10648,83 +8636,10 @@
 				)
 			)
 		)
-		(property "Part Number" "61302011121"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "66657339-4ef8-4a4b-ab1a-60d1f132ef1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dcb8daf9-f534-4e31-b0c1-24783ae6b561")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19a55381-0368-4ee2-b7f8-6fcc82b8e76a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60b2736b-59af-43e5-8e87-9019744ed704")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Würth Elektronik"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9126bbe5-b26e-4b65-95bf-4879bf3f97f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0fc4c5f8-0d79-4aa9-ae05-a924d24df421")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "46" "45" "44" "43" "42" "41" "40" "39" "38" "37" "36" "35" "48"
-					"34" "33" "47" "26" "21" "5V" "GND"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11133,7 +9048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11146,7 +9061,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 220 OHM 1% 1/4W 1206"
+		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11159,80 +9074,9 @@
 				)
 			)
 		)
-		(property "Part Number" "RMCF1206FT220R"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "923dc1cb-bc55-4037-8f62-982c8b9770d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3deb7c2e-cf02-454a-b25c-b20f18b63a26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76bba5c3-05ca-4dc5-8cdf-7621e9057143")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ccbc03d3-3b2b-4c2c-b7ff-6a9ab192670b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1fad2631-8ca4-4659-b7cd-5d5967f1cf33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/bba77029-a82e-470b-9ea2-9364cbf94c49")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11358,16 +9202,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd7f5106-c16d-430d-b683-7e2938734be5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/6a8bf350-4176-47ec-b309-0d6931573e00")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -11512,93 +9362,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b7c4e74c-afd4-4d19-96d5-1e08c4d6629e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "306f27ea-43f9-49c8-a430-d855b2c61731")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "31e47ae8-c7b7-443e-a14d-a02d8b009df8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec602861-46a4-48b5-90aa-c85d5504498e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f323e67e-f195-48c9-bf3a-ae34a577afc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3c8c2ac-d04a-41df-845d-169cc035ad7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/7fe02ec0-376c-4f52-891b-add072598390")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11850,93 +9616,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df0f1f62-05d7-4a67-97b1-85432a2d7a16")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a8d7d1a-391e-4973-8e8b-ab4a3727c922")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6ab50ff-074c-41cb-a77c-63fac876fa04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4c10af4-540d-4c80-90cc-65efe26e7c13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2aa6cd6a-516e-4f53-b803-e6d27db21760")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82b968e5-9c4a-4111-bb0d-ba75a35de511")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/85fe503c-b151-4a7d-9df0-3817d938efb0")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12191,81 +9873,10 @@
 				)
 			)
 		)
-		(property "Part Number" "25ZLH470MEFC10X12.5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "35e90fd5-8eb5-44b0-9825-15bc740d409a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "202e4d46-816a-4069-9209-8df3aafbb7ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5aac09d4-a90f-486e-8ebe-68323291aca7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7761f206-466d-4c3a-b3b9-8c7b58af25ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Rubycon"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0604f71-8739-4cfb-82ad-8fae513f1648")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/9ddf1645-b6d5-4472-a590-4fa5afb7dfd9")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12481,7 +10092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3361.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3361P-1-103GLF/1088368"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12503,119 +10114,9 @@
 				)
 			)
 		)
-		(property "PARTREV" "08/19"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8e41d5e-a8f6-4bcf-85cc-fb7b45c54246")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26b57b05-752d-4064-84b1-0ece09a54b49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.84mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d21fe306-bbcc-47c0-a2ee-68fb86a1136d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "560d6260-f13f-4598-8b94-5d5a825b46ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "3361P-1-103GLF"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc4eb978-7471-4ab1-af70-74ef78b0383c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e07f7719-bc6b-4eee-b28c-b7e7819d85e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32740c92-d277-4987-985a-2d4ed2c57924")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca5500ee-701d-4ea5-8ae4-b0c3f65585fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/afea3319-5256-436c-9349-543b937ced15")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12944,83 +10445,10 @@
 				)
 			)
 		)
-		(property "Part Number" "61302011121"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2533ff4f-b3f6-450e-9f9e-819d642480f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79ba6570-1bcd-458d-abd0-702af9971d4a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e63925a6-2f07-4671-a991-f6670b0dc59b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ffbde25-bda6-47d4-8b12-605f4f0b70a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Würth Elektronik"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7f90907-ab40-4af5-a93d-928925468daf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0c18f5ab-4148-4f2c-91e7-7d2c53fed0ef")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
-					"16" "17" "18" "3V3" "GND"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13429,7 +10857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13442,7 +10870,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 220 OHM 1% 1/4W 1206"
+		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13455,80 +10883,9 @@
 				)
 			)
 		)
-		(property "Part Number" "RMCF1206FT220R"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2e4e3cc-ce1e-45e9-b136-34d27b38624d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "61e01aa7-ed27-4a70-abc2-428ca52cc53e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3082b0b-f750-4c0e-bd8a-2ca59dd65df9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3aca487c-e3cd-48c1-9b16-daf403d3f133")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6d07829-a17d-4a91-8f54-58a53f62bb08")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/93cdbefe-eb93-4a62-a08e-93134707ba2f")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13633,7 +10990,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13655,81 +11012,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42254799-8c43-4472-8f50-e468d575914d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4649fdb5-68b5-44b7-a9dd-4686f419808c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f251ec6c-cd4c-46cd-93f1-042988148859")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6496d6fc-6d2a-44d9-9615-0cb0d58f08b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a74e397d-c3f9-4ff7-973b-d9dd4b09b228")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/aa2a5af1-6061-4489-a5eb-3724aea811de")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14260,7 +11546,7 @@
 				)
 			)
 		)
-		(property "Value" "74AHCT125S14-13"
+		(property "Value" "SO14_DIO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14272,7 +11558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "74AHCT125S14-13"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74AHCT125.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14294,81 +11580,10 @@
 				)
 			)
 		)
-		(property "Part Number" "74AHCT125S14-13 "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2df5304b-c7b5-4404-aa64-c88f534e8be5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa9bd253-d052-460b-93fa-e030650e4224")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b7624bc-5a50-4046-b19e-219c9243188a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c560dfc1-e8fc-401c-a392-11edb9d66a76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Diodes Incorporated"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77c5153d-c857-452e-bc8d-f6c4af475bf6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SO14_DIO SO14_DIO-M SO14_DIO-L")
 		(path "/eeca8f1c-cedb-424a-82e9-34169a519853")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15355,93 +12570,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c72c9fcb-4448-4aab-9608-e2dab2ed8225")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2d71e00-5235-4a05-8d07-c0d3baf17e1b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1b0f602-b79f-48e4-b505-24922be8c261")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23d5b2c4-8203-42d7-b9a2-11d665497c7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a094c8f9-c9bf-46c6-83d7-1442a7f0250e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f7ef069-bf71-4d82-8310-6dcab1b49197")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/4a322a2a-6624-4482-9a85-79660ca1133b")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15693,93 +12824,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "239440df-27f6-470f-a8a0-b232d2ff35f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e9eacde-f452-45ba-9f4c-ae9c943c97a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a034c539-9251-4192-ba7b-ef4063b78c61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82bef665-8666-4a1a-81ed-45befd7d5f18")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "292faa09-141f-4e2b-a4f0-3e06a7a1b4b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23d2c9a4-355a-43a7-ad25-894f192b57ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/e8d69db1-7265-4d0c-a854-caa2249d1a05")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16031,93 +13078,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d6a5932-12ce-4a56-9eee-4d705f8a8771")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d2cdefc-2482-4be3-835a-42b5ffd79760")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9fa22ef-faeb-4cd2-af25-f8d3c162b31f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "10e15918-fa47-436a-aae9-0677a91f4161")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d60383b-dc7d-4e3c-84c5-ea43568594c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "534b886b-9a2f-49ec-8109-9229f5f7a060")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/fb78f381-a682-4ad3-8d3a-3605af7c3bdc")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16375,83 +13338,10 @@
 				)
 			)
 		)
-		(property "Part Number" "61302011121"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd115f31-8fd9-4ea1-9072-bb4ca33b9ec6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7089ee78-f6ce-4ecc-8bd6-d8265ad23229")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb424456-a54b-4156-916e-f1c8ed13fa5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6cb9595-ea6c-4553-beef-1141cf966b74")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Würth Elektronik"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "837b65d6-1691-430c-96b4-0deb38b983b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/63bb093a-1df8-4bfb-86d7-b9d091c0f823")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "46" "45" "44" "43" "42" "41" "40" "39" "38" "37" "36" "35" "48"
-					"34" "33" "47" "26" "21" "5V" "GND"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16860,7 +13750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CMD17-21VGD/TR8"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16882,81 +13772,10 @@
 				)
 			)
 		)
-		(property "Part Number" "CMD17-21VGD/TR8 "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0cede5d-adae-42ab-af99-665cdc805edd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e276411a-799b-4734-9cae-668b6ee03aaa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5133b4bb-29c9-4b72-bcf2-9a05803894a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f89b26fb-5138-4f94-a35e-a32fc409cd3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Visual Communications Company - VCC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bad312d5-4f56-4e64-8bf5-d0bc98d71d3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/5791b985-4002-42dd-a4ef-05ac8aedb8f1")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17501,7 +14320,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml2502-datasheet-en.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17512,7 +14331,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET N-CH 20V 4.2A SOT23-3"
+		(property "Description" "MOSFET N-CH 20V 4.2A SOT23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17523,80 +14342,9 @@
 				)
 			)
 		)
-		(property "Part Number" "DMN2075U-7"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97d4de2b-256c-4201-bbe7-e4a57ef8f5d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91722496-03f9-41af-b239-7b0d63d05216")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1566cf30-925d-4c9f-ad22-c8fb996d472f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ef23e60-3c02-4065-bf31-d96efa177082")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Diodes Incorporated"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "258156db-33be-4013-9d80-5da94b8661a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/35f6277c-a7a0-4d59-ac1e-e0087fa59261")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.1 -1.46)
@@ -17779,7 +14527,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "OSTT7020150"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/388/OSTT7xx0150.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17801,81 +14549,10 @@
 				)
 			)
 		)
-		(property "Part Number" "OSTT7020150"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efed2d71-feaa-4188-9b5f-e1ef42b52dc7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b70766bd-383c-4aeb-946e-347b0710fba7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "869808e6-debd-47fd-89e7-22196b911236")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff95a024-b343-4cdb-bc22-f71d9b3eae78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "On Shore Technology Inc."
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d48c109-9739-4ce5-89b5-378c99220653")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CONN2_OSTT7020150_OST")
 		(path "/63460260-ee57-4de1-a775-dfb8d4ed4233")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18176,93 +14853,9 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef992dac-714f-4700-b746-a4ba21f47009")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68bb3166-cbba-4230-ba14-8d50c84e8d1e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TB002-500-02BE "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "27b19acd-4992-452e-a67b-12ddec85c500")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf6303a9-d509-4980-86a5-28202a0a7ca2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9b7e0a3-8fc2-45e1-b1dd-58baaa6e56d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4afafb20-9f21-45fc-ad6b-fc7d06ab4bef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/02db38cc-6d45-4adb-9615-a64a81d15d02")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18520,83 +15113,10 @@
 				)
 			)
 		)
-		(property "Part Number" "61302011121"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0eaa91a-7c6e-46b7-a569-0823fdfbfbf3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "266a15e1-a58d-4de1-88c8-d56a462bbf36")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe7b6138-16a7-4f24-92c5-a4d86c6d2d41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57c98b98-7b8e-4245-9ea8-d24c288b02ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Würth Elektronik"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f8c4447-8da0-4bac-91c8-434df622a0ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b9df974a-7922-4b2d-a528-3c19b20c6e31")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
-					"16" "17" "18" "3V3" "GND"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19004,7 +15524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.amazon.com/128x32-SSD1306-Consumption-Display-Arduino/dp/B07PDFCVXL#averageCustomerReviewsAnchor"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19015,7 +15535,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19026,64 +15546,11 @@
 				)
 			)
 		)
-		(property "Part Number" "61300411121"
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8bde058b-e0cf-41bf-b2c0-0b5820722efb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3957aa6-1bbe-4e64-a45a-8ca2cf67701e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40f89a91-514a-4934-9ef8-eaba7c479962")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69b9ffac-c138-481f-a40e-3d52c1768030")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Würth Elektronik"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0095b82-5946-4fdb-be1d-1f2459efe9c5")
+			(uuid "ffeea586-ab73-4382-9ae1-f4823749b5f5")
 			(effects
 				(font
 					(size 1 1)
@@ -19095,12 +15562,6 @@
 		(path "/32316f99-303c-465a-887a-0b6281375559")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19372,81 +15833,10 @@
 				)
 			)
 		)
-		(property "Part Number" "25ZLH470MEFC10X12.5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89343a4a-0a6e-44c0-8ed0-40f395b580e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb96102a-f3ed-4f02-a575-c835be9f6c84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de10b7fa-84d5-47a3-b794-5d6b22bffa7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76efbd54-c2ed-4260-b0ee-c540f03a583b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Rubycon"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4cfdb1dd-15da-4df6-a54c-e9ef8d067c24")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/0c0873fb-abec-4c5c-97c5-e593c02db74f")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
