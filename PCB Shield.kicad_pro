@@ -774,13 +774,21 @@
         "uuid": "9e193586-b0fa-43d6-aa55-137433de4788"
       }
     ],
-    "used_designators": "H2-4,R4,#PWR22",
+    "used_designators": "R1,R4,R6-11,J9-16,#FLG4,#PWR14,#PWR19-20,#PWR24,#PWR27-51,C1-9,U1-2,NT1,SW1",
     "variants": []
   },
   "sheets": [
     [
       "9e193586-b0fa-43d6-aa55-137433de4788",
       "PCB Shield"
+    ],
+    [
+      "9c706ee1-ce5f-44af-bf0c-2868a1dfa353",
+      "Logic_shifter"
+    ],
+    [
+      "45464950-8fab-441b-be00-ecfc35ae59ab",
+      "LED_Power"
     ]
   ],
   "text_variables": {},

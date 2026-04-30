@@ -7,7 +7,7 @@
 		(at 2.032 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1bbde14a-4c88-4bff-afdd-569d7abe2fa4")
+		(uuid "6aeb4a5a-3fe9-452a-ba68-f91d39f0a19f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -7.112 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "356dcf7d-a067-463c-9b37-d8fa62ce04b9")
+		(uuid "3041165a-b061-49f2-8fe3-cf8b8ca83c03")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "11e44a45-b267-48cb-9456-d3b13dfa84e7")
+		(uuid "564d7d57-36f0-42da-8e5e-33d38f5296fd")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6fd05abd-5c26-4300-a3f7-8bd913edb749")
+		(uuid "69304b51-482c-4909-b8c8-d2787b2cd306")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 -5.612 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2d1c3b87-1a2e-446f-b269-a10abad398df")
+		(uuid "1125d3f8-f915-47fd-9f6d-aa35ed12c795")
 		(effects
 			(font
 				(size 1 1)
@@ -68,29 +68,37 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 10.287 1.897)
+		(at 12.827 1.897)
 		(size 3.5 3.5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "03fca94e-a980-4e5f-8bbc-8aaf31c8934d")
+		(uuid "01776bf0-a673-43aa-b292-e5f21828d346")
 	)
 	(pad "2" thru_hole roundrect
-		(at 6.096 1.77)
+		(at 8.636 1.77)
 		(size 3.5 3.5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.07142857143)
-		(uuid "3088f8c2-c993-4bb0-aeca-7abcbda7fc27")
+		(uuid "acb4329a-1bbe-445d-b6eb-125e1d7caa2e")
 	)
 	(pad "3" thru_hole circle
-		(at 1.778 1.778)
-		(size 3.5 3.5)
-		(drill 2.5)
+		(at 4.826 1.778)
+		(size 2.5 2.5)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b6218568-3b65-459c-ba21-984d48a08b57")
+		(uuid "a44dac31-4be3-4038-a94d-989504571bfb")
+	)
+	(pad "4" thru_hole circle
+		(at 1.778 1.778)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c93e91db-f575-486c-b000-d7739c732019")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d models/Round Power Switch.STEP"
