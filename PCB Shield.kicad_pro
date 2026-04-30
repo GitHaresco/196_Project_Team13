@@ -517,17 +517,6 @@
       },
       {
         "clearance": 0.3,
-        "name": "+5V_Limited",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.3,
         "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -547,6 +536,17 @@
         "tuning_profile": "",
         "via_diameter": 1.4,
         "via_drill": 0.4
+      },
+      {
+        "clearance": 0.3,
+        "name": "limited5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -564,8 +564,8 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "+5V_Limited",
-        "pattern": "+5V_Limited"
+        "netclass": "limited5V",
+        "pattern": "+5Vlimited"
       }
     ]
   },
@@ -774,7 +774,7 @@
         "uuid": "9e193586-b0fa-43d6-aa55-137433de4788"
       }
     ],
-    "used_designators": "#PWR3-4,#PWR51",
+    "used_designators": "#PWR3-7,#PWR12,#PWR39,#PWR43-45,#PWR51,R4",
     "variants": []
   },
   "sheets": [
