@@ -3745,7 +3745,7 @@
 				)
 			)
 		)
-		(property "Value" "DMN2075U-7"
+		(property "Value" "IRLML2502TRPBF"
 			(at -2.794 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,7 +3766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml2502-datasheet-en.pdf"
 			(at -2.032 12.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3777,7 +3777,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET N-CH 20V 4.2A SOT23-3"
+		(property "Description" "MOSFET N-CH 20V 4.2A SOT23"
 			(at -2.032 12.954 0)
 			(show_name no)
 			(do_not_autoplace no)

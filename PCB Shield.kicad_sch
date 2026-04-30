@@ -4803,6 +4803,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "196_Project:RCS12060000Z0EA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 5.08 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0"
+				(at 4.318 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+				(at 0.508 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+				(at 0.254 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RES 0 OHM JUMPER 1W 1206"
+				(at 0.254 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RCS12060000Z0EA_0_0"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.715 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.905) (xy 6.985 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.905) (xy 8.255 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.905) (xy 9.525 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.905) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RCS12060000Z0EA_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "196_Project:RMCF1206FT220R"
 			(pin_names
 				(offset 1.016)
@@ -5836,160 +6027,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -6896,7 +6933,7 @@
 	)
 	(text "Two I2C outputs"
 		(exclude_from_sim no)
-		(at 154.178 122.936 0)
+		(at 156.718 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6941,6 +6978,18 @@
 		(uuid "04585ed6-132e-4121-a8b9-fd95948a1b62")
 	)
 	(junction
+		(at 162.56 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06e33158-3a97-48f1-a7b5-cd2b7d02a12e")
+	)
+	(junction
+		(at 146.05 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10e70fa5-dc33-4b9e-b06f-10e488bc6269")
+	)
+	(junction
 		(at 180.34 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6959,16 +7008,16 @@
 		(uuid "1699cfcf-f865-49d0-88f9-48829f209701")
 	)
 	(junction
+		(at 135.89 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17dd4f35-846f-40a6-9db2-dd55c20aa9cb")
+	)
+	(junction
 		(at 214.63 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18e26cc9-8aec-472e-a1eb-1fc3d82a8517")
-	)
-	(junction
-		(at 149.86 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b1f4c97-8185-4dc4-b7d1-210e8d8b8c13")
 	)
 	(junction
 		(at 139.7 72.39)
@@ -6983,12 +7032,6 @@
 		(uuid "2ef91256-2e82-44a5-9fd8-01803a8300b0")
 	)
 	(junction
-		(at 147.32 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "300e869e-25f2-412c-acf2-08fffa66db58")
-	)
-	(junction
 		(at 139.7 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7001,6 +7044,12 @@
 		(uuid "3381ac96-cdec-45f9-b139-41fcc9598e69")
 	)
 	(junction
+		(at 143.51 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c9910f2-5381-4b7c-b3af-dcc9707751b1")
+	)
+	(junction
 		(at 101.6 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7011,12 +7060,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43fa8a61-3e57-4b4e-9568-2ba363135911")
-	)
-	(junction
-		(at 142.24 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "521023e8-7f02-40f1-be50-21b4dc7c6898")
 	)
 	(junction
 		(at 243.84 62.23)
@@ -7151,16 +7194,16 @@
 		(uuid "c307d68f-e63f-4101-9048-4c2caa229a9c")
 	)
 	(junction
-		(at 153.67 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c76d1c2a-3515-4bd6-9bf1-dd1235e25d4e")
-	)
-	(junction
 		(at 139.7 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8248607-bcef-4127-aacd-7c2faac7dc1a")
+	)
+	(junction
+		(at 148.59 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63b8d09-f465-4511-871d-437fca7c7e8e")
 	)
 	(junction
 		(at 101.6 44.45)
@@ -7194,7 +7237,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 125.73) (xy 171.45 125.73)
+			(xy 170.18 125.73) (xy 173.99 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7304,6 +7347,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c2fd06-debf-4f9b-b1d0-f39002dfa394")
+	)
+	(wire
+		(pts
 			(xy 180.34 43.18) (xy 180.34 45.72)
 		)
 		(stroke
@@ -7324,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 134.62) (xy 144.78 134.62)
+			(xy 140.97 134.62) (xy 147.32 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7414,6 +7467,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 83.82) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283ac1b3-544e-4a5f-ae49-b53fb9c84d26")
+	)
+	(wire
+		(pts
 			(xy 269.24 106.68) (xy 266.7 106.68)
 		)
 		(stroke
@@ -7474,7 +7537,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 129.54) (xy 172.72 129.54)
+			(xy 172.72 129.54) (xy 175.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7534,23 +7597,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 132.08) (xy 144.78 132.08)
+			(xy 144.78 132.08) (xy 147.32 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33e94f98-e4e2-4dcd-b7a4-4bcc315b7166")
-	)
-	(wire
-		(pts
-			(xy 142.24 72.39) (xy 142.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "343ccb23-d288-4633-82bf-48a4de3fdf6f")
 	)
 	(wire
 		(pts
@@ -7704,7 +7757,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.595 146.685) (xy 188.595 92.71)
+			(xy 189.23 146.685) (xy 189.23 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7824,7 +7877,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 153.67 78.74)
+			(xy 148.59 72.39) (xy 148.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7834,7 +7887,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 128.27) (xy 170.18 128.27)
+			(xy 170.18 128.27) (xy 172.72 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7844,7 +7897,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 129.54) (xy 144.78 129.54)
+			(xy 144.78 129.54) (xy 147.32 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7874,7 +7927,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 72.39) (xy 142.24 72.39)
+			(xy 139.7 72.39) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8084,7 +8137,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 86.36) (xy 153.67 88.9)
+			(xy 135.89 86.36) (xy 135.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8114,7 +8167,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 128.27) (xy 142.24 129.54)
+			(xy 144.78 128.27) (xy 144.78 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8221,16 +8274,6 @@
 			(type default)
 		)
 		(uuid "800b8583-8986-4980-9477-3aa956266c36")
-	)
-	(wire
-		(pts
-			(xy 153.67 72.39) (xy 154.94 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806e4e12-2941-4959-bc4f-4448446f2f4e")
 	)
 	(wire
 		(pts
@@ -8424,7 +8467,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 125.73) (xy 143.51 127)
+			(xy 146.05 125.73) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
@@ -8454,7 +8497,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.165 146.685) (xy 188.595 146.685)
+			(xy 177.165 146.685) (xy 189.23 146.685)
 		)
 		(stroke
 			(width 0)
@@ -8501,6 +8544,16 @@
 			(type default)
 		)
 		(uuid "a18c4596-5cd3-4ad4-a3c8-733f8c261a90")
+	)
+	(wire
+		(pts
+			(xy 135.89 87.63) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c665de-e4e5-4059-8aee-59d19fb95f3d")
 	)
 	(wire
 		(pts
@@ -8571,6 +8624,16 @@
 			(type default)
 		)
 		(uuid "a819ca8b-d021-47a0-a904-73847a6d6c52")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 161.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8871367-44f4-450c-8b03-de495039c37d")
 	)
 	(wire
 		(pts
@@ -8654,7 +8717,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 127) (xy 144.78 127)
+			(xy 146.05 127) (xy 147.32 127)
 		)
 		(stroke
 			(width 0)
@@ -8684,7 +8747,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 125.73) (xy 171.45 127)
+			(xy 173.99 125.73) (xy 173.99 127)
 		)
 		(stroke
 			(width 0)
@@ -8701,16 +8764,6 @@
 			(type default)
 		)
 		(uuid "b7487df6-0e74-49cb-bd70-8154592da61a")
-	)
-	(wire
-		(pts
-			(xy 149.86 72.39) (xy 153.67 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae73dd3-9055-4d84-8b81-5436aaeb4dd8")
 	)
 	(wire
 		(pts
@@ -8734,7 +8787,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 128.27) (xy 170.18 129.54)
+			(xy 172.72 128.27) (xy 172.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8774,7 +8827,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 172.72 132.08)
+			(xy 171.45 132.08) (xy 175.26 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8884,7 +8937,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 128.27) (xy 142.24 128.27)
+			(xy 143.51 128.27) (xy 144.78 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8924,7 +8977,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 127) (xy 172.72 127)
+			(xy 173.99 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -8984,13 +9037,33 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 86.36) (xy 142.24 88.9)
+			(xy 148.59 87.63) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8dbab5-6690-4f6c-88db-949f190ce5ba")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dfaffead-fa25-4d7e-9ccc-3951ac881529")
+	)
+	(wire
+		(pts
+			(xy 143.51 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e1c1e8-5ede-4cb2-ab81-091551a05c80")
 	)
 	(polyline
 		(pts
@@ -9004,7 +9077,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 125.73) (xy 143.51 125.73)
+			(xy 143.51 125.73) (xy 146.05 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9084,13 +9157,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 72.39) (xy 149.86 72.39)
+			(xy 148.59 72.39) (xy 146.05 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebf79143-ff31-4080-bdf4-8a6e734d12d6")
+		(uuid "ecec7ace-123f-42c2-8d16-9ad2920e261d")
 	)
 	(wire
 		(pts
@@ -9174,7 +9247,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 72.39) (xy 161.29 72.39)
+			(xy 163.83 72.39) (xy 162.56 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9204,7 +9277,7 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 92.71) (xy 128.27 146.685)
+			(xy 129.54 92.71) (xy 129.54 146.685)
 		)
 		(stroke
 			(width 0)
@@ -9264,7 +9337,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 134.62) (xy 172.72 134.62)
+			(xy 168.91 134.62) (xy 175.26 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9380,7 +9453,7 @@
 	)
 	(global_label "SCL {slash} IO9"
 		(shape input)
-		(at 167.64 128.27 180)
+		(at 170.18 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9390,7 +9463,7 @@
 		)
 		(uuid "0adb3bde-3117-4fad-acd7-e5bad0ad69d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7367 128.27 0)
+			(at 157.2767 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9477,7 @@
 	)
 	(global_label "SCL {slash} IO9"
 		(shape input)
-		(at 140.97 128.27 180)
+		(at 143.51 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9414,7 +9487,7 @@
 		)
 		(uuid "0f6b9669-d390-4fe3-a87b-7315bebd6272")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0667 128.27 0)
+			(at 130.6067 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +9909,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 138.43 134.62 180)
+		(at 140.97 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9846,7 +9919,7 @@
 		)
 		(uuid "5d7e266d-5f5d-4f7c-b4bd-46c9e82cd66c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5743 134.62 0)
+			(at 134.1143 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,7 +10005,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 166.37 134.62 180)
+		(at 168.91 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9942,7 +10015,7 @@
 		)
 		(uuid "6c545020-e3de-4a72-958d-b1d7746dc5c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.5143 134.62 0)
+			(at 162.0543 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,7 +10605,7 @@
 	)
 	(global_label "SDA {slash} IO8"
 		(shape input)
-		(at 140.97 125.73 180)
+		(at 143.51 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10542,7 +10615,7 @@
 		)
 		(uuid "f4dd12fa-4a74-4d97-a40d-54d374d30da8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0062 125.73 0)
+			(at 130.5462 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10580,7 +10653,7 @@
 	)
 	(global_label "SDA {slash} IO8"
 		(shape input)
-		(at 167.64 125.73 180)
+		(at 170.18 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10590,7 +10663,7 @@
 		)
 		(uuid "f78fe934-f588-45b9-9d45-f13319067cc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6762 125.73 0)
+			(at 157.2162 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10844,7 +10917,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 15.24 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -10878,6 +10951,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 15.24 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 15.24 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -10970,7 +11054,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "1206B104K500BD"
 			(at 267.97 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -11004,6 +11088,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 267.97 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Aillen"
 			(at 267.97 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -11119,7 +11214,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 200.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11180,7 +11275,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 168.91 132.08 90)
+		(at 171.45 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11191,7 +11286,7 @@
 		(fields_autoplaced yes)
 		(uuid "035728a8-dded-4cf2-9756-85a4caa290ed")
 		(property "Reference" "#PWR23"
-			(at 172.72 132.08 0)
+			(at 175.26 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11202,7 +11297,7 @@
 			)
 		)
 		(property "Value" "+5Vlimited"
-			(at 165.1 132.0799 90)
+			(at 167.64 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11213,7 +11308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 132.08 0)
+			(at 171.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11224,7 +11319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 132.08 0)
+			(at 171.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11235,7 +11330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 168.91 132.08 0)
+			(at 171.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11259,7 +11354,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 147.32 72.39 0)
+		(at 143.51 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11270,7 +11365,7 @@
 		(fields_autoplaced yes)
 		(uuid "06e199e1-da24-4611-b84a-786ce729ed08")
 		(property "Reference" "#PWR18"
-			(at 147.32 76.2 0)
+			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11281,7 +11376,7 @@
 			)
 		)
 		(property "Value" "+5Vlimited"
-			(at 147.32 67.31 0)
+			(at 143.51 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11291,7 +11386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 72.39 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11302,7 +11397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 72.39 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11313,7 +11408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 147.32 72.39 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11463,7 +11558,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "AI-3035-TWT-3V-R "
 			(at 87.63 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11863,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 231.14 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11896,7 +11991,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "25ZLH470MEFC10X12.5"
 			(at 271.78 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -11930,6 +12025,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 271.78 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
 			(at 271.78 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -12011,7 +12117,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
 			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12022,7 +12128,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "61302011121"
 			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12056,6 +12162,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 115.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12347,7 +12464,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
 			(at 131.318 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12358,7 +12475,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "61302011121"
 			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12392,6 +12509,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 133.35 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12616,7 +12744,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RC1206FR-074K7L "
 			(at 148.59 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12650,6 +12778,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 148.59 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 148.59 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12744,7 +12883,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 44.45 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -12778,6 +12917,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 44.45 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 44.45 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -13097,7 +13247,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13108,7 +13258,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "61300811121"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13142,6 +13292,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 106.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13344,8 +13505,111 @@
 		)
 	)
 	(symbol
+		(lib_id "196_Project:RCS12060000Z0EA")
+		(at 148.59 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26768d0a-2c5f-480c-a883-86b93cf3d228")
+		(property "Reference" "R4"
+			(at 154.94 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 154.94 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 149.098 64.262 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 148.844 66.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1W 1206"
+			(at 148.844 66.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 148.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RCS12060000Z0EA"
+			(at 148.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "126902f5-74bf-4a9c-b5e1-86790c8e3a9f")
+		)
+		(pin "1"
+			(uuid "9f440764-8f15-4974-b97a-a0622ddb4c61")
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 149.86 72.39 0)
+		(at 146.05 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13356,7 +13620,7 @@
 		(fields_autoplaced yes)
 		(uuid "286685d2-4f21-4c62-a079-44bf71bb2e93")
 		(property "Reference" "#FLG2"
-			(at 149.86 70.485 0)
+			(at 146.05 70.485 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13367,7 +13631,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 149.86 67.31 0)
+			(at 146.05 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13378,7 +13642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 72.39 0)
+			(at 146.05 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13389,7 +13653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 72.39 0)
+			(at 146.05 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13400,7 +13664,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 149.86 72.39 0)
+			(at 146.05 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13424,7 +13688,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 177.8 129.54 0)
+		(at 180.34 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13434,7 +13698,7 @@
 		(dnp no)
 		(uuid "312a8431-bc6e-4cce-9c82-0b3307b97f64")
 		(property "Reference" "J7"
-			(at 179.07 129.5399 0)
+			(at 181.61 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13445,7 +13709,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 167.894 136.398 0)
+			(at 170.434 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13456,7 +13720,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 177.8 129.54 0)
+			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13467,7 +13731,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/128x32-SSD1306-Consumption-Display-Arduino/dp/B07PDFCVXL#averageCustomerReviewsAnchor"
-			(at 177.8 129.54 0)
+			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13477,8 +13741,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 177.8 129.54 0)
+		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13488,8 +13752,8 @@
 				)
 			)
 		)
-		(property "Part Number" ""
-			(at 177.8 129.54 0)
+		(property "Part Number" "61300411121"
+			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13500,7 +13764,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 177.8 129.54 0)
+			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13511,7 +13775,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 177.8 129.54 0)
+			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13522,7 +13786,18 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 177.8 129.54 0)
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13555,7 +13830,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 149.86 129.54 0)
+		(at 152.4 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13565,7 +13840,7 @@
 		(dnp no)
 		(uuid "32316f99-303c-465a-887a-0b6281375559")
 		(property "Reference" "J6"
-			(at 151.13 129.5399 0)
+			(at 153.67 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13576,7 +13851,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 139.954 136.398 0)
+			(at 142.494 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13587,7 +13862,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 149.86 129.54 0)
+			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13598,7 +13873,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/128x32-SSD1306-Consumption-Display-Arduino/dp/B07PDFCVXL#averageCustomerReviewsAnchor"
-			(at 149.86 129.54 0)
+			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13608,8 +13883,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 149.86 129.54 0)
+		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13619,8 +13894,8 @@
 				)
 			)
 		)
-		(property "Part Number" ""
-			(at 149.86 129.54 0)
+		(property "Part Number" "61300411121"
+			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13631,7 +13906,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 149.86 129.54 0)
+			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13642,7 +13917,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 149.86 129.54 0)
+			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13653,7 +13928,18 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 149.86 129.54 0)
+			(at 152.4 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 152.4 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13707,7 +13993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML2502TRPBF"
+		(property "Value" "DMN2075U-7"
 			(at 38.1 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13740,7 +14026,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET N-CH 20V 4.2A SOT23"
+		(property "Description" "MOSFET N-CH 20V 4.2A SOT23-3"
 			(at 24.638 108.966 0)
 			(hide yes)
 			(show_name no)
@@ -13751,7 +14037,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "DMN2075U-7"
 			(at 26.67 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13785,6 +14071,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 26.67 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 26.67 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13882,7 +14179,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 15.24 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -13916,6 +14213,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 15.24 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 15.24 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -14180,86 +14488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 157.48 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4732f738-d0b5-4c9c-a736-739e7cb876ab")
-		(property "Reference" "R4"
-			(at 157.48 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Small_US"
-			(at 157.48 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 157.48 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 157.48 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "085c65ba-feda-4ec8-a926-7f3c119c482b")
-		)
-		(pin "2"
-			(uuid "cc4647f9-fe3c-4e59-b418-c1622ed1bbcf")
-		)
-		(instances
-			(project "PCB Shield"
-				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 91.44 72.39 0)
 		(unit 1)
@@ -14506,7 +14734,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 201.93 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14792,7 +15020,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 44.45 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -14826,6 +15054,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 44.45 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 44.45 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -14919,7 +15158,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "OSTT7020150"
 			(at 180.34 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -14953,6 +15192,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 180.34 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "On Shore Technology Inc."
 			(at 180.34 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -15032,7 +15282,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
 			(at 122.428 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -15043,7 +15293,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "61302011121"
 			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15077,6 +15327,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 124.46 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15376,7 +15637,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "C1353VQNAA"
 			(at 173.99 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15410,6 +15671,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 173.99 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Bulgin"
 			(at 173.99 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15584,7 +15856,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 44.45 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -15618,6 +15890,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 44.45 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 44.45 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -15709,7 +15992,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CRCW120616R2FKEA"
 			(at 38.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15743,6 +16026,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 38.1 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
 			(at 38.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15884,7 +16178,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "3361P-1-103GLF"
 			(at 31.75 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -16027,7 +16321,7 @@
 	)
 	(symbol
 		(lib_id "196_Project:1206B105K250JC")
-		(at 153.67 78.74 270)
+		(at 143.51 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16038,29 +16332,27 @@
 		(fields_autoplaced yes)
 		(uuid "7c0e8125-d5ab-4f2f-bba3-496581666651")
 		(property "Reference" "C2"
-			(at 157.48 81.2799 90)
+			(at 139.7 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 157.48 83.8199 90)
+			(at 139.7 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "196_Project_Footprints:1206B105K250JC"
-			(at 164.338 81.026 0)
+			(at 141.224 98.298 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16071,7 +16363,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5660/3372_1206B105K250JC.pdf"
-			(at 166.37 76.962 0)
+			(at 145.288 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16082,7 +16374,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 1206 X7R 1UF 10 25V"
-			(at 166.37 76.962 0)
+			(at 145.288 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16092,8 +16384,8 @@
 				)
 			)
 		)
-		(property "Part Number" ""
-			(at 153.67 78.74 90)
+		(property "Part Number" "1206B105K250JC "
+			(at 143.51 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16104,7 +16396,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 153.67 78.74 90)
+			(at 143.51 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16115,7 +16407,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 153.67 78.74 90)
+			(at 143.51 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16126,7 +16418,18 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 153.67 78.74 90)
+			(at 143.51 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Aillen"
+			(at 143.51 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16241,7 +16544,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 194.31 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16627,7 +16930,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 242.57 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16990,7 +17293,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RMCF1206FT220R"
 			(at 252.73 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17024,6 +17327,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 252.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 252.73 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17197,7 +17511,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "ESDA6V1L"
 			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -17231,6 +17545,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 177.8 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -17486,7 +17811,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "25ZLH470MEFC10X12.5"
 			(at 213.36 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -17520,6 +17845,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 213.36 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
 			(at 213.36 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -17770,7 +18106,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 15.24 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -17804,6 +18140,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 15.24 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 15.24 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -17945,7 +18292,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "3361P-1-103GLF"
 			(at 143.51 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -18073,7 +18420,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RC1206FR-074K7L "
 			(at 167.64 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -18107,6 +18454,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 167.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 167.64 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -18281,7 +18639,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "25ZLH470MEFC10X12.5"
 			(at 214.63 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18315,6 +18673,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 214.63 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
 			(at 214.63 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18409,7 +18778,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "25ZLH470MEFC10X12.5"
 			(at 273.05 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18443,6 +18812,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 273.05 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
 			(at 273.05 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18524,7 +18904,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18535,7 +18915,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "61302011121"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18569,6 +18949,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 106.68 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18714,7 +19105,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RMCF1206FT220R"
 			(at 260.35 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -18748,6 +19139,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 260.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 260.35 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -18839,7 +19241,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RMCF1206FT220R"
 			(at 213.36 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -18873,6 +19275,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 213.36 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 213.36 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19199,7 +19612,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RMCF1206FT220R"
 			(at 204.47 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19233,6 +19646,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 204.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 204.47 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19339,7 +19763,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 161.29 72.39 0)
+		(at 162.56 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19350,7 +19774,7 @@
 		(fields_autoplaced yes)
 		(uuid "c99d357c-dd30-4eff-bfda-97aa548163fc")
 		(property "Reference" "#PWR20"
-			(at 161.29 76.2 0)
+			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19361,7 +19785,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 161.29 67.31 0)
+			(at 162.56 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19371,7 +19795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 72.39 0)
+			(at 162.56 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19382,7 +19806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 72.39 0)
+			(at 162.56 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19393,7 +19817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 161.29 72.39 0)
+			(at 162.56 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19483,7 +19907,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RMCF1206FT220R"
 			(at 21.59 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -19517,6 +19941,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 21.59 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 21.59 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -19789,7 +20224,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 259.08 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -19850,7 +20285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 88.9 0)
+		(at 135.89 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19861,7 +20296,7 @@
 		(fields_autoplaced yes)
 		(uuid "d89866ce-8dc3-45f3-92ab-c1a922eb64c3")
 		(property "Reference" "#PWR19"
-			(at 153.67 95.25 0)
+			(at 135.89 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19872,7 +20307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 93.98 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19883,7 +20318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 88.9 0)
+			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19894,7 +20329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 88.9 0)
+			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19905,7 +20340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 88.9 0)
+			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20232,7 +20667,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "25ZLH470MEFC10X12.5"
 			(at 242.57 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -20266,6 +20701,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 242.57 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
 			(at 242.57 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -20460,7 +20906,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 260.35 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20588,7 +21034,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 44.45 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -20622,6 +21068,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 44.45 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 44.45 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -20714,7 +21171,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "74AHCT125S14-13 "
 			(at 205.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20748,6 +21205,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 205.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 205.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20889,7 +21357,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 142.24 132.08 90)
+		(at 144.78 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20900,7 +21368,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0f91d17-3be3-42dd-b700-ad2b03e8493d")
 		(property "Reference" "#PWR15"
-			(at 146.05 132.08 0)
+			(at 148.59 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20911,7 +21379,7 @@
 			)
 		)
 		(property "Value" "+5Vlimited"
-			(at 138.43 132.0799 90)
+			(at 140.97 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20922,7 +21390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 132.08 0)
+			(at 144.78 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20933,7 +21401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 132.08 0)
+			(at 144.78 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20944,7 +21412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 142.24 132.08 0)
+			(at 144.78 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20968,7 +21436,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 88.9 0)
+		(at 128.27 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20979,7 +21447,7 @@
 		(fields_autoplaced yes)
 		(uuid "f372ac3a-cd22-425b-b5af-46568001e3a0")
 		(property "Reference" "#PWR14"
-			(at 142.24 95.25 0)
+			(at 128.27 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20990,7 +21458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 93.98 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21001,7 +21469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21012,7 +21480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21023,7 +21491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21351,7 +21819,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CMD17-21VGD/TR8 "
 			(at 15.24 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -21385,6 +21853,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 15.24 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
 			(at 15.24 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -21412,7 +21891,7 @@
 	)
 	(symbol
 		(lib_id "196_Project:1206B104K500BD")
-		(at 142.24 78.74 270)
+		(at 135.89 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21423,29 +21902,27 @@
 		(fields_autoplaced yes)
 		(uuid "f73293ef-0fee-42df-a546-78413ac9513b")
 		(property "Reference" "C1"
-			(at 146.05 81.2799 90)
+			(at 132.08 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 146.05 83.8199 90)
+			(at 132.08 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "196_Project_Footprints:1206B104K500BD"
-			(at 152.908 81.026 0)
+			(at 133.604 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21456,7 +21933,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6490/3372_1206B104K500BD.pdf"
-			(at 142.24 78.74 0)
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21467,7 +21944,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
-			(at 142.24 78.74 0)
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21477,8 +21954,8 @@
 				)
 			)
 		)
-		(property "Part Number" ""
-			(at 142.24 78.74 90)
+		(property "Part Number" "1206B104K500BD"
+			(at 135.89 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21489,7 +21966,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 142.24 78.74 90)
+			(at 135.89 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21500,7 +21977,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 142.24 78.74 90)
+			(at 135.89 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21511,7 +21988,18 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 142.24 78.74 90)
+			(at 135.89 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Aillen"
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21706,7 +22194,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "TB002-500-02BE "
 			(at 229.87 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -21834,7 +22322,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "25ZLH470MEFC10X12.5"
 			(at 243.84 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -21868,6 +22356,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 243.84 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
 			(at 243.84 64.77 90)
 			(hide yes)
 			(show_name no)
