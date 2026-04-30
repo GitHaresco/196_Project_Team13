@@ -6891,7 +6891,7 @@
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 158.75 60.706 0)
+		(at 157.988 56.642 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14497,7 +14497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f0ccada-49bf-4636-91b5-c1fe818862fe")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 173.99 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14558,7 +14558,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -15759,7 +15759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "196_Project_Footprints:C1353VQNAA"
+		(property "Footprint" "196_Project_Footprints:GRB066L02BBGGL1"
 			(at 163.068 61.722 0)
 			(hide yes)
 			(show_name no)
