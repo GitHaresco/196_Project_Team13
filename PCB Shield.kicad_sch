@@ -5990,6 +5990,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -10739,7 +10838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "010e798a-46ad-4905-a042-c41db24207de")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 271.78 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10847,7 +10946,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10865,7 +10964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02db38cc-6d45-4adb-9615-a64a81d15d02")
-		(property "Reference" "J13"
+		(property "Reference" "J10"
 			(at 200.66 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10996,7 +11095,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11014,7 +11113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "035728a8-dded-4cf2-9756-85a4caa290ed")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR23"
 			(at 172.72 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11075,7 +11174,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR07")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06e199e1-da24-4611-b84a-786ce729ed08")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR18"
 			(at 147.32 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11153,7 +11252,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR05")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -11358,7 +11457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a0accea-2e7a-42bb-9a1f-32e9f7f430b8")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR13"
 			(at 101.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -11419,7 +11518,83 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR2")
+					(reference "#PWR13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a8aa2b6-ac44-4b8b-a60a-3d1f3adc776c")
+		(property "Reference" "H1"
+			(at 91.44 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 88.9 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11437,7 +11612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3ae82f-abdf-4a35-aed8-3eafd989bae1")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 231.14 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11568,7 +11743,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -11586,7 +11761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c0873fb-abec-4c5c-97c5-e593c02db74f")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 276.86 39.0397 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11696,7 +11871,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11714,7 +11889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c18f5ab-4148-4f2c-91e7-7d2c53fed0ef")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 118.11 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +12051,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11894,7 +12069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d4aec19-1af1-484b-a9f5-a7a42b7c8eff")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR41"
 			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11955,7 +12130,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR25")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -11973,7 +12148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d998954-2be6-4b3e-a6b4-cf3e39d0b721")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR24"
 			(at 180.34 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12034,7 +12209,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR15")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -12052,7 +12227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fc4c5f8-0d79-4aa9-ae05-a924d24df421")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 134.62 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12212,7 +12387,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12423,84 +12598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 181.61 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17a85b07-5bdc-4142-a6e7-c353fa214319")
-		(property "Reference" "#PWR41"
-			(at 181.61 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 181.61 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dae6a87e-e69c-4d27-9c95-1411598e9b77")
-		)
-		(instances
-			(project "PCB Shield"
-				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "196_Project:CMD17-21VGD/TR8")
 		(at 44.45 38.1 90)
 		(unit 1)
@@ -12629,6 +12726,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db0dace-aea4-4e2d-baaa-9d4506938c00")
+		(property "Reference" "H3"
+			(at 109.22 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 15.24 69.85 0)
 		(unit 1)
@@ -12640,7 +12813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f5ae21e-6451-45d4-8ae7-6637535cc9d7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR2"
 			(at 15.24 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12700,7 +12873,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR044")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -12718,7 +12891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f96c415-72c8-4852-9975-387f5ac6c184")
-		(property "Reference" "#PWR26"
+		(property "Reference" "#PWR37"
 			(at 251.46 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12780,7 +12953,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR26")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -12798,7 +12971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ac1398-0c2e-4621-852d-76b660b43357")
-		(property "Reference" "#PWR37"
+		(property "Reference" "#PWR45"
 			(at 280.67 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12860,7 +13033,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR37")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -13022,7 +13195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2535db16-f33a-499b-92d5-16a0ba1ba82d")
-		(property "Reference" "#PWR10"
+		(property "Reference" "#PWR11"
 			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13083,7 +13256,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR10")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -13101,7 +13274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2595e32f-5697-434b-9695-bcd4eab06905")
-		(property "Reference" "#PWR27"
+		(property "Reference" "#PWR44"
 			(at 273.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13162,7 +13335,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR27")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -13180,7 +13353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "286685d2-4f21-4c62-a079-44bf71bb2e93")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG2"
 			(at 149.86 70.485 0)
 			(hide yes)
 			(show_name no)
@@ -13241,7 +13414,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#FLG04")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -13778,7 +13951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3acdf37d-9317-49b6-b01b-fbcef9a07a47")
-		(property "Reference" "#FLG2"
+		(property "Reference" "#FLG1"
 			(at 96.52 70.485 0)
 			(hide yes)
 			(show_name no)
@@ -13839,7 +14012,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#FLG2")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -13857,7 +14030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b3ca000-cd56-4418-b981-4fa0a8fe8cbe")
-		(property "Reference" "#PWR49"
+		(property "Reference" "#PWR6"
 			(at 34.29 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13919,7 +14092,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR49")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -13937,7 +14110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "441edaf0-0229-4386-8e50-8048fb840193")
-		(property "Reference" "#PWR16"
+		(property "Reference" "#PWR28"
 			(at 199.39 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13998,7 +14171,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR16")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -14026,7 +14199,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R_Small_US"
 			(at 157.48 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14096,7 +14269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47618e6c-c309-4168-9fbf-23fdd9bae0cd")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR10"
 			(at 91.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14156,7 +14329,83 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR1")
+					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ff9322-1a04-42a9-836d-4a5c4eae51c2")
+		(property "Reference" "H2"
+			(at 91.44 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14174,7 +14423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48be202f-0e36-49de-baad-e78eab7450c4")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR29"
 			(at 213.36 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14235,7 +14484,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR19")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -14253,7 +14502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a322a2a-6624-4482-9a85-79660ca1133b")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 201.93 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14384,7 +14633,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -14402,7 +14651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56028a4b-ad43-4132-a6c6-8a6d5110c587")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR31"
 			(at 222.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14464,7 +14713,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR21")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -14482,7 +14731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5679f258-d842-44d5-a630-072faec5dd8b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 31.75 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14542,7 +14791,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -14687,7 +14936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63460260-ee57-4de1-a775-dfb8d4ed4233")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 183.896 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14797,7 +15046,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14815,7 +15064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63bb093a-1df8-4bfb-86d7-b9d091c0f823")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 125.73 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14975,7 +15224,85 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J1")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 163.83 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b3c2bc-a214-4b80-8167-ad29bf4b74d0")
+		(property "Reference" "#PWR21"
+			(at 163.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5Vlimited"
+			(at 163.83 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 163.83 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aae93417-2fb1-4144-bead-f000da524d73")
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -15117,7 +15444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741ed101-1b1a-4210-b547-7d3a3d44922e")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG3"
 			(at 182.245 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15179,7 +15506,83 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#FLG01")
+					(reference "#FLG3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "762bb06c-e4d7-45ec-b770-52577b025315")
+		(property "Reference" "H4"
+			(at 109.22 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 106.68 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -15325,7 +15728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "799dfe52-82ff-4730-b20f-f60295f4e417")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 44.45 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15432,7 +15835,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15450,7 +15853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a283d20-e6e1-4fd7-8b71-157d1b113246")
-		(property "Reference" "VR3"
+		(property "Reference" "VR1"
 			(at 26.67 175.5456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15610,7 +16013,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "VR3")
+					(reference "VR1")
 					(unit 1)
 				)
 			)
@@ -15628,7 +16031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a39d154-8dab-421a-8790-4ebdc9ad96f0")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR22"
 			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15689,7 +16092,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR13")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -15833,7 +16236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fe02ec0-376c-4f52-891b-add072598390")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 194.31 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15964,7 +16367,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -15982,7 +16385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8009517c-212d-432c-9b4d-153b4b43a4ed")
-		(property "Reference" "#PWR11"
+		(property "Reference" "#PWR17"
 			(at 143.51 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16043,7 +16446,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR11")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -16061,7 +16464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "800cceff-0e09-4d12-bfdb-7a15024a3434")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR40"
 			(at 242.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -16122,7 +16525,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR33")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -16140,7 +16543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8289d87b-69ca-4000-a738-ed5102967d7d")
-		(property "Reference" "#PWR32"
+		(property "Reference" "#PWR34"
 			(at 213.36 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -16201,7 +16604,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR32")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -16219,7 +16622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85fe503c-b151-4a7d-9df0-3817d938efb0")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 242.57 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16350,7 +16753,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -16368,7 +16771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88415be4-96b5-46bb-a7ae-8cf2250d3b91")
-		(property "Reference" "#PWR30"
+		(property "Reference" "#PWR25"
 			(at 176.53 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16429,7 +16832,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR30")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -16447,7 +16850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d387abc-2158-40c9-bb42-a1ad4972eed7")
-		(property "Reference" "#PWR20"
+		(property "Reference" "#PWR33"
 			(at 223.52 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16509,7 +16912,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR20")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -16527,7 +16930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fe0a66c-abce-4771-8cdd-2bd32350204c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR43"
 			(at 267.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16588,7 +16991,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR042")
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -16606,7 +17009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93cdbefe-eb93-4a62-a08e-93134707ba2f")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 259.08 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16713,7 +17116,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16731,7 +17134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "960d2448-87ca-47b4-9bab-bd63b0310957")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR35"
 			(at 242.57 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16792,7 +17195,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR23")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -16810,7 +17213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97005dcb-28f7-4b98-82a1-91c6078c945d")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 190.754 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16923,7 +17326,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -16941,7 +17344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9969941b-8274-402d-b667-570d3021afdf")
-		(property "Reference" "#PWR36"
+		(property "Reference" "#PWR38"
 			(at 241.3 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17002,7 +17405,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR36")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -17020,7 +17423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99fb3a00-1fae-4766-a11f-8ecf1712297f")
-		(property "Reference" "#PWR38"
+		(property "Reference" "#PWR46"
 			(at 270.51 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17081,7 +17484,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR38")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -17099,7 +17502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ddf1645-b6d5-4472-a590-4fa5afb7dfd9")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 218.44 39.0397 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17209,7 +17612,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -17227,7 +17630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a83ea141-8428-429e-81bd-5ff3bc3ba3fb")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR32"
 			(at 212.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17288,7 +17691,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR35")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -17612,7 +18015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b06fbe08-5622-476b-b8e8-7113a4e1b93f")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 173.99 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17719,7 +18122,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17737,7 +18140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6ad95b5-77b4-4282-940e-7968e75f42b5")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR3"
 			(at 21.59 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17799,7 +18202,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR48")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -17817,7 +18220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8adc68f-200f-4336-a63e-65b855283cf6")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 219.71 65.7097 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17927,7 +18330,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -17945,7 +18348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b906bb78-f790-4c2a-9dc4-31b66a21248b")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 278.13 65.7097 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18055,7 +18458,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -18073,7 +18476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9df974a-7922-4b2d-a528-3c19b20c6e31")
-		(property "Reference" "J11"
+		(property "Reference" "J1"
 			(at 109.22 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18235,7 +18638,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J11")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -18253,7 +18656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bba77029-a82e-470b-9ea2-9364cbf94c49")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 266.7 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18360,7 +18763,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -18378,7 +18781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd14d9b4-3ef3-4d5d-a739-f3db11206394")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 219.71 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18485,7 +18888,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18503,7 +18906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1195391-cfe9-4fb0-a4ae-33466b21b8e2")
-		(property "Reference" "#PWR8"
+		(property "Reference" "#PWR12"
 			(at 91.44 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18564,7 +18967,85 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR8")
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 181.61 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3723605-d051-4396-8918-0f1efacae0a5")
+		(property "Reference" "#PWR26"
+			(at 181.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5Vlimited"
+			(at 181.61 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64f0c37f-2c0f-4b6a-acd0-eba9576c688f")
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -18582,7 +19063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ef3075-fc3f-4e57-94df-45e886a3f862")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR16"
 			(at 143.51 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -18642,7 +19123,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR03")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -18660,7 +19141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c89e1ca4-8f05-4f68-8765-c2409b2a05f4")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 210.82 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18767,7 +19248,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -18785,7 +19266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c95c279d-00c2-44b2-94b4-e150a8fe7be8")
-		(property "Reference" "#PWR34"
+		(property "Reference" "#PWR48"
 			(at 271.78 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -18846,7 +19327,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR34")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -18864,7 +19345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c99d357c-dd30-4eff-bfda-97aa548163fc")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR20"
 			(at 161.29 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18924,7 +19405,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR039")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -18942,7 +19423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca2093c2-4e7b-4fe3-ade5-79715cd12331")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 25.4 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19051,7 +19532,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19069,7 +19550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7e9ad4-0cbd-48e4-800a-63b39fde9ab4")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR8"
 			(at 44.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19129,7 +19610,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR045")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -19147,7 +19628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d054cbe9-ab5e-4a63-b488-662fc54cc7df")
-		(property "Reference" "#PWR18"
+		(property "Reference" "#PWR30"
 			(at 214.63 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19208,7 +19689,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR18")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -19226,7 +19707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6f8bac6-9a80-4b9b-a4b8-a1981acca368")
-		(property "Reference" "J18"
+		(property "Reference" "J15"
 			(at 259.08 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19357,7 +19838,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J18")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -19375,7 +19856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d89866ce-8dc3-45f3-92ab-c1a922eb64c3")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR19"
 			(at 153.67 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -19436,7 +19917,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR14")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -19454,7 +19935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b79f2e-ea0c-4ee9-8aae-996cc7554b52")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR1"
 			(at 15.24 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -19514,7 +19995,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR043")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -19532,7 +20013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de710f0a-8d75-4d14-ad3e-bad30a5f5e6f")
-		(property "Reference" "#PWR22"
+		(property "Reference" "#PWR36"
 			(at 243.84 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19593,85 +20074,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 163.83 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e11b0355-1fbd-4b7f-bd23-660c533f9f59")
-		(property "Reference" "#PWR40"
-			(at 163.83 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 163.83 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 163.83 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "525407cc-4511-4c62-b61c-930f449ae3d1")
-		)
-		(instances
-			(project "PCB Shield"
-				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR40")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -19689,7 +20092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e505ced3-34ff-452d-8c5b-6dfcb47a9091")
-		(property "Reference" "#PWR28"
+		(property "Reference" "#PWR42"
 			(at 271.78 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19750,7 +20153,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR28")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
@@ -19768,7 +20171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e67f177b-fd4f-4bdb-962f-db3c4c0b60ed")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 247.65 39.0397 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19878,7 +20281,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -19896,7 +20299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e87d80fc-effa-4a37-86a1-c4a8e6eeaa09")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR5"
 			(at 31.75 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19957,7 +20360,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR17")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -19975,7 +20378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8d69db1-7265-4d0c-a854-caa2249d1a05")
-		(property "Reference" "J17"
+		(property "Reference" "J16"
 			(at 260.35 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20106,7 +20509,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J17")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -20414,7 +20817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeedee2d-7a4a-4c78-b5c7-fdd0d3b6efca")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR27"
 			(at 182.88 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20474,7 +20877,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR031")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -20492,7 +20895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f91d17-3be3-42dd-b700-ad2b03e8493d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR15"
 			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -20553,7 +20956,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR06")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -20571,7 +20974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f372ac3a-cd22-425b-b5af-46568001e3a0")
-		(property "Reference" "#PWR47"
+		(property "Reference" "#PWR14"
 			(at 142.24 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -20632,7 +21035,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR47")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -20650,7 +21053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38de54d-4576-4143-b7cf-0b727e234aab")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR39"
 			(at 252.73 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20712,7 +21115,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR24")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -20730,7 +21133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3b702be-f71d-4131-bef5-b5afdc648403")
-		(property "Reference" "#FLG3"
+		(property "Reference" "#FLG4"
 			(at 204.47 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -20791,7 +21194,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#FLG3")
+					(reference "#FLG4")
 					(unit 1)
 				)
 			)
@@ -20809,7 +21212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5b22cfc-5642-4e95-8f89-e8166b04ee92")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR7"
 			(at 44.45 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -20869,7 +21272,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR012")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -21141,7 +21544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9231625-b693-46a3-a323-a123fc4fa315")
-		(property "Reference" "#PWR29"
+		(property "Reference" "#PWR47"
 			(at 281.94 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21203,7 +21606,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR29")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -21221,7 +21624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb78f381-a682-4ad3-8d3a-3605af7c3bdc")
-		(property "Reference" "J16"
+		(property "Reference" "J12"
 			(at 229.87 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21352,7 +21755,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "J16")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -21370,7 +21773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1b6b28-0698-4241-8ac0-299c470bb234")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 248.92 65.7097 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21480,7 +21883,7 @@
 		(instances
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
