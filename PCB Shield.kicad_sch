@@ -11054,7 +11054,7 @@
 				)
 			)
 		)
-		(property "Part Number" "1206B104K500BD"
+		(property "Part Number" "CL31B104KBCNNNC"
 			(at 267.97 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -11098,7 +11098,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 267.97 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -16373,7 +16373,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP SMD 1206 X7R 1UF 10 25V"
+		(property "Description" "CAP CER 1UF 25V X7R 1206"
 			(at 145.288 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16384,7 +16384,7 @@
 				)
 			)
 		)
-		(property "Part Number" "1206B105K250JC "
+		(property "Part Number" "CL31B105KAHNNNE"
 			(at 143.51 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -16428,7 +16428,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 143.51 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -21954,7 +21954,7 @@
 				)
 			)
 		)
-		(property "Part Number" "1206B104K500BD"
+		(property "Part Number" "CL31B104KBCNNNC"
 			(at 135.89 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -21998,7 +21998,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
