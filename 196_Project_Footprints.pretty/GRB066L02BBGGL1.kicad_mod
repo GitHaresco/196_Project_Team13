@@ -1,4 +1,4 @@
-(footprint "C1353VQNAA"
+(footprint "GRB066L02BBGGL1"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 2.032 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a225ffe0-042f-48b9-a6e6-07e7816fd4bb")
+		(uuid "1bbde14a-4c88-4bff-afdd-569d7abe2fa4")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "C1353VQNAA"
+	(property "Value" "GRB066L02BBGGL1"
 		(at 0 -7.112 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d20be098-6032-4084-99db-109c041271a4")
+		(uuid "356dcf7d-a067-463c-9b37-d8fa62ce04b9")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ea538a0-3303-4f9c-8248-a2578c155190")
+		(uuid "11e44a45-b267-48cb-9456-d3b13dfa84e7")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" "SWITCH ROCKER DPST-NO 20A 250V"
+	(property "Description" "SWITCH ROCKER SPST 16A 125V"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a98e6e70-e635-4581-807f-685049d46b71")
+		(uuid "6fd05abd-5c26-4300-a3f7-8bd913edb749")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 -5.612 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "eb53765f-7ba0-4771-bf71-b2ef7d19bd27")
+		(uuid "2d1c3b87-1a2e-446f-b269-a10abad398df")
 		(effects
 			(font
 				(size 1 1)
@@ -68,21 +68,29 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 6.35 1.897)
+		(at 10.287 1.897)
 		(size 3.5 3.5)
-		(drill 3)
+		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8abefe0e-e5b8-4ca8-a253-d3ced0b570d8")
+		(uuid "03fca94e-a980-4e5f-8bbc-8aaf31c8934d")
 	)
 	(pad "2" thru_hole roundrect
-		(at 1.778 1.77)
+		(at 6.096 1.77)
 		(size 3.5 3.5)
-		(drill 3)
+		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.07142857143)
-		(uuid "2a182aee-c46f-4573-9297-3fa68498a72c")
+		(uuid "3088f8c2-c993-4bb0-aeca-7abcbda7fc27")
+	)
+	(pad "3" thru_hole circle
+		(at 1.778 1.778)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6218568-3b65-459c-ba21-984d48a08b57")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d models/Round Power Switch.STEP"

@@ -159,7 +159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -181,10 +181,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f83d21e7-a44a-42fa-b761-bda0b490d13f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3604b601-cecf-4931-9a32-4f4f36aca662")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9ffa775-59cb-4681-9007-0ad5e15bfa82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a888b67b-85e2-406f-ac40-019fa8f7a257")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c79422d9-eb53-424c-abdc-7dcb703944ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/ec2734c6-e0a4-4f0f-849d-282b9f65fbfc")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -749,10 +820,81 @@
 				)
 			)
 		)
+		(property "Part Number" "25ZLH470MEFC10X12.5"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0758cf78-151b-4782-98ac-fb023285e2dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58cacba2-287d-4325-a8a7-076cb4b0fd98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4776f0ef-db8d-4c21-899e-42d245e64f35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ed7501e-6463-490e-a2fc-1601f87d26d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bed73c5-9aed-46d4-949c-5f3107b47e1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/b8adc68f-200f-4336-a63e-65b855283cf6")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -971,7 +1113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00002057.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -993,10 +1135,81 @@
 				)
 			)
 		)
+		(property "Part Number" "ESDA6V1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dd04b63-426f-4915-a596-03860979381d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8bf1714-1ca1-4918-a287-0395ae8b3fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe0d0af3-2f60-411e-91f6-0da7a1231b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f50adebe-3bf1-441f-a0be-2589bcba08ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d094b76-152c-4ce8-b4bc-da3ddb75f637")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT_DA6V1L_STM SOT_DA6V1L_STM-M SOT_DA6V1L_STM-L")
 		(path "/97005dcb-28f7-4b98-82a1-91c6078c945d")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1429,7 +1642,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1451,10 +1664,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6e6b242-2787-4b51-b80c-6a7a24bf09a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7081f0a9-ecfe-45c4-80c4-2174642fab6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb688e45-e540-4fb0-bdd5-7d0ca2f91ace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd24d79b-e072-4d7b-a1ac-1f035dc9a516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a87e2447-c434-472a-961b-0eb1eb04809d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/1d3d7ab8-142b-4a89-a742-b769cb880633")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2018,22 +2302,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8110518d-9863-4829-b851-28ac315de3cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/0a8aa2b6-ac44-4b8b-a60a-3d1f3adc776c")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -2181,10 +2459,81 @@
 				)
 			)
 		)
+		(property "Part Number" "25ZLH470MEFC10X12.5"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67331a2d-8f24-4f7e-b5e6-57956277c4bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63d06dca-b06f-42ae-aba3-ee1e052610a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ed1ddbc-7465-418f-8c8b-357937c95a21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d776be61-4ffb-4781-bc62-5edee8023849")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abf6ad31-4f9b-4cb0-a347-7b6c2ec5d0f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/e67f177b-fd4f-4bdb-962f-db3c4c0b60ed")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2403,7 +2752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2416,7 +2765,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
+		(property "Description" "RES 220 OHM 1% 1/4W 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2429,9 +2778,80 @@
 				)
 			)
 		)
+		(property "Part Number" "RMCF1206FT220R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be26083d-38ad-43c7-b6a3-0b988c83b5e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69edaa6a-b3d7-489e-882f-77f3ea9b7c4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abc9277b-4855-4df8-96ab-a2170e426671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfd061e5-ec62-4f92-bbf9-80e77469eafd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cec3b86-fd1f-4d9e-a06f-bd0a5d5e83fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bd14d9b4-3ef3-4d5d-a739-f3db11206394")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2535,7 +2955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.amazon.com/SunFounder-Mifare-Reader-Arduino-Raspberry/dp/B07KGBJ9VG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.yvDJePx0UlI-9HsQPl4IT-cq6H78qk2ST37iKjXx1NuBg9FHb-bhDaG-kQeCzBvtwuo5P2XCccBw62fq3kC94eGzlfcMEf17CwxIEm_taLj0WAQLXR0dPY7DZszj9i2bv94jHfeP6H9IyhBq_Ld6oGZSAQnrbGB96Y9ZN1Pg0cvspfr-v9wMIjidH1Y4cL1Y_NoPlV8gUdB_zLFgaHjaBUy3IoshFtxPg6jWcgnMh54.S2thWVIkB0Czhns8cMDZEkgNowdJKAUFPJ15oQyFQ50&dib_tag=se&keywords=RFID+Readers&qid=1777266696&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-3"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2546,7 +2966,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2557,11 +2977,64 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Part Number" "PH1-20-UA"
 			(at 0 0 180)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "951553dd-e6aa-41e5-9fb4-ae36c92f63a2")
+			(uuid "6a09317e-5ab2-4712-8bcc-f62d98c8ec43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04cdf53a-8f25-427c-9d00-47ecca2e77c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc96b2b9-5d1b-4fa0-a8bb-8198c52d336a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a8964d2-4d17-428c-8b13-d8f48164cfa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b838b12c-6cd7-40b6-bad8-f5a0e21f45fe")
 			(effects
 				(font
 					(size 1 1)
@@ -2573,6 +3046,12 @@
 		(path "/251ff576-2371-4fcc-98cf-3f7e222998fb")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2866,7 +3345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2888,10 +3367,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8d5aa16-e312-41a0-8cfb-8b6ee5fa0fa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8de583dc-d6d5-4052-b68f-3d1866da52c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce1a5526-066c-4fb6-941c-0573c101ca3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "901fd495-e320-490b-96ea-af0af9c9ca44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e453b952-fbc8-428a-a9b6-c4b3c438ebde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/00fe622b-8024-40cb-a340-1b8879fbdf2d")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3459,9 +4009,80 @@
 				)
 			)
 		)
+		(property "Part Number" "CL31B104KBCNNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a6391b7-cef9-4602-b6d7-428d59b82d7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8edfd293-1178-4ff3-b0db-1079644bf480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "198c758b-8eaa-449b-88e2-c3e47c0e843b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c687860a-ce10-4d64-b693-1e9daa213130")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c159c25-c653-405c-b206-5cf7da8e28cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/010e798a-46ad-4905-a042-c41db24207de")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3598,22 +4219,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "86e86d84-053b-4e0f-9e4a-931704a7ce07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/0027de58-a87d-4587-a9c4-96ec15d014fd")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -3736,7 +4351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://puiaudio.com/file/specs-AI-3035-TWT-3V-R.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3747,7 +4362,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BUZZER PIEZO 3V 30MM TH"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3758,9 +4373,132 @@
 				)
 			)
 		)
+		(property "PARTREV" "E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81d2381d-67a5-4090-9273-cf87baec2413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13bc7d32-8c1f-4295-ab79-438f2b87459e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" "AI-3035-TWT-3V-R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0924d49-dc87-424f-95fe-2b0aeaeae3bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "20.1 mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "728ed9e2-d49d-40ba-8681-74d9856e2653")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "PUI Audio, Inc."
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13b2fd47-17f7-4f21-9379-14eb203e51cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AI-3035-TWT-3V-R "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e77d2a81-b44c-4e8b-81bd-65cf3054dc8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "773f8486-3dfe-4c9f-b07e-04ad2636eb03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f425cf5f-2793-4f2a-a89b-f38a2ea96273")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "561ae3a8-9b30-47ed-a67c-55e351d2d3f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/07927053-3e0f-4a70-acb6-2fc99977ade2")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "P" "N")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3945,9 +4683,80 @@
 				)
 			)
 		)
+		(property "Part Number" "CL31B104KBCNNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f45a68b6-38d2-4a76-809e-5c7e6e038176")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "363ec5a8-93cb-4445-beff-2656a071617e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad64d7f9-aaa5-46c7-aab0-68acbb0a5cc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feac34cb-9b2a-4f2f-8e50-39f9730a6190")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28900760-09be-479e-bf5d-b031649aa5d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f73293ef-0fee-42df-a546-78413ac9513b")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4085,10 +4894,81 @@
 				)
 			)
 		)
+		(property "Part Number" "25ZLH470MEFC10X12.5"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60415288-df42-4e6c-9e6d-cbb537b6ff5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cab22ec9-b677-4171-98de-912d76ce9277")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f65c20d3-0b0c-41bf-9f49-85d3abf3f80f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11108c9b-fd7b-4d03-a3b5-83f7419d59db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a95a6aaf-4882-4a53-94b5-6f4412e39466")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/fc1b6b28-0698-4241-8ac0-299c470bb234")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4306,7 +5186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4317,7 +5197,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 0 OHM JUMPER 1W 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4328,11 +5208,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "MANUFACTURER" "Vishay Dale"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0fbcad5-0c4d-452c-81ea-6e2e5b3acfb1")
+			(uuid "633ca873-4d14-492c-8a0e-cc6fcae7f0c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RCS12060000Z0EA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6367655-eb95-4240-ab4e-737c5b7d29d9")
 			(effects
 				(font
 					(size 1 1)
@@ -4343,6 +5237,12 @@
 		(path "/26768d0a-2c5f-480c-a883-86b93cf3d228")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4484,9 +5384,80 @@
 				)
 			)
 		)
+		(property "Part Number" "RC1206FR-074K7L "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94fa5a39-ffd4-46b3-83d1-cb6b86ae8163")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7178606-4468-4e2a-bcec-614442d0a98c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "082cb4a6-c9b4-41e0-83c6-5522c8da2d1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1e6aa9c-da01-4308-b9d7-1e54ef92eb13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5faf9057-6b79-41ae-b25c-9453e9a5b0de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/11af07fb-ee67-449a-869e-89201fb9a8c5")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4591,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4613,10 +5584,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca9d48d7-395f-4687-8508-ba68f8ce3314")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e23303bb-8cac-4617-b892-f344deeadf15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb988a64-4dc7-470a-88f9-e8065291d7f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aca2927f-84a4-4a1a-af3b-b44c1e2cc10a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32add26f-8dc2-4c1f-9fc9-c8f94bda1829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/f6a6c72e-8af2-489a-89d0-827597ffa8a9")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5159,7 +6201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5181,10 +6223,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29d3be08-f993-4264-a715-616d7c5987aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2e97fd2-8d71-4ab2-a416-c495c9fb311f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3138a56e-5d79-4383-9d35-48766171cc20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dff4cdcd-e804-4af6-bb58-710f0415a97c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "709c7e90-de2a-4906-97f7-3ed70a05a598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/793cf3c9-94e5-4300-aa41-ad98820ae511")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5724,7 +6837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3361P-1-103GLF/1088368"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3361.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5746,9 +6859,119 @@
 				)
 			)
 		)
+		(property "PARTREV" "08/19"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f71a00f-2d18-44c8-92f9-5d621a7a8c2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7075b0f9-b9b2-4aeb-afdc-51c4065bd8e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.84mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "425211c5-f69d-4e6c-b813-8a77614c0a5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "102fe82b-8bfd-4703-a648-4c39c183d674")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "3361P-1-103GLF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae3a85cf-1f8e-4cf5-8fa2-036e2ca56b3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67598d0c-57af-4666-88d3-25c7187887d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a53889a-87d6-4075-9792-67890d859fd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2db39f12-ea6e-47b6-8b12-b8ce48997a26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7a283d20-e6e1-4fd7-8b71-157d1b113246")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6052,7 +7275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6074,10 +7297,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bca47fc-3f92-4994-9706-36e4b7300f3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ae36140-065e-4b62-90c3-6cb9a61db8b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d6d9110-b2f8-4312-bdda-d49317154e63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad2b1db8-de22-4b14-9109-2404408e893d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f0927b8-b9d1-49a7-bd8e-b9c8fb5835d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/36c111b8-e803-423c-b84d-221b60571209")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6646,9 +7940,80 @@
 				)
 			)
 		)
+		(property "Part Number" "RC1206FR-074K7L "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11e9f2e3-6b08-4e14-ae43-b7f5dc9f04a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a49d0f6-627d-4da0-bc7a-2e840c49e72f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef1464a-2aa9-4ed0-bc37-afec6df3f2ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60edc042-5621-4a6b-9b87-b68b1051a31d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9a2ba23-c583-4783-bfed-e033c3f45ade")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b06fbe08-5622-476b-b8e8-7113a4e1b93f")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6753,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6766,7 +8131,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
+		(property "Description" "RES 220 OHM 1% 1/4W 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6779,9 +8144,80 @@
 				)
 			)
 		)
+		(property "Part Number" "RMCF1206FT220R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c4734cc-cb02-4139-8efc-aa91231be376")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd30689-d4b2-4977-8d64-341fb02e2943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d23b311-8c48-4567-a567-27cb567c6201")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81202828-754f-4aab-969a-fef763694551")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a817f33-bdac-4e84-993c-8396a6b34535")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ca2093c2-4e7b-4fe3-ade5-79715cd12331")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6905,9 +8341,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48b36821-4220-44a5-8f4c-72865be216d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c09a1749-9042-4b54-aa7d-b7938747cdee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e1da02d-b6da-4e1a-ac34-16b5f23fa2aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdba94cb-5620-499a-afe0-540c55c8f367")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d24ddb1f-2347-45fe-8c69-5fda9ff4b423")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0e9b444-dfdf-4753-9fb6-e3ffe8acdd9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0b3ae82f-abdf-4a35-aed8-3eafd989bae1")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7152,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP SMD 1206 X7R 1UF 10% 25V"
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7165,9 +8685,80 @@
 				)
 			)
 		)
+		(property "Part Number" "CL31B105KAHNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d5cf73c-06fa-41cb-96e9-aff0a74518c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5cd1f92-c06d-49dd-9ea0-d6901ff90bf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b4c06e7-d517-4089-a801-4635c533d0c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15c52ab8-8e21-4076-81a1-b4935a96f6f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55719849-c440-4be0-b961-1ee45d2d97c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7c0e8125-d5ab-4f2f-bba3-496581666651")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7283,7 +8874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7296,7 +8887,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
+		(property "Description" "RES 220 OHM 1% 1/4W 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7309,9 +8900,80 @@
 				)
 			)
 		)
+		(property "Part Number" "RMCF1206FT220R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da54a11f-45c1-4639-bbf2-df80e143d3ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f11409c7-405d-4066-9fb9-1c6cd91e6fb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b4d5ba3-ff41-4719-b2ab-cd43bcc4450b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4aa704a4-fed7-453e-8b29-0eced88f85eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "340fef56-b500-4be1-9569-65e19a3a7dc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c89e1ca4-8f05-4f68-8765-c2409b2a05f4")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7387,111 +9049,6 @@
 			)
 		)
 	)
-	(footprint "196_Project_Footprints:C1353VQNAA"
-		(layer "F.Cu")
-		(uuid "90976a44-827c-42eb-b785-8176ff7aa4df")
-		(at 225.3015 78.925 90)
-		(property "Reference" "SW1"
-			(at 2.032 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "d4ea286c-980a-4ca0-8cdf-a35dd8b983be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "C1353VQNAA"
-			(at 0 -7.112 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "4b2b162f-1107-4bab-9941-99c1e86fe6f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "010dd8fc-dc95-4e55-9260-d5f215eb82f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "SWITCH ROCKER DPST-NO 20A 250V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d6a011cc-5ff7-4b54-888b-bb86d015e808")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/6f87ba55-676b-4bcf-a8fa-283779d0de7a")
-		(sheetname "/")
-		(sheetfile "PCB Shield.kicad_sch")
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_text user "${REFERENCE}"
-			(at 0 -5.612 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "cf5a569b-167a-4e37-a1cc-92d2ee2b5477")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 6.35 1.897 90)
-			(size 3.5 3.5)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "+5V")
-			(pintype "passive")
-			(uuid "51c25f7d-046e-40c5-a938-50b7a0d434a3")
-		)
-		(pad "2" thru_hole roundrect
-			(at 1.778 1.77 90)
-			(size 3.5 3.5)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.07142857143)
-			(net "+5V")
-			(pintype "passive")
-			(uuid "f287cdd8-95e6-47f6-b373-480977174222")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d models/Round Power Switch.STEP"
-			(offset
-				(xyz 2 -2 0)
-			)
-			(scale
-				(xyz 0.5 0.5 0.5)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
 	(footprint "196_Project_Footprints:CRCW120616R2FKEA"
 		(layer "F.Cu")
 		(uuid "91e24a34-2ec9-43cc-9ac1-0d1eac5268a8")
@@ -7546,9 +9103,80 @@
 				)
 			)
 		)
+		(property "Part Number" "CRCW120616R2FKEA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fa98156-fba9-4ede-a64e-f9aecfa3b6ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29931654-ff1d-4bd7-ae42-91496d4e6c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e89dbe9d-afa2-4773-bae2-b889d0f7cd6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd5b3441-40db-4af9-85e0-df7106980c87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b6bfd38-27e8-4424-bae0-fd068bf94cc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/799dfe52-82ff-4730-b20f-f60295f4e417")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7664,7 +9292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.amazon.com/128x32-SSD1306-Consumption-Display-Arduino/dp/B07PDFCVXL#averageCustomerReviewsAnchor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7675,7 +9303,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7686,11 +9314,64 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Part Number" "PH1-20-UA"
 			(at 0 0 180)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba46c67f-86e8-4c6d-9121-57ca47a8338d")
+			(uuid "9d290ded-f442-453b-bad1-49b408771b5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "935f18da-4390-4a09-94c0-e625181c046e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e75e5241-ee68-4ed8-803d-646e1145aafb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d1380a1-daa8-4db7-959e-d580126adec2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d93f72d8-1e1d-4318-87f3-0a4561060989")
 			(effects
 				(font
 					(size 1 1)
@@ -7702,6 +9383,12 @@
 		(path "/312a8431-bc6e-4cce-9c82-0b3307b97f64")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7972,22 +9659,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c4225ccf-05c3-4b83-bf52-deef66851c03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/a8fc19f1-a19f-4ae4-afe3-d4dd0f6642ed")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -8132,9 +9813,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5075f2ff-b370-4e90-8c64-721d827ff338")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9029f000-7ce2-4213-90fb-316d9ef9bdc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "039781cd-84ff-4373-81d3-3d350667e6d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "468c7aa5-90e4-48a7-bb16-9df8021c9427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53a14af3-61de-4881-8a2d-7a28fa541c25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84b63a63-d3fc-43c8-b49e-d07d54efeb3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d6f8bac6-9a80-4b9b-a4b8-a1981acca368")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8389,10 +10154,81 @@
 				)
 			)
 		)
+		(property "Part Number" "25ZLH470MEFC10X12.5"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d29cacf8-254d-43bb-9a25-7b8c83962c50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41b70401-5450-4b2e-8dfd-5ec9ec9bee83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8392685-6145-49c4-8049-32cd9a2aa703")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbea5586-59d2-499c-986e-7fb5939a59db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b153aa0-e8ea-4d44-889b-b933d5720743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/b906bb78-f790-4c2a-9dc4-31b66a21248b")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8623,7 +10459,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8636,10 +10472,83 @@
 				)
 			)
 		)
+		(property "Part Number" "PH1-20-UA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f762231c-47bc-4d9d-8c62-ba1b2c691d5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00bbf4d8-db4d-4600-ac21-1702a9ab7d48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5853f97-3c15-4f94-a4fb-a4ed37ef51cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2176948-e363-495b-bc4f-bfb62328619d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09257753-4ffa-4966-8bfe-d3b9863cbf39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0fc4c5f8-0d79-4aa9-ae05-a924d24df421")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "46" "45" "44" "43" "42" "41" "40" "39" "38" "37" "36" "35" "48"
+					"34" "33" "47" "26" "21" "5V" "GND"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9048,7 +10957,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9061,7 +10970,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
+		(property "Description" "RES 220 OHM 1% 1/4W 1206"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9074,9 +10983,80 @@
 				)
 			)
 		)
+		(property "Part Number" "RMCF1206FT220R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83c9f0cf-93e8-4e90-b76d-cfa6cb9dd074")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "584182c5-b454-4e2b-9f93-76957c1250ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "356884ab-3698-42d4-a5a1-786c8acc5238")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e4ffc1b-8122-4657-8cef-518e8ced78eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e870a10-bf2b-4a69-8363-8ddfee455208")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bba77029-a82e-470b-9ea2-9364cbf94c49")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9202,22 +11182,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fd7f5106-c16d-430d-b683-7e2938734be5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/6a8bf350-4176-47ec-b309-0d6931573e00")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -9362,9 +11336,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da45c82a-0689-4f3d-8133-5f3ebf8d3baf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21ec3769-b9f8-43ae-884a-c80b0e6391df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49a8d489-787e-488f-a473-c3f339f2713a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39654c00-1cdb-4d10-b585-a548997015d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64a785de-cda3-4292-b88a-8e565d8fa2af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65230f75-f8b1-4059-b7fc-4e3da6d2f641")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7fe02ec0-376c-4f52-891b-add072598390")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9616,9 +11674,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e42f44d7-a002-4215-9193-00d1e785ffec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07cd0e0d-c4e5-4396-8be3-3c0e599403a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "553aa611-3868-4401-99ed-29118b0e8209")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8a6b9c3-fd67-4b12-a2e5-2b51bb4a1786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff203886-ad4f-42c1-8b31-3bfe327b1354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "011b3996-d0d3-47e4-adb3-724b6fb22d9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/85fe503c-b151-4a7d-9df0-3817d938efb0")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9873,10 +12015,81 @@
 				)
 			)
 		)
+		(property "Part Number" "25ZLH470MEFC10X12.5"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c14c6c41-a851-4dd0-ae58-1119c3efe440")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2007d67-4516-4ba4-ad46-0befc18913e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ead88da7-3fd0-4c4f-aa91-28bb36e4a724")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0916b76-f863-479a-838b-0df2b721c5f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2b47d22-8e41-4496-9dbb-f74b78bba3db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/9ddf1645-b6d5-4472-a590-4fa5afb7dfd9")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10092,7 +12305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3361P-1-103GLF/1088368"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3361.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10114,9 +12327,119 @@
 				)
 			)
 		)
+		(property "PARTREV" "08/19"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32babe28-fb84-40b3-99cf-a07e886b4228")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49883b8d-2a23-4379-a7bf-28a1f226666e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.84mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "793605b4-5154-4428-96a0-6c7aec5274bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd31d02-a69e-4fea-ab30-925b8b8f9463")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "3361P-1-103GLF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51c8d1b3-82cb-411c-8018-dcfc575e3d15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e5341a4-67d0-403b-ae9e-7e8b06e697f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22c852df-7505-4a66-be03-1e01e1961f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcb4c61b-f4d8-4a25-86e9-4758382ae443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/afea3319-5256-436c-9349-543b937ced15")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10432,7 +12755,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10445,10 +12768,83 @@
 				)
 			)
 		)
+		(property "Part Number" "PH1-20-UA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fec5dec3-bdd5-404a-bd1d-41da05d24b8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01597b85-1c50-46a4-b72e-06ee503a40be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe5516a0-5317-42ec-97bd-8ee3ad2f342d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4258cee-0e64-4caf-99b4-87a8b516feb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5db32c6c-8bf2-4d64-82ff-fab5feff8f9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0c18f5ab-4148-4f2c-91e7-7d2c53fed0ef")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "3V3" "GND"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10857,7 +13253,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10870,7 +13266,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 61.2 OHM 1% 1/4W 1206"
+		(property "Description" "RES 220 OHM 1% 1/4W 1206"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10883,9 +13279,80 @@
 				)
 			)
 		)
+		(property "Part Number" "RMCF1206FT220R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a620c5cc-478b-45cf-b051-a6889ece3bbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "114588a1-93ea-4f30-bf65-a46eb306303d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "866b9f22-3c72-41ec-9bcb-85837055fc43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c719879f-bb8e-47f8-8325-07df26e0afb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a82d80f5-9a4a-40f3-94e3-b5d6375311dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/93cdbefe-eb93-4a62-a08e-93134707ba2f")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10990,7 +13457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11012,10 +13479,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e10a34d4-a0bb-4748-a895-252aa70db2bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "985ef67f-63e9-403a-832c-45d5eeee13ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2464967-008c-47a6-9125-5a30b65c22c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2115748e-5ffa-451a-924e-b3007afc3ba7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a487c7b-6975-452d-94e9-47a47e21ee79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/aa2a5af1-6061-4489-a5eb-3724aea811de")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11546,7 +14084,7 @@
 				)
 			)
 		)
-		(property "Value" "SO14_DIO"
+		(property "Value" "74AHCT125S14-13"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11558,7 +14096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74AHCT125.pdf"
+		(property "Datasheet" "74AHCT125S14-13"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11580,10 +14118,81 @@
 				)
 			)
 		)
+		(property "Part Number" "74AHCT125S14-13 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c22ac106-223d-4700-9083-c7be264c4af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feafaf70-c103-47a1-8ae8-3ff159b69c31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e02f7057-5e04-4eb7-ad93-c57d35d1afa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92da4e25-75f0-4ee8-922f-9a204edbfd97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19ade692-6432-4045-98eb-ea97417ab1e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SO14_DIO SO14_DIO-M SO14_DIO-L")
 		(path "/eeca8f1c-cedb-424a-82e9-34169a519853")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12570,9 +15179,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56bd9d34-64f4-48cc-8563-066c465f1ab4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63f81cad-fce5-433c-823d-e1e121350057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8449b0a-8b1a-4341-a87e-5b731f781783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d27e157-564b-450e-9540-0dea0455740c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "832a4034-7e76-4b14-9d0e-d548549b3674")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d05ed65-4a4b-4383-8fa3-868c880a6c69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4a322a2a-6624-4482-9a85-79660ca1133b")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12824,9 +15517,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6adf504-124c-4a0f-95c9-4f6a21c0da3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65b8de2e-ad3d-4a84-97bb-b3c488fb119a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94717c78-6310-4bec-b1d0-ede681fd5ab6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d28d26b-98f0-4e2c-9b92-48f6eae5731c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb6fb15f-3fa5-4d36-a7c9-18b8638f8958")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f505fe0b-0c2a-41db-ae52-7b608ca66073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e8d69db1-7265-4d0c-a854-caa2249d1a05")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13078,9 +15855,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68320ee5-2714-4beb-a64e-4bf6bf127cab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b3f9863-aca3-4f16-97f4-5d22776a9922")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f1c0130-e569-4c98-80fe-e6b13e05e0a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cfeb2a4-33d8-4ef7-bf88-0818d14dd72a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "148d9ca4-f23f-4063-aeda-2c51bc0af419")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81c745f1-07f3-47c3-9961-5c874c8d8077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fb78f381-a682-4ad3-8d3a-3605af7c3bdc")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13325,7 +16186,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13338,10 +16199,83 @@
 				)
 			)
 		)
+		(property "Part Number" "PH1-20-UA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "833a1d95-ad50-435f-a8d9-af1dfc37b628")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8251dea0-1100-4c2e-9cfe-fe684d397010")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3ff4350-e878-4b09-be33-28bd4d22f263")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fab233b4-2106-4ea9-aa18-e92b9412b6ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f748b93-8cfd-4bf6-9c4b-de553141a829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/63bb093a-1df8-4bfb-86d7-b9d091c0f823")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "46" "45" "44" "43" "42" "41" "40" "39" "38" "37" "36" "35" "48"
+					"34" "33" "47" "26" "21" "5V" "GND"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13750,7 +16684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf"
+		(property "Datasheet" "CMD17-21VGD/TR8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13772,10 +16706,81 @@
 				)
 			)
 		)
+		(property "Part Number" "CMD17-21VGD/TR8 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ffde03d-9f57-4136-9dcd-3dbb24474935")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac9cf5e5-ec3c-4d7c-91e9-a58df50297d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7325376-0b33-4d4a-b47f-cfcba34db881")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b312df-f394-4e95-9b36-c37426994697")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Visual Communications Company - VCC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da02900a-f3a5-4ae4-97a9-883ab279e27e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED0805N_CML LED0805N_CML-M LED0805N_CML-L")
 		(path "/5791b985-4002-42dd-a4ef-05ac8aedb8f1")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14331,7 +17336,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET N-CH 20V 4.2A SOT23"
+		(property "Description" "MOSFET N-CH 20V 4.2A SOT23-3"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14342,9 +17347,80 @@
 				)
 			)
 		)
+		(property "Part Number" "DMN2075U-7"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "506d49f0-cb96-4944-98ca-3bba2dc96150")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad1ba1e1-9cec-425a-bed7-f608ac34233c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b16419e-baea-441b-ab05-237c8953e702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "648e88f9-4e00-456e-8f36-1981106f6cae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Incorporated"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a494eb8-75ae-4efd-ad4d-0859b8e77dbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/35f6277c-a7a0-4d59-ac1e-e0087fa59261")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.1 -1.46)
@@ -14527,7 +17603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/388/OSTT7xx0150.pdf"
+		(property "Datasheet" "OSTT7020150"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14549,10 +17625,81 @@
 				)
 			)
 		)
+		(property "Part Number" "OSTT7020150"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53ee6589-d222-4025-98b8-542e5737b2ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5633430e-6821-479d-933d-c041d43a743e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a669c4-d7cd-4576-809e-24a0dd4b3f26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f4ce536-3362-40c5-a57c-4fbc26a0f6fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "On Shore Technology Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca9c6cd0-aa5e-4818-b7c1-5e721a2f0d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CONN2_OSTT7020150_OST")
 		(path "/63460260-ee57-4de1-a775-dfb8d4ed4233")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14853,9 +18000,93 @@
 				)
 			)
 		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b19919a3-63fb-4b77-aa05-a3e4695f43c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0b9a202-60ff-4ecd-aed0-77d8d8911738")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TB002-500-02BE "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "262c3223-20f4-4c08-bdb7-e7cdea71b088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae9100d4-5bab-48ca-a57b-b9547070bf75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd3536c-56af-4930-bd9d-c0e1e4c71bf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea5a41be-b514-41b5-b76f-bae3be1f78a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/02db38cc-6d45-4adb-9615-a64a81d15d02")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15100,7 +18331,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15113,10 +18344,83 @@
 				)
 			)
 		)
+		(property "Part Number" "PH1-20-UA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed6a2429-6523-471f-8adc-d9650162d9e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dafce9eb-4dfe-445c-88d5-f555c0dd6be6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d84ecec-1a95-4513-9f3d-369a0f53f8c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d36e2002-729f-4cdd-b349-bf0f6735ee18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "346525c6-422d-4541-926b-a6ddde5e4103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b9df974a-7922-4b2d-a528-3c19b20c6e31")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "3V3" "GND"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15524,7 +18828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.amazon.com/128x32-SSD1306-Consumption-Display-Arduino/dp/B07PDFCVXL#averageCustomerReviewsAnchor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15535,7 +18839,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15546,11 +18850,64 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Part Number" "PH1-20-UA"
 			(at 0 0 180)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffeea586-ab73-4382-9ae1-f4823749b5f5")
+			(uuid "146c3d0b-5daf-4787-8ee7-9b8de2fa1420")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9945e9dd-f9a9-466b-8cbf-6fe11be3961d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac21899c-38ac-423c-af3c-b70261bafda7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ec3d80b-b30d-475f-8c0f-e0cea46fe2fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52ac4f8b-c988-4589-85f9-578227d40bee")
 			(effects
 				(font
 					(size 1 1)
@@ -15562,6 +18919,12 @@
 		(path "/32316f99-303c-465a-887a-0b6281375559")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15833,10 +19196,81 @@
 				)
 			)
 		)
+		(property "Part Number" "25ZLH470MEFC10X12.5"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cf83b53-e31b-4a67-a1cf-b09223839e7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2d3ee39-0bfe-4857-81fd-e802ecfb9dbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9be05647-3d29-4a83-b1ba-15f08b3f3854")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d7afba8-b65c-420e-a9cf-27d0d7d0a62a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Rubycon"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "196b98b3-00bb-4443-96c0-7126d31abbae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CAP_YX_10X12P5_RUB")
 		(path "/0c0873fb-abec-4c5c-97c5-e593c02db74f")
 		(sheetname "/")
 		(sheetfile "PCB Shield.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22224,6 +25658,727 @@
 					(xy 176.7989 70.290612) (xy 176.787142 70.455219) (xy 176.431071 70.455219) (xy 176.440889 70.349217)
 					(xy 176.482268 70.210381) (xy 176.550994 70.082286) (xy 176.649267 69.962826) (xy 176.767695 69.863082)
 					(xy 176.894223 69.793579) (xy 177.03092 69.751854) (xy 177.180739 69.737634)
+				)
+			)
+		)
+	)
+	(gr_text "+3v3"
+		(at 168 108 0)
+		(layer "B.SilkS")
+		(uuid "24d9b0e6-8f6b-46ed-a531-0ccdb8cbb3a5")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "+3v3" 0
+			(polygon
+				(pts
+					(xy 167.500828 107.685408) (xy 167.680957 107.685408) (xy 167.680957 107.427487) (xy 167.942602 107.427487)
+					(xy 167.942602 107.243817) (xy 167.680957 107.243817) (xy 167.680957 106.981988) (xy 167.500828 106.981988)
+					(xy 167.500828 107.243817) (xy 167.23784 107.243817) (xy 167.23784 107.427487) (xy 167.500828 107.427487)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.799057 107.224277) (xy 166.758936 107.220065) (xy 166.723653 107.207842) (xy 166.69214 107.18758)
+					(xy 166.66769 107.160272) (xy 166.65268 107.125895) (xy 166.647322 107.08225) (xy 166.651336 107.048817)
+					(xy 166.663106 107.01916) (xy 166.682981 106.992308) (xy 166.708882 106.97173) (xy 166.740409 106.959104)
+					(xy 166.779213 106.954633) (xy 166.818391 106.957775) (xy 166.847112 106.966113) (xy 166.871348 106.979726)
+					(xy 166.889183 106.99646) (xy 166.918614 107.045308) (xy 166.944138 107.101973) (xy 166.953779 107.115982)
+					(xy 166.969539 107.127008) (xy 166.988802 107.133657) (xy 167.011488 107.135983) (xy 167.037962 107.130508)
+					(xy 167.063084 107.113208) (xy 167.080445 107.087189) (xy 167.086531 107.052513) (xy 167.081406 107.016605)
+					(xy 167.064794 106.976676) (xy 167.038855 106.938769) (xy 167.001474 106.901022) (xy 166.95598 106.869359)
+					(xy 166.898098 106.843503) (xy 166.833957 106.827404) (xy 166.760101 106.821765) (xy 166.695394 106.826489)
+					(xy 166.63859 106.840022) (xy 166.586683 106.862551) (xy 166.542969 106.892657) (xy 166.507119 106.93012)
+					(xy 166.481725 106.972524) (xy 166.466258 107.01945) (xy 166.461025 107.070343) (xy 166.464571 107.115436)
+					(xy 166.474687 107.154449) (xy 166.490945 107.188435) (xy 166.525724 107.235414) (xy 166.574232 107.282468)
+					(xy 166.526242 107.312585) (xy 166.486488 107.346704) (xy 166.453995 107.385936) (xy 166.431106 107.428464)
+					(xy 166.417216 107.474666) (xy 166.412482 107.525245) (xy 166.418731 107.586307) (xy 166.437578 107.645535)
+					(xy 166.468373 107.700109) (xy 166.511523 107.749033) (xy 166.564336 107.789189) (xy 166.627233 107.820047)
+					(xy 166.696551 107.83904) (xy 166.775122 107.845631) (xy 166.82945 107.842209) (xy 166.878433 107.83232)
+					(xy 166.922827 107.816322) (xy 166.983363 107.78256) (xy 167.030294 107.742927) (xy 167.068055 107.697146)
+					(xy 167.094225 107.651702) (xy 167.111202 107.605893) (xy 167.115901 107.573545) (xy 167.109159 107.536737)
+					(xy 167.089706 107.508698) (xy 167.060645 107.490326) (xy 167.024494 107.48403) (xy 167.005352 107.48685)
+					(xy 166.986514 107.49557) (xy 166.971035 107.50868) (xy 166.962517 107.523292) (xy 166.923367 107.610141)
+					(xy 166.886924 107.663304) (xy 166.857318 107.688101) (xy 166.820346 107.703395) (xy 166.773778 107.708855)
+					(xy 166.732898 107.703784) (xy 166.693117 107.688339) (xy 166.657987 107.663098) (xy 166.628942 107.627278)
+					(xy 166.610112 107.584231) (xy 166.603602 107.533489) (xy 166.608862 107.482504) (xy 166.623484 107.442022)
+					(xy 166.646772 107.409719) (xy 166.678187 107.385476) (xy 166.717475 107.370374) (xy 166.766939 107.364961)
+					(xy 166.809193 107.367709) (xy 166.846196 107.370457) (xy 166.881339 107.365317) (xy 166.905608 107.351406)
+					(xy 166.921163 107.329207) (xy 166.926674 107.298405) (xy 166.920327 107.268257) (xy 166.901456 107.244733)
+					(xy 166.872266 107.229969) (xy 166.827023 107.224277)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.120917 107.201013) (xy 165.971746 107.619096) (xy 165.810973 107.182512) (xy 165.790204 107.133453)
+					(xy 165.772932 107.106308) (xy 165.750161 107.089682) (xy 165.715535 107.083593) (xy 165.681852 107.089754)
+					(xy 165.653742 107.108079) (xy 165.634452 107.134802) (xy 165.628218 107.164804) (xy 165.632737 107.19393)
+					(xy 165.643056 107.224888) (xy 165.656367 107.257739) (xy 165.835336 107.70165) (xy 165.854876 107.750254)
+					(xy 165.881803 107.800874) (xy 165.898505 107.819734) (xy 165.918623 107.833785) (xy 165.942108 107.842498)
+					(xy 165.971746 107.845631) (xy 166.009157 107.840673) (xy 166.036043 107.827191) (xy 166.057361 107.807395)
+					(xy 166.071458 107.787013) (xy 166.109499 107.70165) (xy 166.287124 107.262501) (xy 166.299825 107.229651)
+					(xy 166.310816 107.195945) (xy 166.315273 107.166147) (xy 166.312414 107.14693) (xy 166.303428 107.127252)
+					(xy 166.289394 107.10987) (xy 166.270577 107.095806) (xy 166.248784 107.086652) (xy 166.225209 107.083593)
+					(xy 166.194879 107.08711) (xy 166.173992 107.096403) (xy 166.159935 107.110765) (xy 166.143037 107.142874)
+				)
+			)
+			(polygon
+				(pts
+					(xy 165.209525 107.224277) (xy 165.169404 107.220065) (xy 165.134121 107.207842) (xy 165.102608 107.18758)
+					(xy 165.078157 107.160272) (xy 165.063148 107.125895) (xy 165.057789 107.08225) (xy 165.061804 107.048817)
+					(xy 165.073574 107.01916) (xy 165.093449 106.992308) (xy 165.11935 106.97173) (xy 165.150876 106.959104)
+					(xy 165.18968 106.954633) (xy 165.228858 106.957775) (xy 165.25758 106.966113) (xy 165.281816 106.979726)
+					(xy 165.299651 106.99646) (xy 165.329082 107.045308) (xy 165.354605 107.101973) (xy 165.364247 107.115982)
+					(xy 165.380006 107.127008) (xy 165.39927 107.133657) (xy 165.421955 107.135983) (xy 165.448429 107.130508)
+					(xy 165.473551 107.113208) (xy 165.490913 107.087189) (xy 165.496999 107.052513) (xy 165.491874 107.016605)
+					(xy 165.475261 106.976676) (xy 165.449322 106.938769) (xy 165.411941 106.901022) (xy 165.366448 106.869359)
+					(xy 165.308565 106.843503) (xy 165.244424 106.827404) (xy 165.170568 106.821765) (xy 165.105862 106.826489)
+					(xy 165.049057 106.840022) (xy 164.99715 106.862551) (xy 164.953436 106.892657) (xy 164.917587 106.93012)
+					(xy 164.892192 106.972524) (xy 164.876726 107.01945) (xy 164.871493 107.070343) (xy 164.875039 107.115436)
+					(xy 164.885155 107.154449) (xy 164.901413 107.188435) (xy 164.936191 107.235414) (xy 164.984699 107.282468)
+					(xy 164.93671 107.312585) (xy 164.896955 107.346704) (xy 164.864462 107.385936) (xy 164.841573 107.428464)
+					(xy 164.827683 107.474666) (xy 164.82295 107.525245) (xy 164.829198 107.586307) (xy 164.848046 107.645535)
+					(xy 164.878841 107.700109) (xy 164.92199 107.749033) (xy 164.974803 107.789189) (xy 165.0377 107.820047)
+					(xy 165.107019 107.83904) (xy 165.185589 107.845631) (xy 165.239917 107.842209) (xy 165.288901 107.83232)
+					(xy 165.333295 107.816322) (xy 165.39383 107.78256) (xy 165.440762 107.742927) (xy 165.478522 107.697146)
+					(xy 165.504692 107.651702) (xy 165.52167 107.605893) (xy 165.526369 107.573545) (xy 165.519626 107.536737)
+					(xy 165.500174 107.508698) (xy 165.471112 107.490326) (xy 165.434961 107.48403) (xy 165.41582 107.48685)
+					(xy 165.396981 107.49557) (xy 165.381502 107.50868) (xy 165.372984 107.523292) (xy 165.333835 107.610141)
+					(xy 165.297391 107.663304) (xy 165.267786 107.688101) (xy 165.230813 107.703395) (xy 165.184246 107.708855)
+					(xy 165.143365 107.703784) (xy 165.103585 107.688339) (xy 165.068454 107.663098) (xy 165.03941 107.627278)
+					(xy 165.020579 107.584231) (xy 165.01407 107.533489) (xy 165.019329 107.482504) (xy 165.033952 107.442022)
+					(xy 165.05724 107.409719) (xy 165.088655 107.385476) (xy 165.127943 107.370374) (xy 165.177407 107.364961)
+					(xy 165.219661 107.367709) (xy 165.256664 107.370457) (xy 165.291807 107.365317) (xy 165.316076 107.351406)
+					(xy 165.33163 107.329207) (xy 165.337142 107.298405) (xy 165.330794 107.268257) (xy 165.311924 107.244733)
+					(xy 165.282734 107.229969) (xy 165.237491 107.224277)
+				)
+			)
+		)
+	)
+	(gr_text "RST"
+		(at 168 110.5 0)
+		(layer "B.SilkS")
+		(uuid "a514b1e0-cfe2-4acd-9bd4-b82f6084de23")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "RST" 0
+			(polygon
+				(pts
+					(xy 167.809055 109.329594) (xy 167.840145 109.339971) (xy 167.862124 109.355593) (xy 167.877748 109.377495)
+					(xy 167.888124 109.408485) (xy 167.892044 109.451641) (xy 167.892044 110.220334) (xy 167.888585 110.260425)
+					(xy 167.879238 110.290814) (xy 167.864933 110.313696) (xy 167.844845 110.331126) (xy 167.819807 110.341822)
+					(xy 167.788302 110.345631) (xy 167.759027 110.342071) (xy 167.734592 110.331876) (xy 167.713869 110.314979)
+					(xy 167.698901 110.292747) (xy 167.689005 110.262007) (xy 167.685293 110.220029) (xy 167.685293 109.900132)
+					(xy 167.616172 109.900132) (xy 167.565174 109.90402) (xy 167.527451 109.914359) (xy 167.493954 109.933606)
+					(xy 167.458086 109.967238) (xy 167.423986 110.011181) (xy 167.380172 110.0802) (xy 167.298839 110.215511)
+					(xy 167.253288 110.288173) (xy 167.234638 110.310962) (xy 167.212805 110.329328) (xy 167.187101 110.341356)
+					(xy 167.154431 110.345631) (xy 167.126482 110.342651) (xy 167.102957 110.334152) (xy 167.082892 110.320449)
+					(xy 167.067725 110.302705) (xy 167.057889 110.282248) (xy 167.05478 110.262405) (xy 167.058842 110.23956)
+					(xy 167.076395 110.191758) (xy 167.101144 110.139724) (xy 167.136723 110.077269) (xy 167.178005 110.015791)
+					(xy 167.224712 109.957773) (xy 167.275956 109.907486) (xy 167.32363 109.875219) (xy 167.243828 109.851239)
+					(xy 167.182495 109.819632) (xy 167.136174 109.781186) (xy 167.108989 109.745914) (xy 167.089219 109.70503)
+					(xy 167.076847 109.657458) (xy 167.07353 109.615101) (xy 167.282048 109.615101) (xy 167.28524 109.648997)
+					(xy 167.294062 109.675802) (xy 167.307937 109.697044) (xy 167.338425 109.721708) (xy 167.383225 109.739176)
+					(xy 167.435656 109.748217) (xy 167.50553 109.751632) (xy 167.685293 109.751632) (xy 167.685293 109.481988)
+					(xy 167.500095 109.481988) (xy 167.404544 109.486708) (xy 167.360755 109.496826) (xy 167.327552 109.516288)
+					(xy 167.30293 109.543232) (xy 167.287381 109.576356) (xy 167.282048 109.615101) (xy 167.07353 109.615101)
+					(xy 167.072487 109.601789) (xy 167.077283 109.548205) (xy 167.091477 109.498047) (xy 167.114836 109.452017)
+					(xy 167.14692 109.412074) (xy 167.186172 109.379326) (xy 167.230818 109.355226) (xy 167.271692 109.34055)
+					(xy 167.318745 109.331535) (xy 167.43586 109.325673) (xy 167.765771 109.325673)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.119513 110.026467) (xy 166.124872 110.08592) (xy 166.140579 110.140247) (xy 166.166652 110.190537)
+					(xy 166.202053 110.234712) (xy 166.247453 110.272625) (xy 166.304344 110.304476) (xy 166.366067 110.326685)
+					(xy 166.437103 110.340695) (xy 166.519033 110.345631) (xy 166.616958 110.338736) (xy 166.697795 110.319525)
+					(xy 166.764558 110.289516) (xy 166.807581 110.259467) (xy 166.844684 110.22357) (xy 166.876299 110.181378)
+					(xy 166.900958 110.134818) (xy 166.914839 110.091193) (xy 166.919286 110.049609) (xy 166.912733 110.014672)
+					(xy 166.893091 109.985129) (xy 166.86366 109.965109) (xy 166.826474 109.958262) (xy 166.795945 109.963569)
+					(xy 166.770969 109.979145) (xy 166.750846 110.003598) (xy 166.732379 110.040755) (xy 166.711876 110.085906)
+					(xy 166.691407 110.120195) (xy 166.665478 110.148728) (xy 166.629492 110.172646) (xy 166.585857 110.187566)
+					(xy 166.524528 110.193224) (xy 166.466151 110.188163) (xy 166.418453 110.174034) (xy 166.379326 110.151702)
+					(xy 166.347641 110.120826) (xy 166.329619 110.086847) (xy 166.323578 110.048326) (xy 166.327106 110.016823)
+					(xy 166.337141 109.990656) (xy 166.353558 109.968642) (xy 166.387211 109.942063) (xy 166.431411 109.921687)
+					(xy 166.55976 109.886943) (xy 166.66302 109.858186) (xy 166.74105 109.827653) (xy 166.787185 109.801685)
+					(xy 166.82559 109.770761) (xy 166.857126 109.734719) (xy 166.88049 109.693494) (xy 166.895003 109.645262)
+					(xy 166.900113 109.588356) (xy 166.894942 109.534235) (xy 166.879814 109.485251) (xy 166.854684 109.440284)
+					(xy 166.820821 109.401326) (xy 166.777565 109.368218) (xy 166.723403 109.340877) (xy 166.665165 109.322142)
+					(xy 166.598403 109.310303) (xy 166.521781 109.306133) (xy 166.432772 109.312298) (xy 166.361618 109.329214)
+					(xy 166.298377 109.356787) (xy 166.249328 109.390458) (xy 166.209665 109.430769) (xy 166.183932 109.470753)
+					(xy 166.168208 109.513134) (xy 166.163232 109.552941) (xy 166.169669 109.587825) (xy 166.189427 109.619619)
+					(xy 166.208469 109.636218) (xy 166.229937 109.645964) (xy 166.254701 109.649295) (xy 166.287209 109.644519)
+					(xy 166.308801 109.63177) (xy 166.326545 109.610805) (xy 166.348674 109.57474) (xy 166.379535 109.522821)
+					(xy 166.413703 109.486263) (xy 166.44088 109.469985) (xy 166.480109 109.458883) (xy 166.535458 109.454633)
+					(xy 166.586416 109.458825) (xy 166.627579 109.470448) (xy 166.660877 109.488644) (xy 166.688224 109.513995)
+					(xy 166.703399 109.540803) (xy 166.708382 109.57016) (xy 166.704274 109.597841) (xy 166.692323 109.620963)
+					(xy 166.67371 109.640487) (xy 166.647871 109.657965) (xy 166.590169 109.68239) (xy 166.493265 109.708279)
+					(xy 166.4107 109.72963) (xy 166.339698 109.75206) (xy 166.274389 109.779425) (xy 166.2224 109.810434)
+					(xy 166.179237 109.849355) (xy 166.146746 109.897445) (xy 166.132114 109.933564) (xy 166.122818 109.976157)
+				)
+			)
+			(polygon
+				(pts
+					(xy 165.299101 109.49762) (xy 165.518492 109.49762) (xy 165.518492 110.220518) (xy 165.52218 110.261864)
+					(xy 165.532056 110.292431) (xy 165.547069 110.314795) (xy 165.567827 110.331839) (xy 165.592075 110.342073)
+					(xy 165.620891 110.345631) (xy 165.650139 110.342028) (xy 165.674727 110.331669) (xy 165.695751 110.314429)
+					(xy 165.710976 110.291864) (xy 165.720932 110.261376) (xy 165.724633 110.220518) (xy 165.724633 109.49762)
+					(xy 165.943963 109.49762) (xy 165.978363 109.494586) (xy 166.003852 109.48646) (xy 166.022548 109.474112)
+					(xy 166.041803 109.44719) (xy 166.048438 109.412013) (xy 166.041491 109.375685) (xy 166.02151 109.348815)
+					(xy 165.990454 109.33201) (xy 165.943963 109.325673) (xy 165.299101 109.325673) (xy 165.264311 109.328752)
+					(xy 165.238524 109.337003) (xy 165.2196 109.349548) (xy 165.200052 109.37676) (xy 165.193344 109.412013)
+					(xy 165.200127 109.447133) (xy 165.219905 109.474112) (xy 165.250935 109.491113)
+				)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 168 113 0)
+		(layer "B.SilkS")
+		(uuid "d5db8ed9-4c49-4bd9-bac2-36ff35608ffc")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy 166.972103 112.419427) (xy 166.972103 112.611707) (xy 166.974248 112.648326) (xy 166.979736 112.673623)
+					(xy 166.990361 112.695482) (xy 167.007824 112.715694) (xy 167.030135 112.733384) (xy 167.059909 112.751598)
+					(xy 167.151167 112.794782) (xy 167.235214 112.823161) (xy 167.321748 112.83983) (xy 167.418763 112.845631)
+					(xy 167.495342 112.841495) (xy 167.56546 112.829489) (xy 167.629911 112.810033) (xy 167.691013 112.782303)
+					(xy 167.744948 112.747806) (xy 167.792454 112.706413) (xy 167.833397 112.658474) (xy 167.867789 112.603857)
+					(xy 167.895708 112.541793) (xy 167.915321 112.47643) (xy 167.927472 112.404752) (xy 167.931673 112.325882)
+					(xy 167.927622 112.248373) (xy 167.915846 112.17712) (xy 167.896746 112.111376) (xy 167.869335 112.04891)
+					(xy 167.835071 111.994087) (xy 167.793859 111.946085) (xy 167.745846 111.904749) (xy 167.690996 111.870135)
+					(xy 167.628506 111.842159) (xy 167.562642 111.822588) (xy 167.489426 111.810379) (xy 167.407833 111.806133)
+					(xy 167.340581 111.809364) (xy 167.28101 111.818588) (xy 167.228192 111.833244) (xy 167.155228 111.864983)
+					(xy 167.101247 111.90151) (xy 167.057545 111.945006) (xy 167.027669 111.988827) (xy 167.008432 112.03446)
+					(xy 167.002817 112.070954) (xy 167.010014 112.107105) (xy 167.03176 112.137632) (xy 167.063516 112.158218)
+					(xy 167.101125 112.165109) (xy 167.122946 112.162519) (xy 167.14405 112.154668) (xy 167.162891 112.142156)
+					(xy 167.17855 112.125359) (xy 167.241931 112.036821) (xy 167.271302 112.00999) (xy 167.311357 111.98669)
+					(xy 167.358579 111.971905) (xy 167.422854 111.966357) (xy 167.490267 111.972619) (xy 167.547784 111.990476)
+					(xy 167.598678 112.019976) (xy 167.641695 112.060451) (xy 167.675596 112.110478) (xy 167.701474 112.172986)
+					(xy 167.716803 112.241884) (xy 167.722173 112.320753) (xy 167.716351 112.40944) (xy 167.700189 112.4823)
+					(xy 167.675112 112.542061) (xy 167.641756 112.590947) (xy 167.598404 112.631664) (xy 167.547655 112.660858)
+					(xy 167.488036 112.679008) (xy 167.417419 112.685408) (xy 167.348751 112.6807) (xy 167.285711 112.666967)
+					(xy 167.22467 112.645035) (xy 167.161819 112.614883) (xy 167.161819 112.454842) (xy 167.316974 112.454842)
+					(xy 167.370263 112.449852) (xy 167.403986 112.437318) (xy 167.420165 112.423345) (xy 167.430102 112.404092)
+					(xy 167.433722 112.377723) (xy 167.427466 112.346238) (xy 167.408871 112.320936) (xy 167.380656 112.30448)
+					(xy 167.341582 112.298527) (xy 167.111383 112.298527) (xy 167.07041 112.300604) (xy 167.038965 112.30616)
+					(xy 167.012097 112.318418) (xy 166.990605 112.340354) (xy 166.977346 112.370844)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.51482 111.929232) (xy 166.128367 112.516697) (xy 166.128367 111.924774) (xy 166.125082 111.886107)
+					(xy 166.116272 111.857253) (xy 166.102904 111.835931) (xy 166.084166 111.819511) (xy 166.061657 111.809606)
+					(xy 166.034211 111.806133) (xy 166.005807 111.809626) (xy 165.982756 111.819525) (xy 165.963808 111.835809)
+					(xy 165.950227 111.857081) (xy 165.941302 111.8858) (xy 165.937979 111.924225) (xy 165.937979 112.711847)
+					(xy 165.943406 112.764415) (xy 165.957641 112.800687) (xy 165.979171 112.825124) (xy 166.008757 112.840151)
+					(xy 166.049232 112.845631) (xy 166.076079 112.84355) (xy 166.09918 112.837632) (xy 166.120395 112.827509)
+					(xy 166.140701 112.812414) (xy 166.176482 112.772114) (xy 166.209394 112.725158) (xy 166.586261 112.146852)
+					(xy 166.586261 112.727479) (xy 166.589715 112.765321) (xy 166.599075 112.794011) (xy 166.613494 112.81565)
+					(xy 166.633269 112.83228) (xy 166.65616 112.842199) (xy 166.683164 112.845631) (xy 166.711098 112.842115)
+					(xy 166.734205 112.832055) (xy 166.753628 112.815345) (xy 166.767634 112.793595) (xy 166.776721 112.76499)
+					(xy 166.780068 112.72754) (xy 166.780068 111.954938) (xy 166.776937 111.908209) (xy 166.769016 111.877025)
+					(xy 166.751629 111.848801) (xy 166.725235 111.825917) (xy 166.693322 111.811045) (xy 166.659228 111.806133)
+					(xy 166.632754 111.808549) (xy 166.611662 111.815232) (xy 166.593023 111.825873) (xy 166.57698 111.839595)
+					(xy 166.546693 111.87904)
+				)
+			)
+			(polygon
+				(pts
+					(xy 165.635477 111.829594) (xy 165.666567 111.839971) (xy 165.688546 111.855593) (xy 165.704202 111.877539)
+					(xy 165.714599 111.908589) (xy 165.718527 111.951824) (xy 165.718527 112.685408) (xy 165.716113 112.731865)
+					(xy 165.709856 112.765031) (xy 165.696267 112.792319) (xy 165.672609 112.812964) (xy 165.640089 112.825133)
+					(xy 165.588162 112.83) (xy 165.32377 112.83) (xy 165.256333 112.827659) (xy 165.199389 112.821146)
+					(xy 165.145619 112.808934) (xy 165.096135 112.790432) (xy 165.050069 112.765093) (xy 165.007536 112.732424)
+					(xy 164.960543 112.681736) (xy 164.923089 112.625019) (xy 164.894794 112.562234) (xy 164.874424 112.490319)
+					(xy 164.862781 112.413524) (xy 164.85867 112.325333) (xy 164.858739 112.32405) (xy 165.068169 112.32405)
+					(xy 165.073191 112.411314) (xy 165.086989 112.481826) (xy 165.108075 112.538457) (xy 165.135571 112.583632)
+					(xy 165.169286 112.619218) (xy 165.193337 112.636427) (xy 165.222042 112.649626) (xy 165.281027 112.663182)
+					(xy 165.359979 112.665868) (xy 165.511714 112.665868) (xy 165.511714 111.989804) (xy 165.379762 111.989804)
+					(xy 165.290891 111.995224) (xy 165.222103 112.009832) (xy 165.182353 112.028204) (xy 165.146046 112.058507)
+					(xy 165.112622 112.103072) (xy 165.089818 112.154145) (xy 165.074141 112.225775) (xy 165.068169 112.32405)
+					(xy 164.858739 112.32405) (xy 164.863756 112.231222) (xy 164.878177 112.149513) (xy 164.900954 112.078534)
+					(xy 164.931511 112.016832) (xy 164.969693 111.963222) (xy 165.015779 111.916837) (xy 165.058018 111.885096)
+					(xy 165.102726 111.86125) (xy 165.150357 111.844846) (xy 165.228287 111.830854) (xy 165.327861 111.825673)
+					(xy 165.592192 111.825673)
+				)
+			)
+		)
+	)
+	(gr_text "IRQ"
+		(at 168 115.5 0)
+		(layer "B.SilkS")
+		(uuid "2492f86c-d560-4c49-8dfe-e3baeede5a3d")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "IRQ" 0
+			(polygon
+				(pts
+					(xy 167.882519 115.220029) (xy 167.882519 114.431064) (xy 167.878871 114.390509) (xy 167.869043 114.360119)
+					(xy 167.854003 114.337519) (xy 167.833203 114.32015) (xy 167.808937 114.309746) (xy 167.78012 114.306133)
+					(xy 167.750413 114.309738) (xy 167.725638 114.320058) (xy 167.704649 114.337152) (xy 167.689409 114.359578)
+					(xy 167.679425 114.390045) (xy 167.675706 114.431064) (xy 167.675706 115.220029) (xy 167.679416 115.261051)
+					(xy 167.689394 115.291658) (xy 167.704649 115.314307) (xy 167.725661 115.331583) (xy 167.750435 115.341997)
+					(xy 167.78012 115.345631) (xy 167.808441 115.342018) (xy 167.832607 115.331545) (xy 167.853637 115.313941)
+					(xy 167.8689 115.291086) (xy 167.87884 115.260554)
+				)
+			)
+			(polygon
+				(pts
+					(xy 167.371372 114.329594) (xy 167.402462 114.339971) (xy 167.424441 114.355593) (xy 167.440065 114.377495)
+					(xy 167.450441 114.408485) (xy 167.454361 114.451641) (xy 167.454361 115.220334) (xy 167.450902 115.260425)
+					(xy 167.441555 115.290814) (xy 167.42725 115.313696) (xy 167.407161 115.331126) (xy 167.382124 115.341822)
+					(xy 167.350619 115.345631) (xy 167.321344 115.342071) (xy 167.296909 115.331876) (xy 167.276186 115.314979)
+					(xy 167.261217 115.292747) (xy 167.251322 115.262007) (xy 167.247609 115.220029) (xy 167.247609 114.900132)
+					(xy 167.178489 114.900132) (xy 167.127491 114.90402) (xy 167.089767 114.914359) (xy 167.05627 114.933606)
+					(xy 167.020403 114.967238) (xy 166.986302 115.011181) (xy 166.942489 115.0802) (xy 166.861156 115.215511)
+					(xy 166.815605 115.288173) (xy 166.796955 115.310962) (xy 166.775122 115.329328) (xy 166.749418 115.341356)
+					(xy 166.716748 115.345631) (xy 166.688798 115.342651) (xy 166.665273 115.334152) (xy 166.645209 115.320449)
+					(xy 166.630041 115.302705) (xy 166.620206 115.282248) (xy 166.617096 115.262405) (xy 166.621159 115.23956)
+					(xy 166.638712 115.191758) (xy 166.663461 115.139724) (xy 166.69904 115.077269) (xy 166.740322 115.015791)
+					(xy 166.787028 114.957773) (xy 166.838273 114.907486) (xy 166.885947 114.875219) (xy 166.806145 114.851239)
+					(xy 166.744812 114.819632) (xy 166.69849 114.781186) (xy 166.671306 114.745914) (xy 166.651536 114.70503)
+					(xy 166.639164 114.657458) (xy 166.635847 114.615101) (xy 166.844364 114.615101) (xy 166.847557 114.648997)
+					(xy 166.856379 114.675802) (xy 166.870254 114.697044) (xy 166.900742 114.721708) (xy 166.945542 114.739176)
+					(xy 166.997973 114.748217) (xy 167.067847 114.751632) (xy 167.247609 114.751632) (xy 167.247609 114.481988)
+					(xy 167.062412 114.481988) (xy 166.96686 114.486708) (xy 166.923072 114.496826) (xy 166.889869 114.516288)
+					(xy 166.865247 114.543232) (xy 166.849697 114.576356) (xy 166.844364 114.615101) (xy 166.635847 114.615101)
+					(xy 166.634804 114.601789) (xy 166.6396 114.548205) (xy 166.653794 114.498047) (xy 166.677152 114.452017)
+					(xy 166.709237 114.412074) (xy 166.748489 114.379326) (xy 166.793135 114.355226) (xy 166.834009 114.34055)
+					(xy 166.881062 114.331535) (xy 166.998176 114.325673) (xy 167.328087 114.325673)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.080287 114.310373) (xy 166.14852 114.322571) (xy 166.209883 114.342159) (xy 166.267737 114.37003)
+					(xy 166.318737 114.404626) (xy 166.363572 114.446146) (xy 166.401832 114.493867) (xy 166.433974 114.548463)
+					(xy 166.459987 114.610765) (xy 166.478153 114.67599) (xy 166.489353 114.746548) (xy 166.493204 114.823135)
+					(xy 166.489526 114.898413) (xy 166.478793 114.96833) (xy 166.461331 115.033489) (xy 166.436227 115.095801)
+					(xy 166.404571 115.151248) (xy 166.36632 115.200551) (xy 166.321287 115.243482) (xy 166.269522 115.279319)
+					(xy 166.210249 115.308262) (xy 166.147219 115.328612) (xy 166.077494 115.341249) (xy 166.000078 115.345631)
+					(xy 165.904624 115.339531) (xy 165.824441 115.322442) (xy 165.757056 115.295683) (xy 165.659848 115.361873)
+					(xy 165.581629 115.405654) (xy 165.54902 115.417439) (xy 165.524598 115.420797) (xy 165.497357 115.415254)
+					(xy 165.474345 115.398449) (xy 165.458423 115.375159) (xy 165.453646 115.353508) (xy 165.458303 115.324903)
+					(xy 165.471109 115.305026) (xy 165.493553 115.287646) (xy 165.541268 115.259658) (xy 165.6364 115.202749)
+					(xy 165.591841 115.145777) (xy 165.556552 115.080828) (xy 165.53047 115.006747) (xy 165.51406 114.92206)
+					(xy 165.508295 114.825027) (xy 165.508412 114.823257) (xy 165.717855 114.823257) (xy 165.723188 114.907701)
+					(xy 165.737944 114.976824) (xy 165.76358 115.038892) (xy 165.798883 115.08997) (xy 165.900878 115.024178)
+					(xy 165.966427 114.994039) (xy 166.006917 114.986289) (xy 166.027011 114.99024) (xy 166.045874 115.002592)
+					(xy 166.059242 115.02045) (xy 166.06352 115.040266) (xy 166.058848 115.062598) (xy 166.045324 115.078613)
+					(xy 165.978951 115.115921) (xy 165.933569 115.140482) (xy 165.901587 115.161655) (xy 165.951795 115.176617)
+					(xy 166.001421 115.1815) (xy 166.060429 115.17557) (xy 166.112931 115.158311) (xy 166.160343 115.129698)
+					(xy 166.203593 115.088627) (xy 166.236843 115.040466) (xy 166.261799 114.981691) (xy 166.277862 114.910137)
+					(xy 166.283644 114.823135) (xy 166.278047 114.74104) (xy 166.262212 114.670727) (xy 166.236083 114.607413)
+					(xy 166.203838 114.559352) (xy 166.163236 114.520928) (xy 166.115727 114.49304) (xy 166.062766 114.476064)
+					(xy 166.004169 114.470265) (xy 165.948827 114.475005) (xy 165.899091 114.488784) (xy 165.853899 114.51142)
+					(xy 165.814278 114.542569) (xy 165.780773 114.582643) (xy 165.753148 114.632991) (xy 165.734114 114.687699)
+					(xy 165.722093 114.750663) (xy 165.717855 114.823257) (xy 165.508412 114.823257) (xy 165.515139 114.721162)
+					(xy 165.534682 114.63022) (xy 165.565936 114.550254) (xy 165.598441 114.494673) (xy 165.637338 114.446452)
+					(xy 165.682912 114.40492) (xy 165.735746 114.369698) (xy 165.792618 114.342655) (xy 165.855692 114.322804)
+					(xy 165.925865 114.310434) (xy 166.004169 114.306133)
+				)
+			)
+		)
+	)
+	(gr_text "MISO"
+		(at 168 118 0)
+		(layer "B.SilkS")
+		(uuid "bece667c-cc34-452d-838c-2c25647a9d0c")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "MISO" 0
+			(polygon
+				(pts
+					(xy 167.552486 117.67631) (xy 167.711121 117.038653) (xy 167.709167 117.729066) (xy 167.712522 117.76691)
+					(xy 167.721557 117.79528) (xy 167.735362 117.816383) (xy 167.754468 117.832498) (xy 167.777217 117.842226)
+					(xy 167.804727 117.845631) (xy 167.831341 117.842307) (xy 167.853786 117.832733) (xy 167.873054 117.816749)
+					(xy 167.88699 117.795871) (xy 167.896142 117.767465) (xy 167.899555 117.729188) (xy 167.899555 116.938696)
+					(xy 167.894925 116.895981) (xy 167.882903 116.867446) (xy 167.86475 116.848998) (xy 167.825968 116.832023)
+					(xy 167.771266 116.825673) (xy 167.708374 116.825673) (xy 167.655281 116.828789) (xy 167.625209 116.836114)
+					(xy 167.602581 116.850519) (xy 167.586557 116.873483) (xy 167.558286 116.960556) (xy 167.414672 117.500027)
+					(xy 167.271057 116.960556) (xy 167.242847 116.873483) (xy 167.226785 116.850512) (xy 167.204195 116.836114)
+					(xy 167.174062 116.828789) (xy 167.120908 116.825673) (xy 167.058077 116.825673) (xy 167.00333 116.832026)
+					(xy 166.964593 116.848998) (xy 166.946405 116.867452) (xy 166.934363 116.895987) (xy 166.929727 116.938696)
+					(xy 166.929727 117.729188) (xy 166.933084 117.767031) (xy 166.94212 117.795379) (xy 166.955922 117.816444)
+					(xy 166.975039 117.832488) (xy 166.997996 117.842214) (xy 167.025959 117.845631) (xy 167.052101 117.842291)
+					(xy 167.074334 117.832623) (xy 167.093614 117.816383) (xy 167.107593 117.795255) (xy 167.116726 117.766883)
+					(xy 167.120115 117.729066) (xy 167.118161 117.038653) (xy 167.276796 117.67631) (xy 167.302503 117.767779)
+					(xy 167.316424 117.795237) (xy 167.339689 117.821329) (xy 167.370652 117.839117) (xy 167.41461 117.845631)
+					(xy 167.448719 117.841524) (xy 167.475793 117.83) (xy 167.498171 117.812091) (xy 167.514689 117.790188)
+					(xy 167.536427 117.736821)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.716992 117.720029) (xy 166.716992 116.931064) (xy 166.713344 116.890509) (xy 166.703517 116.860119)
+					(xy 166.688476 116.837519) (xy 166.667676 116.82015) (xy 166.64341 116.809746) (xy 166.614593 116.806133)
+					(xy 166.584886 116.809738) (xy 166.560111 116.820058) (xy 166.539122 116.837152) (xy 166.523882 116.859578)
+					(xy 166.513898 116.890045) (xy 166.510179 116.931064) (xy 166.510179 117.720029) (xy 166.513889 117.761051)
+					(xy 166.523868 117.791658) (xy 166.539122 117.814307) (xy 166.560134 117.831583) (xy 166.584908 117.841997)
+					(xy 166.614593 117.845631) (xy 166.642914 117.842018) (xy 166.66708 117.831545) (xy 166.68811 117.813941)
+					(xy 166.703373 117.791086) (xy 166.713313 117.760554)
+				)
+			)
+			(polygon
+				(pts
+					(xy 165.522583 117.526467) (xy 165.527942 117.58592) (xy 165.543649 117.640247) (xy 165.569722 117.690537)
+					(xy 165.605124 117.734712) (xy 165.650523 117.772625) (xy 165.707414 117.804476) (xy 165.769138 117.826685)
+					(xy 165.840173 117.840695) (xy 165.922103 117.845631) (xy 166.020028 117.838736) (xy 166.100866 117.819525)
+					(xy 166.167629 117.789516) (xy 166.210652 117.759467) (xy 166.247754 117.72357) (xy 166.27937 117.681378)
+					(xy 166.304029 117.634818) (xy 166.317909 117.591193) (xy 166.322356 117.549609) (xy 166.315804 117.514672)
+					(xy 166.296161 117.485129) (xy 166.26673 117.465109) (xy 166.229544 117.458262) (xy 166.199015 117.463569)
+					(xy 166.17404 117.479145) (xy 166.153916 117.503598) (xy 166.13545 117.540755) (xy 166.114946 117.585906)
+					(xy 166.094478 117.620195) (xy 166.068549 117.648728) (xy 166.032562 117.672646) (xy 165.988927 117.687566)
+					(xy 165.927599 117.693224) (xy 165.869221 117.688163) (xy 165.821523 117.674034) (xy 165.782397 117.651702)
+					(xy 165.750712 117.620826) (xy 165.732689 117.586847) (xy 165.726648 117.548326) (xy 165.730176 117.516823)
+					(xy 165.740211 117.490656) (xy 165.756629 117.468642) (xy 165.790281 117.442063) (xy 165.834481 117.421687)
+					(xy 165.962831 117.386943) (xy 166.06609 117.358186) (xy 166.14412 117.327653) (xy 166.190256 117.301685)
+					(xy 166.22866 117.270761) (xy 166.260197 117.234719) (xy 166.28356 117.193494) (xy 166.298073 117.145262)
+					(xy 166.303183 117.088356) (xy 166.298012 117.034235) (xy 166.282885 116.985251) (xy 166.257754 116.940284)
+					(xy 166.223891 116.901326) (xy 166.180636 116.868218) (xy 166.126474 116.840877) (xy 166.068236 116.822142)
+					(xy 166.001474 116.810303) (xy 165.924851 116.806133) (xy 165.835843 116.812298) (xy 165.764689 116.829214)
+					(xy 165.701448 116.856787) (xy 165.652398 116.890458) (xy 165.612735 116.930769) (xy 165.587002 116.970753)
+					(xy 165.571278 117.013134) (xy 165.566303 117.052941) (xy 165.572739 117.087825) (xy 165.592498 117.119619)
+					(xy 165.611539 117.136218) (xy 165.633008 117.145964) (xy 165.657772 117.149295) (xy 165.690279 117.144519)
+					(xy 165.711871 117.13177) (xy 165.729615 117.110805) (xy 165.751744 117.07474) (xy 165.782606 117.022821)
+					(xy 165.816774 116.986263) (xy 165.84395 116.969985) (xy 165.883179 116.958883) (xy 165.938529 116.954633)
+					(xy 165.989486 116.958825) (xy 166.030649 116.970448) (xy 166.063948 116.988644) (xy 166.091294 117.013995)
+					(xy 166.106469 117.040803) (xy 166.111453 117.07016) (xy 166.107344 117.097841) (xy 166.095394 117.120963)
+					(xy 166.07678 117.140487) (xy 166.050942 117.157965) (xy 165.993239 117.18239) (xy 165.896336 117.208279)
+					(xy 165.81377 117.22963) (xy 165.742768 117.25206) (xy 165.67746 117.279425) (xy 165.625471 117.310434)
+					(xy 165.582307 117.349355) (xy 165.549816 117.397445) (xy 165.535184 117.433564) (xy 165.525888 117.476157)
+				)
+			)
+			(polygon
+				(pts
+					(xy 164.988033 116.810373) (xy 165.056266 116.822571) (xy 165.117629 116.842159) (xy 165.175483 116.87003)
+					(xy 165.226483 116.904626) (xy 165.271318 116.946146) (xy 165.309578 116.993867) (xy 165.34172 117.048463)
+					(xy 165.367733 117.110765) (xy 165.385899 117.17599) (xy 165.397099 117.246548) (xy 165.40095 117.323135)
+					(xy 165.397287 117.397962) (xy 165.386569 117.467895) (xy 165.369077 117.533489) (xy 165.343958 117.596249)
+					(xy 165.312509 117.651545) (xy 165.274738 117.700184) (xy 165.23019 117.742497) (xy 165.178544 117.778255)
+					(xy 165.118972 117.80759) (xy 165.055707 117.828305) (xy 164.985665 117.841169) (xy 164.907824 117.845631)
+					(xy 164.829436 117.841257) (xy 164.759652 117.82871) (xy 164.697348 117.808628) (xy 164.638691 117.779938)
+					(xy 164.587237 117.744331) (xy 164.542254 117.701589) (xy 164.50398 117.65254) (xy 164.472458 117.59765)
+					(xy 164.447609 117.536236) (xy 164.430404 117.471959) (xy 164.41973 117.401645) (xy 164.416041 117.324539)
+					(xy 164.416134 117.323135) (xy 164.625601 117.323135) (xy 164.630306 117.401655) (xy 164.643468 117.467613)
+					(xy 164.664009 117.522986) (xy 164.693522 117.573737) (xy 164.727845 117.613143) (xy 164.76714 117.642787)
+					(xy 164.811622 117.66427) (xy 164.858704 117.677141) (xy 164.909167 117.6815) (xy 164.967688 117.675775)
+					(xy 165.020054 117.659091) (xy 165.067251 117.631296) (xy 165.109569 117.591435) (xy 165.143424 117.541635)
+					(xy 165.169958 117.477313) (xy 165.185803 117.405958) (xy 165.19139 117.323135) (xy 165.185793 117.24104)
+					(xy 165.169958 117.170727) (xy 165.143829 117.107413) (xy 165.111584 117.059352) (xy 165.070982 117.020928)
+					(xy 165.023473 116.99304) (xy 164.970512 116.976064) (xy 164.911915 116.970265) (xy 164.856573 116.975005)
+					(xy 164.806837 116.988784) (xy 164.761645 117.01142) (xy 164.722027 117.042533) (xy 164.688522 117.082585)
+					(xy 164.660894 117.13293) (xy 164.641862 117.187598) (xy 164.62984 117.25054) (xy 164.625601 117.323135)
+					(xy 164.416134 117.323135) (xy 164.422884 117.220798) (xy 164.442426 117.129957) (xy 164.473682 117.050071)
+					(xy 164.506186 116.994523) (xy 164.545082 116.946332) (xy 164.590656 116.904829) (xy 164.643492 116.869637)
+					(xy 164.70036 116.842621) (xy 164.763434 116.822789) (xy 164.833608 116.81043) (xy 164.911915 116.806133)
+				)
+			)
+		)
+	)
+	(gr_text "MOSI"
+		(at 168 120.5 0)
+		(layer "B.SilkS")
+		(uuid "6cd57bb7-0cf9-4067-8e09-cd8759141756")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "MOSI" 0
+			(polygon
+				(pts
+					(xy 167.552486 120.17631) (xy 167.711121 119.538653) (xy 167.709167 120.229066) (xy 167.712522 120.26691)
+					(xy 167.721557 120.29528) (xy 167.735362 120.316383) (xy 167.754468 120.332498) (xy 167.777217 120.342226)
+					(xy 167.804727 120.345631) (xy 167.831341 120.342307) (xy 167.853786 120.332733) (xy 167.873054 120.316749)
+					(xy 167.88699 120.295871) (xy 167.896142 120.267465) (xy 167.899555 120.229188) (xy 167.899555 119.438696)
+					(xy 167.894925 119.395981) (xy 167.882903 119.367446) (xy 167.86475 119.348998) (xy 167.825968 119.332023)
+					(xy 167.771266 119.325673) (xy 167.708374 119.325673) (xy 167.655281 119.328789) (xy 167.625209 119.336114)
+					(xy 167.602581 119.350519) (xy 167.586557 119.373483) (xy 167.558286 119.460556) (xy 167.414672 120.000027)
+					(xy 167.271057 119.460556) (xy 167.242847 119.373483) (xy 167.226785 119.350512) (xy 167.204195 119.336114)
+					(xy 167.174062 119.328789) (xy 167.120908 119.325673) (xy 167.058077 119.325673) (xy 167.00333 119.332026)
+					(xy 166.964593 119.348998) (xy 166.946405 119.367452) (xy 166.934363 119.395987) (xy 166.929727 119.438696)
+					(xy 166.929727 120.229188) (xy 166.933084 120.267031) (xy 166.94212 120.295379) (xy 166.955922 120.316444)
+					(xy 166.975039 120.332488) (xy 166.997996 120.342214) (xy 167.025959 120.345631) (xy 167.052101 120.342291)
+					(xy 167.074334 120.332623) (xy 167.093614 120.316383) (xy 167.107593 120.295255) (xy 167.116726 120.266883)
+					(xy 167.120115 120.229066) (xy 167.118161 119.538653) (xy 167.276796 120.17631) (xy 167.302503 120.267779)
+					(xy 167.316424 120.295237) (xy 167.339689 120.321329) (xy 167.370652 120.339117) (xy 167.41461 120.345631)
+					(xy 167.448719 120.341524) (xy 167.475793 120.33) (xy 167.498171 120.312091) (xy 167.514689 120.290188)
+					(xy 167.536427 120.236821)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.358724 119.310373) (xy 166.426957 119.322571) (xy 166.488319 119.342159) (xy 166.546173 119.37003)
+					(xy 166.597173 119.404626) (xy 166.642009 119.446146) (xy 166.680269 119.493867) (xy 166.712411 119.548463)
+					(xy 166.738424 119.610765) (xy 166.75659 119.67599) (xy 166.76779 119.746548) (xy 166.771641 119.823135)
+					(xy 166.767978 119.897962) (xy 166.757259 119.967895) (xy 166.739767 120.033489) (xy 166.714649 120.096249)
+					(xy 166.683199 120.151545) (xy 166.645429 120.200184) (xy 166.600881 120.242497) (xy 166.549235 120.278255)
+					(xy 166.489663 120.30759) (xy 166.426398 120.328305) (xy 166.356355 120.341169) (xy 166.278515 120.345631)
+					(xy 166.200127 120.341257) (xy 166.130343 120.32871) (xy 166.068039 120.308628) (xy 166.009382 120.279938)
+					(xy 165.957928 120.244331) (xy 165.912944 120.201589) (xy 165.87467 120.15254) (xy 165.843149 120.09765)
+					(xy 165.8183 120.036236) (xy 165.801095 119.971959) (xy 165.790421 119.901645) (xy 165.786732 119.824539)
+					(xy 165.786825 119.823135) (xy 165.996292 119.823135) (xy 166.000997 119.901655) (xy 166.014159 119.967613)
+					(xy 166.034699 120.022986) (xy 166.064213 120.073737) (xy 166.098536 120.113143) (xy 166.137831 120.142787)
+					(xy 166.182312 120.16427) (xy 166.229395 120.177141) (xy 166.279858 120.1815) (xy 166.338379 120.175775)
+					(xy 166.390744 120.159091) (xy 166.437942 120.131296) (xy 166.480259 120.091435) (xy 166.514114 120.041635)
+					(xy 166.540648 119.977313) (xy 166.556494 119.905958) (xy 166.562081 119.823135) (xy 166.556484 119.74104)
+					(xy 166.540648 119.670727) (xy 166.51452 119.607413) (xy 166.482274 119.559352) (xy 166.441673 119.520928)
+					(xy 166.394164 119.49304) (xy 166.341203 119.476064) (xy 166.282606 119.470265) (xy 166.227264 119.475005)
+					(xy 166.177528 119.488784) (xy 166.132336 119.51142) (xy 166.092717 119.542533) (xy 166.059213 119.582585)
+					(xy 166.031585 119.63293) (xy 166.012553 119.687598) (xy 166.000531 119.75054) (xy 165.996292 119.823135)
+					(xy 165.786825 119.823135) (xy 165.793575 119.720798) (xy 165.813117 119.629957) (xy 165.844373 119.550071)
+					(xy 165.876877 119.494523) (xy 165.915773 119.446332) (xy 165.961347 119.404829) (xy 166.014183 119.369637)
+					(xy 166.071051 119.342621) (xy 166.134124 119.322789) (xy 166.204299 119.31043) (xy 166.282606 119.306133)
+				)
+			)
+			(polygon
+				(pts
+					(xy 164.852381 120.026467) (xy 164.85774 120.08592) (xy 164.873447 120.140247) (xy 164.89952 120.190537)
+					(xy 164.934921 120.234712) (xy 164.980321 120.272625) (xy 165.037212 120.304476) (xy 165.098935 120.326685)
+					(xy 165.169971 120.340695) (xy 165.251901 120.345631) (xy 165.349826 120.338736) (xy 165.430663 120.319525)
+					(xy 165.497426 120.289516) (xy 165.54045 120.259467) (xy 165.577552 120.22357) (xy 165.609167 120.181378)
+					(xy 165.633826 120.134818) (xy 165.647707 120.091193) (xy 165.652154 120.049609) (xy 165.645601 120.014672)
+					(xy 165.625959 119.985129) (xy 165.596528 119.965109) (xy 165.559342 119.958262) (xy 165.528813 119.963569)
+					(xy 165.503838 119.979145) (xy 165.483714 120.003598) (xy 165.465247 120.040755) (xy 165.444744 120.085906)
+					(xy 165.424275 120.120195) (xy 165.398346 120.148728) (xy 165.36236 120.172646) (xy 165.318725 120.187566)
+					(xy 165.257397 120.193224) (xy 165.199019 120.188163) (xy 165.151321 120.174034) (xy 165.112194 120.151702)
+					(xy 165.08051 120.120826) (xy 165.062487 120.086847) (xy 165.056446 120.048326) (xy 165.059974 120.016823)
+					(xy 165.070009 119.990656) (xy 165.086427 119.968642) (xy 165.120079 119.942063) (xy 165.164279 119.921687)
+					(xy 165.292629 119.886943) (xy 165.395888 119.858186) (xy 165.473918 119.827653) (xy 165.520053 119.801685)
+					(xy 165.558458 119.770761) (xy 165.589994 119.734719) (xy 165.613358 119.693494) (xy 165.627871 119.645262)
+					(xy 165.632981 119.588356) (xy 165.62781 119.534235) (xy 165.612682 119.485251) (xy 165.587552 119.440284)
+					(xy 165.553689 119.401326) (xy 165.510433 119.368218) (xy 165.456271 119.340877) (xy 165.398033 119.322142)
+					(xy 165.331272 119.310303) (xy 165.254649 119.306133) (xy 165.16564 119.312298) (xy 165.094487 119.329214)
+					(xy 165.031246 119.356787) (xy 164.982196 119.390458) (xy 164.942533 119.430769) (xy 164.9168 119.470753)
+					(xy 164.901076 119.513134) (xy 164.8961 119.552941) (xy 164.902537 119.587825) (xy 164.922295 119.619619)
+					(xy 164.941337 119.636218) (xy 164.962805 119.645964) (xy 164.987569 119.649295) (xy 165.020077 119.644519)
+					(xy 165.041669 119.63177) (xy 165.059413 119.610805) (xy 165.081542 119.57474) (xy 165.112403 119.522821)
+					(xy 165.146571 119.486263) (xy 165.173748 119.469985) (xy 165.212977 119.458883) (xy 165.268326 119.454633)
+					(xy 165.319284 119.458825) (xy 165.360447 119.470448) (xy 165.393745 119.488644) (xy 165.421092 119.513995)
+					(xy 165.436267 119.540803) (xy 165.44125 119.57016) (xy 165.437142 119.597841) (xy 165.425191 119.620963)
+					(xy 165.406578 119.640487) (xy 165.380739 119.657965) (xy 165.323037 119.68239) (xy 165.226133 119.708279)
+					(xy 165.143568 119.72963) (xy 165.072566 119.75206) (xy 165.007257 119.779425) (xy 164.955268 119.810434)
+					(xy 164.912105 119.849355) (xy 164.879614 119.897445) (xy 164.864982 119.933564) (xy 164.855686 119.976157)
+				)
+			)
+			(polygon
+				(pts
+					(xy 164.676099 120.220029) (xy 164.676099 119.431064) (xy 164.672451 119.390509) (xy 164.662623 119.360119)
+					(xy 164.647583 119.337519) (xy 164.626783 119.32015) (xy 164.602517 119.309746) (xy 164.5737 119.306133)
+					(xy 164.543993 119.309738) (xy 164.519218 119.320058) (xy 164.498229 119.337152) (xy 164.482989 119.359578)
+					(xy 164.473004 119.390045) (xy 164.469286 119.431064) (xy 164.469286 120.220029) (xy 164.472996 120.261051)
+					(xy 164.482974 120.291658) (xy 164.498229 120.314307) (xy 164.519241 120.331583) (xy 164.544015 120.341997)
+					(xy 164.5737 120.345631) (xy 164.602021 120.342018) (xy 164.626187 120.331545) (xy 164.647217 120.313941)
+					(xy 164.66248 120.291086) (xy 164.67242 120.260554)
+				)
+			)
+		)
+	)
+	(gr_text "SCLK\n"
+		(at 168 123 0)
+		(layer "B.SilkS")
+		(uuid "8b042cb1-6491-4635-b772-dbde77bbd858")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "SCLK\n" 0
+			(polygon
+				(pts
+					(xy 167.125793 122.526467) (xy 167.131152 122.58592) (xy 167.146859 122.640247) (xy 167.172932 122.690537)
+					(xy 167.208334 122.734712) (xy 167.253734 122.772625) (xy 167.310624 122.804476) (xy 167.372348 122.826685)
+					(xy 167.443383 122.840695) (xy 167.525314 122.845631) (xy 167.623238 122.838736) (xy 167.704076 122.819525)
+					(xy 167.770839 122.789516) (xy 167.813862 122.759467) (xy 167.850964 122.72357) (xy 167.88258 122.681378)
+					(xy 167.907239 122.634818) (xy 167.921119 122.591193) (xy 167.925566 122.549609) (xy 167.919014 122.514672)
+					(xy 167.899371 122.485129) (xy 167.86994 122.465109) (xy 167.832754 122.458262) (xy 167.802225 122.463569)
+					(xy 167.77725 122.479145) (xy 167.757126 122.503598) (xy 167.73866 122.540755) (xy 167.718156 122.585906)
+					(xy 167.697688 122.620195) (xy 167.671759 122.648728) (xy 167.635772 122.672646) (xy 167.592137 122.687566)
+					(xy 167.530809 122.693224) (xy 167.472431 122.688163) (xy 167.424733 122.674034) (xy 167.385607 122.651702)
+					(xy 167.353922 122.620826) (xy 167.335899 122.586847) (xy 167.329858 122.548326) (xy 167.333386 122.516823)
+					(xy 167.343422 122.490656) (xy 167.359839 122.468642) (xy 167.393491 122.442063) (xy 167.437691 122.421687)
+					(xy 167.566041 122.386943) (xy 167.6693 122.358186) (xy 167.74733 122.327653) (xy 167.793466 122.301685)
+					(xy 167.83187 122.270761) (xy 167.863407 122.234719) (xy 167.88677 122.193494) (xy 167.901283 122.145262)
+					(xy 167.906393 122.088356) (xy 167.901222 122.034235) (xy 167.886095 121.985251) (xy 167.860964 121.940284)
+					(xy 167.827101 121.901326) (xy 167.783846 121.868218) (xy 167.729684 121.840877) (xy 167.671446 121.822142)
+					(xy 167.604684 121.810303) (xy 167.528061 121.806133) (xy 167.439053 121.812298) (xy 167.367899 121.829214)
+					(xy 167.304658 121.856787) (xy 167.255608 121.890458) (xy 167.215945 121.930769) (xy 167.190212 121.970753)
+					(xy 167.174488 122.013134) (xy 167.169513 122.052941) (xy 167.175949 122.087825) (xy 167.195708 122.119619)
+					(xy 167.214749 122.136218) (xy 167.236218 122.145964) (xy 167.260982 122.149295) (xy 167.293489 122.144519)
+					(xy 167.315081 122.13177) (xy 167.332825 122.110805) (xy 167.354954 122.07474) (xy 167.385816 122.022821)
+					(xy 167.419984 121.986263) (xy 167.44716 121.969985) (xy 167.486389 121.958883) (xy 167.541739 121.954633)
+					(xy 167.592696 121.958825) (xy 167.633859 121.970448) (xy 167.667158 121.988644) (xy 167.694504 122.013995)
+					(xy 167.709679 122.040803) (xy 167.714663 122.07016) (xy 167.710554 122.097841) (xy 167.698604 122.120963)
+					(xy 167.67999 122.140487) (xy 167.654152 122.157965) (xy 167.596449 122.18239) (xy 167.499546 122.208279)
+					(xy 167.41698 122.22963) (xy 167.345978 122.25206) (xy 167.28067 122.279425) (xy 167.228681 122.310434)
+					(xy 167.185517 122.349355) (xy 167.153026 122.397445) (xy 167.138394 122.433564) (xy 167.129098 122.476157)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.100584 122.510835) (xy 166.106176 122.559412) (xy 166.124337 122.614944) (xy 166.15388 122.66897)
+					(xy 166.198831 122.72467) (xy 166.234871 122.757564) (xy 166.277811 122.786707) (xy 166.328524 122.812048)
+					(xy 166.38216 122.83022) (xy 166.443059 122.841631) (xy 166.512377 122.845631) (xy 166.5899 122.841707)
+					(xy 166.65703 122.83061) (xy 166.719751 122.811252) (xy 166.775427 122.78396) (xy 166.825867 122.747691)
+					(xy 166.873185 122.700368) (xy 166.909878 122.650432) (xy 166.941146 122.594244) (xy 166.965612 122.53394)
+					(xy 166.983278 122.46907) (xy 166.993728 122.401291) (xy 166.997322 122.327775) (xy 166.993163 122.247428)
+					(xy 166.981203 122.175281) (xy 166.962028 122.110338) (xy 166.934644 122.048546) (xy 166.900919 121.993981)
+					(xy 166.86079 121.945901) (xy 166.814321 121.903945) (xy 166.763033 121.869366) (xy 166.706428 121.841854)
+					(xy 166.646548 121.822111) (xy 166.583882 121.810174) (xy 166.517873 121.806133) (xy 166.437637 121.811801)
+					(xy 166.365564 121.82819) (xy 166.300375 121.854799) (xy 166.239859 121.89114) (xy 166.191674 121.931289)
+					(xy 166.154195 121.975272) (xy 166.12464 122.024939) (xy 166.108423 122.069799) (xy 166.103332 122.111132)
+					(xy 166.109556 122.144475) (xy 166.128489 122.173963) (xy 166.156379 122.194404) (xy 166.189305 122.201135)
+					(xy 166.225494 122.195946) (xy 166.2489 122.182267) (xy 166.267993 122.159356) (xy 166.292803 122.117909)
+					(xy 166.321976 122.070655) (xy 166.352831 122.03421) (xy 166.385371 122.006962) (xy 166.422424 121.987037)
+					(xy 166.465652 121.974633) (xy 166.516468 121.970265) (xy 166.576468 121.976415) (xy 166.628387 121.994127)
+					(xy 166.673934 122.02324) (xy 166.714183 122.064848) (xy 166.744515 122.113351) (xy 166.767501 122.172843)
+					(xy 166.782387 122.245547) (xy 166.787761 122.334125) (xy 166.783697 122.411643) (xy 166.772448 122.475614)
+					(xy 166.755155 122.528176) (xy 166.729526 122.576683) (xy 166.69883 122.614602) (xy 166.662953 122.643459)
+					(xy 166.621733 122.664292) (xy 166.575555 122.677071) (xy 166.523307 122.6815) (xy 166.466807 122.676408)
+					(xy 166.418415 122.661882) (xy 166.376578 122.638391) (xy 166.340817 122.606172) (xy 166.31065 122.564461)
+					(xy 166.286086 122.511568) (xy 166.270843 122.474045) (xy 166.253541 122.44605) (xy 166.238694 122.432391)
+					(xy 166.218352 122.423723) (xy 166.190648 122.420526) (xy 166.156281 122.42701) (xy 166.127145 122.446477)
+					(xy 166.107287 122.47536)
+				)
+			)
+			(polygon
+				(pts
+					(xy 165.719382 121.931613) (xy 165.719382 122.66196) (xy 165.310153 122.66196) (xy 165.264351 122.668515)
+					(xy 165.233339 122.686079) (xy 165.213162 122.713207) (xy 165.206411 122.746652) (xy 165.213151 122.780582)
+					(xy 165.232972 122.80698) (xy 165.263709 122.823679) (xy 165.310153 122.83) (xy 165.799921 122.83)
+					(xy 165.843662 122.826049) (xy 165.874804 122.815634) (xy 165.89658 122.800019) (xy 165.912024 122.778064)
+					(xy 165.922306 122.746941) (xy 165.926195 122.703543) (xy 165.926195 121.931247) (xy 165.92258 121.890581)
+					(xy 165.912849 121.860133) (xy 165.897984 121.837519) (xy 165.877392 121.820198) (xy 165.853048 121.809772)
+					(xy 165.823796 121.806133) (xy 165.794098 121.80975) (xy 165.769323 121.820108) (xy 165.748325 121.837274)
+					(xy 165.733092 121.85978) (xy 165.723104 121.890383)
+				)
+			)
+			(polygon
+				(pts
+					(xy 164.868867 121.931735) (xy 164.868867 122.279965) (xy 164.473988 121.865851) (xy 164.424712 121.820849)
+					(xy 164.401852 121.810105) (xy 164.370062 121.806133) (xy 164.329059 121.812952) (xy 164.298011 121.832329)
+					(xy 164.277346 121.861388) (xy 164.270472 121.896198) (xy 164.27507 121.924602) (xy 164.289697 121.954075)
+					(xy 164.316817 121.985713) (xy 164.56222 122.218171) (xy 164.279021 122.623981) (xy 164.251485 122.665732)
+					(xy 164.233714 122.698536) (xy 164.222169 122.730736) (xy 164.21851 122.761001) (xy 164.22512 122.792804)
+					(xy 164.245437 122.820535) (xy 164.276012 122.838992) (xy 164.318161 122.845631) (xy 164.358395 122.840722)
+					(xy 164.388197 122.827313) (xy 164.4129 122.806273) (xy 164.43381 122.778831) (xy 164.466721 122.72412)
+					(xy 164.705163 122.358244) (xy 164.868867 122.514804) (xy 164.868867 122.720334) (xy 164.872632 122.761704)
+					(xy 164.882726 122.79231) (xy 164.898115 122.814734) (xy 164.919304 122.831803) (xy 164.944001 122.842064)
+					(xy 164.973281 122.845631) (xy 164.999024 122.842203) (xy 165.024145 122.831709) (xy 165.04584 122.81525)
+					(xy 165.061758 122.794035) (xy 165.069484 122.773498) (xy 165.073604 122.749033) (xy 165.07568 122.675638)
+					(xy 165.07568 121.931064) (xy 165.072141 121.890423) (xy 165.062629 121.860038) (xy 165.048142 121.837519)
+					(xy 165.027925 121.820292) (xy 165.003408 121.809824) (xy 164.973281 121.806133) (xy 164.943583 121.80975)
+					(xy 164.918808 121.820108) (xy 164.89781 121.837274) (xy 164.882577 121.859818) (xy 164.872589 121.890462)
+				)
+			)
+		)
+	)
+	(gr_text "CS"
+		(at 168 125.5 0)
+		(layer "B.SilkS")
+		(uuid "1a87cb56-c91e-4a98-9db0-ce554475e3a9")
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "CS" 0
+			(polygon
+				(pts
+					(xy 167.033592 125.010835) (xy 167.039184 125.059412) (xy 167.057344 125.114944) (xy 167.086887 125.16897)
+					(xy 167.131838 125.22467) (xy 167.167879 125.257564) (xy 167.210819 125.286707) (xy 167.261531 125.312048)
+					(xy 167.315168 125.33022) (xy 167.376067 125.341631) (xy 167.445385 125.345631) (xy 167.522908 125.341707)
+					(xy 167.590038 125.33061) (xy 167.652759 125.311252) (xy 167.708435 125.28396) (xy 167.758875 125.247691)
+					(xy 167.806193 125.200368) (xy 167.842886 125.150432) (xy 167.874153 125.094244) (xy 167.898619 125.03394)
+					(xy 167.916285 124.96907) (xy 167.926736 124.901291) (xy 167.930329 124.827775) (xy 167.926171 124.747428)
+					(xy 167.914211 124.675281) (xy 167.895036 124.610338) (xy 167.867651 124.548546) (xy 167.833926 124.493981)
+					(xy 167.793797 124.445901) (xy 167.747329 124.403945) (xy 167.696041 124.369366) (xy 167.639436 124.341854)
+					(xy 167.579556 124.322111) (xy 167.51689 124.310174) (xy 167.450881 124.306133) (xy 167.370645 124.311801)
+					(xy 167.298572 124.32819) (xy 167.233382 124.354799) (xy 167.172867 124.39114) (xy 167.124681 124.431289)
+					(xy 167.087203 124.475272) (xy 167.057648 124.524939) (xy 167.041431 124.569799) (xy 167.036339 124.611132)
+					(xy 167.042563 124.644475) (xy 167.061496 124.673963) (xy 167.089387 124.694404) (xy 167.122313 124.701135)
+					(xy 167.158502 124.695946) (xy 167.181908 124.682267) (xy 167.201001 124.659356) (xy 167.225811 124.617909)
+					(xy 167.254983 124.570655) (xy 167.285838 124.53421) (xy 167.318379 124.506962) (xy 167.355432 124.487037)
+					(xy 167.39866 124.474633) (xy 167.449476 124.470265) (xy 167.509476 124.476415) (xy 167.561395 124.494127)
+					(xy 167.606942 124.52324) (xy 167.647191 124.564848) (xy 167.677523 124.613351) (xy 167.700508 124.672843)
+					(xy 167.715394 124.745547) (xy 167.720769 124.834125) (xy 167.716705 124.911643) (xy 167.705456 124.975614)
+					(xy 167.688162 125.028176) (xy 167.662533 125.076683) (xy 167.631837 125.114602) (xy 167.595961 125.143459)
+					(xy 167.554741 125.164292) (xy 167.508562 125.177071) (xy 167.456315 125.1815) (xy 167.399815 125.176408)
+					(xy 167.351422 125.161882) (xy 167.309586 125.138391) (xy 167.273825 125.106172) (xy 167.243658 125.064461)
+					(xy 167.219094 125.011568) (xy 167.203851 124.974045) (xy 167.186549 124.94605) (xy 167.171702 124.932391)
+					(xy 167.151359 124.923723) (xy 167.123656 124.920526) (xy 167.089289 124.92701) (xy 167.060153 124.946477)
+					(xy 167.040295 124.97536)
+				)
+			)
+			(polygon
+				(pts
+					(xy 166.090204 125.026467) (xy 166.095562 125.08592) (xy 166.111269 125.140247) (xy 166.137342 125.190537)
+					(xy 166.172744 125.234712) (xy 166.218144 125.272625) (xy 166.275034 125.304476) (xy 166.336758 125.326685)
+					(xy 166.407794 125.340695) (xy 166.489724 125.345631) (xy 166.587648 125.338736) (xy 166.668486 125.319525)
+					(xy 166.735249 125.289516) (xy 166.778272 125.259467) (xy 166.815374 125.22357) (xy 166.84699 125.181378)
+					(xy 166.871649 125.134818) (xy 166.885529 125.091193) (xy 166.889977 125.049609) (xy 166.883424 125.014672)
+					(xy 166.863782 124.985129) (xy 166.834351 124.965109) (xy 166.797165 124.958262) (xy 166.766635 124.963569)
+					(xy 166.74166 124.979145) (xy 166.721536 125.003598) (xy 166.70307 125.040755) (xy 166.682566 125.085906)
+					(xy 166.662098 125.120195) (xy 166.636169 125.148728) (xy 166.600183 125.172646) (xy 166.556548 125.187566)
+					(xy 166.495219 125.193224) (xy 166.436842 125.188163) (xy 166.389144 125.174034) (xy 166.350017 125.151702)
+					(xy 166.318332 125.120826) (xy 166.30031 125.086847) (xy 166.294269 125.048326) (xy 166.297796 125.016823)
+					(xy 166.307832 124.990656) (xy 166.324249 124.968642) (xy 166.357902 124.942063) (xy 166.402102 124.921687)
+					(xy 166.530451 124.886943) (xy 166.63371 124.858186) (xy 166.711741 124.827653) (xy 166.757876 124.801685)
+					(xy 166.796281 124.770761) (xy 166.827817 124.734719) (xy 166.85118 124.693494) (xy 166.865693 124.645262)
+					(xy 166.870804 124.588356) (xy 166.865632 124.534235) (xy 166.850505 124.485251) (xy 166.825375 124.440284)
+					(xy 166.791512 124.401326) (xy 166.748256 124.368218) (xy 166.694094 124.340877) (xy 166.635856 124.322142)
+					(xy 166.569094 124.310303) (xy 166.492472 124.306133) (xy 166.403463 124.312298) (xy 166.332309 124.329214)
+					(xy 166.269068 124.356787) (xy 166.220019 124.390458) (xy 166.180356 124.430769) (xy 166.154623 124.470753)
+					(xy 166.138899 124.513134) (xy 166.133923 124.552941) (xy 166.14036 124.587825) (xy 166.160118 124.619619)
+					(xy 166.17916 124.636218) (xy 166.200628 124.645964) (xy 166.225392 124.649295) (xy 166.257899 124.644519)
+					(xy 166.279492 124.63177) (xy 166.297236 124.610805) (xy 166.319364 124.57474) (xy 166.350226 124.522821)
+					(xy 166.384394 124.486263) (xy 166.411571 124.469985) (xy 166.4508 124.458883) (xy 166.506149 124.454633)
+					(xy 166.557107 124.458825) (xy 166.59827 124.470448) (xy 166.631568 124.488644) (xy 166.658915 124.513995)
+					(xy 166.67409 124.540803) (xy 166.679073 124.57016) (xy 166.674965 124.597841) (xy 166.663014 124.620963)
+					(xy 166.644401 124.640487) (xy 166.618562 124.657965) (xy 166.56086 124.68239) (xy 166.463956 124.708279)
+					(xy 166.381391 124.72963) (xy 166.310389 124.75206) (xy 166.24508 124.779425) (xy 166.193091 124.810434)
+					(xy 166.149928 124.849355) (xy 166.117437 124.897445) (xy 166.102804 124.933564) (xy 166.093508 124.976157)
 				)
 			)
 		)
