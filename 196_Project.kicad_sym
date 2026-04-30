@@ -1479,7 +1479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "196_Project_Footprints:1206B104K500BD"
+		(property "Footprint" "196_Project_Footprints:CL31B104KBCNNNC"
 			(at 2.286 10.668 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,7 +1604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "196_Project_Footprints:1206B105K250JC"
+		(property "Footprint" "196_Project_Footprints:CL31B105KAHNNNE"
 			(at 2.286 10.668 0)
 			(show_name no)
 			(do_not_autoplace no)

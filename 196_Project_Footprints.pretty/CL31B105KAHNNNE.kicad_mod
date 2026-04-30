@@ -1,4 +1,4 @@
-(footprint "1206B105K250JC"
+(footprint "CL31B105KAHNNNE"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 1.905 -0.508 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1be866cb-7ed3-42a6-a6e0-fdb4d93fa564")
+		(uuid "5c1c8364-22b1-455f-93ed-198687307e84")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0.508 -3.556 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "195fc875-d634-4547-a92a-de39e1e371c3")
+		(uuid "2a214f69-dbb2-4ce8-8cae-c6b257bc2808")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5660/3372_1206B105K250JC.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "31c855cc-496c-4516-820f-3eb2ce0e491f")
+		(uuid "528adcd8-2608-4140-98a8-f3feff8486c9")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2de6383b-0242-4668-9bc3-a2719c8d0a36")
+		(uuid "23d1a694-e2ae-427e-b5dd-1d82b18aa830")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fd91ee2e-c77d-4aa4-818d-902534eb7220")
+		(uuid "2686120e-1073-4611-ba2a-13e501b480fc")
 	)
 	(fp_line
 		(start 1.588748 2.06)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6d3e4a85-8bad-4f5f-989a-b2a9a7056a76")
+		(uuid "fdfbcf96-3e8f-46f8-bd04-93fe90de1fb3")
 	)
 	(fp_rect
 		(start 0 0)
@@ -84,7 +84,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6dc2a422-d772-4d47-a05f-afa580bef268")
+		(uuid "bf986193-cd36-4c01-9c5f-91c843206eeb")
 	)
 	(fp_rect
 		(start 0.7 0.35)
@@ -95,12 +95,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b2887463-dfa3-42b2-b6d4-df2643c63989")
+		(uuid "f71e3d4d-f466-4547-b8a8-a19c271a4463")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.794 -2.286 0)
 		(layer "F.Fab")
-		(uuid "87c7aadd-bf9e-4a78-822a-223cf8a38483")
+		(uuid "deb2c946-2d4a-4a92-85ce-4d759914a52f")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -113,14 +113,14 @@
 		(size 1.15 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.217391)
-		(uuid "334cfb37-f5e6-4cbb-83f0-e0e4f9f8b535")
+		(uuid "8ce8f6fa-e889-4e24-a495-b087a3d4ad7e")
 	)
 	(pad "2" smd roundrect
 		(at 3.775 1.15)
 		(size 1.15 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.217391)
-		(uuid "49359382-1f2e-4e39-b758-e08667bc1333")
+		(uuid "cca9d9cc-2d0e-4cfd-a456-cc671ea78e32")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d models/1206 Capacitors/Ceramic_Capacitor_1206_h32mil.step"
