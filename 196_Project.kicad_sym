@@ -1279,24 +1279,8 @@
 					(justify left bottom)
 				)
 			)
-			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
+		)
+		(symbol "AI-3035-TWT-3V-R_1_0"
 			(pin passive line
 				(at -2.54 5.08 270)
 				(length 2.54)
@@ -1307,7 +1291,25 @@
 						)
 					)
 				)
-				(number "P"
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)

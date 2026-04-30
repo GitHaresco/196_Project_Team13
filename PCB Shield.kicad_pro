@@ -62,7 +62,7 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|230000000|72928500|F.Cu|4|d27f3f6e-be58-4460-8d8c-f3f777ed5df7|4c4beaa7-2623-47ae-832d-72eb10632b58",
+          "unconnected_items|230000000|72928500|F.Cu|4|d27f3f6e-be58-4460-8d8c-f3f777ed5df7|0eaf6fd0-161a-49d4-a9a5-103d2be761a8",
           ""
         ]
       ],
@@ -779,7 +779,7 @@
         "uuid": "9e193586-b0fa-43d6-aa55-137433de4788"
       }
     ],
-    "used_designators": "R1,R4,R6-11,J9-16,#FLG4,#PWR14,#PWR19-20,#PWR24,#PWR27-52,C1-9,U1-2,NT1,SW1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
