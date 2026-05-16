@@ -6354,7 +6354,7 @@
 	)
 	(text "Header pins for MCU"
 		(exclude_from_sim no)
-		(at 129.032 20.32 0)
+		(at 127 17.272 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -6477,12 +6477,6 @@
 		(uuid "83ec4403-6760-4599-9f73-04f4a0c0e8f9")
 	)
 	(junction
-		(at 104.14 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86f699cd-6816-475b-bcfb-a3d62e72e6bf")
-	)
-	(junction
 		(at 229.87 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6523,6 +6517,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8248607-bcef-4127-aacd-7c2faac7dc1a")
+	)
+	(junction
+		(at 104.14 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec9edcde-1827-4a4b-a52b-e9e9cd8ef633")
 	)
 	(junction
 		(at 104.14 45.72)
@@ -7054,16 +7054,6 @@
 		)
 		(uuid "5227377a-0666-4e5f-a7dd-2b6b18444de2")
 	)
-	(wire
-		(pts
-			(xy 144.78 129.54) (xy 147.32 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "546dbfe9-0954-4971-b74e-4e0a80544b6b")
-	)
 	(polyline
 		(pts
 			(xy 177.165 166.37) (xy 177.165 146.685)
@@ -7263,16 +7253,6 @@
 			(type default)
 		)
 		(uuid "733c2881-736a-4d03-a50f-bb64d3db1b31")
-	)
-	(wire
-		(pts
-			(xy 144.78 128.27) (xy 144.78 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764e53d6-b8f0-47fc-a086-278f9d485038")
 	)
 	(wire
 		(pts
@@ -7516,16 +7496,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 125.73) (xy 146.05 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98882076-2a50-4ab5-8ce2-26e3eec2c1e9")
-	)
-	(wire
-		(pts
 			(xy 50.8 113.03) (xy 55.88 113.03)
 		)
 		(stroke
@@ -7716,16 +7686,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 127) (xy 147.32 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e59214-7bfb-450c-97ee-12aac5a7fac3")
-	)
-	(wire
-		(pts
 			(xy 173.99 125.73) (xy 173.99 127)
 		)
 		(stroke
@@ -7866,7 +7826,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 128.27) (xy 144.78 128.27)
+			(xy 143.51 129.54) (xy 147.32 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7946,7 +7906,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 125.73) (xy 146.05 125.73)
+			(xy 143.51 127) (xy 147.32 127)
 		)
 		(stroke
 			(width 0)
@@ -8280,54 +8240,6 @@
 			)
 		)
 	)
-	(global_label "SCL {slash} IO9"
-		(shape input)
-		(at 170.18 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0adb3bde-3117-4fad-acd7-e5bad0ad69d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.2767 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL {slash} IO9"
-		(shape input)
-		(at 143.51 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f6b9669-d390-4fe3-a87b-7315bebd6272")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.6067 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ADC1_3 {slash} IO4"
 		(shape input)
 		(at 101.6 35.56 180)
@@ -8424,7 +8336,7 @@
 			)
 		)
 	)
-	(global_label "SDA {slash} IO8"
+	(global_label "SDA {slash} IO7"
 		(shape input)
 		(at 100.33 43.18 180)
 		(fields_autoplaced yes)
@@ -8469,6 +8381,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SCL {slash} IO8"
+		(shape input)
+		(at 144.78 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47498c20-46cd-46b9-b192-f027b18d8217")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.8767 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8616,6 +8552,30 @@
 			)
 		)
 	)
+	(global_label "SCL {slash} IO8"
+		(shape input)
+		(at 170.18 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "683c8b1f-17da-46b8-8e9d-a357100cb7a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2767 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MISO {slash} Query"
 		(shape input)
 		(at 97.79 116.84 180)
@@ -8653,30 +8613,6 @@
 		(uuid "6c545020-e3de-4a72-958d-b1d7746dc5c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.0543 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA {slash} IO8"
-		(shape input)
-		(at 144.78 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7084623f-ef9d-4907-953a-4c355e7e558f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.8162 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,9 +8744,9 @@
 			)
 		)
 	)
-	(global_label "SCL {slash} IO9"
+	(global_label "SDA {slash} IO7"
 		(shape input)
-		(at 144.78 115.57 180)
+		(at 170.18 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8818,9 +8754,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a241376e-adab-4868-973f-2c82ea99a08d")
+		(uuid "a51d9776-c0d9-49a8-8561-09188d7aebbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.8767 115.57 0)
+			(at 157.2162 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8904,6 +8840,54 @@
 			)
 		)
 	)
+	(global_label "SDA {slash} IO7"
+		(shape input)
+		(at 143.51 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bac2426d-19c7-402c-9ffb-7426d9f91b6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.5462 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL {slash} IO8"
+		(shape input)
+		(at 143.51 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c25f2c85-a524-44ba-bfcd-5b4b17993182")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LED split"
 		(shape input)
 		(at 44.45 92.71 270)
@@ -8928,7 +8912,7 @@
 			)
 		)
 	)
-	(global_label "SCL {slash} IO9"
+	(global_label "SCL {slash} IO8"
 		(shape input)
 		(at 100.33 45.72 180)
 		(fields_autoplaced yes)
@@ -9072,6 +9056,30 @@
 			)
 		)
 	)
+	(global_label "SDA {slash} IO7"
+		(shape input)
+		(at 144.78 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea39bb13-4759-4f04-bd0f-3fa58f45ff66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.8162 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "A1 {slash} IO3"
 		(shape input)
 		(at 101.6 33.02 180)
@@ -9096,30 +9104,6 @@
 			)
 		)
 	)
-	(global_label "SDA {slash} IO8"
-		(shape input)
-		(at 143.51 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4dd12fa-4a74-4d97-a40d-54d374d30da8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.5462 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "LED split"
 		(shape input)
 		(at 44.45 50.8 270)
@@ -9133,30 +9117,6 @@
 		(uuid "f5e8866f-fcb8-4202-97a8-720684f5d993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.45 62.3727 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA {slash} IO8"
-		(shape input)
-		(at 170.18 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f78fe934-f588-45b9-9d45-f13319067cc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.2162 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,85 +9396,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 171.45 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "035728a8-dded-4cf2-9756-85a4caa290ed")
-		(property "Reference" "#PWR23"
-			(at 175.26 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5Vlimited"
-			(at 167.64 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f52f3997-7fec-422b-995c-20849eb3b1c4")
-		)
-		(instances
-			(project "PCB Shield"
-				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 148.59 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -9780,6 +9661,85 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 171.45 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0953acea-c312-4cd9-baba-e15de5543c22")
+		(property "Reference" "#PWR023"
+			(at 175.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 167.64 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 171.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36a9bfef-e388-4f4d-a170-475ffe186ba9")
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 97.79 127 90)
 		(unit 1)
 		(body_style 1)
@@ -9867,10 +9827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c18f5ab-4148-4f2c-91e7-7d2c53fed0ef")
 		(property "Reference" "J3"
-			(at 120.65 50.7999 0)
+			(at 116.84 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9881,7 +9840,7 @@
 			)
 		)
 		(property "Value" "Conn_1to20"
-			(at 120.65 53.3399 0)
+			(at 114.046 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11942,6 +11901,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 181.61 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "361b11ab-dc66-41a7-9c62-12264d181fa9")
+		(property "Reference" "#PWR026"
+			(at 181.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 181.61 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ffbdd4f-43ab-4deb-844b-7a5a74158b93")
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "196_Project:CMD17-21VGD/TR8")
 		(at 15.24 38.1 90)
 		(unit 1)
@@ -12497,7 +12534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 218.44 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12738,7 +12775,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 25.4 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12815,6 +12852,84 @@
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51fee84e-2a52-40fa-8807-5857c1564678")
+		(property "Reference" "#PWR021"
+			(at 163.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7a75995-8c00-4c61-818d-3a1218fb7d8b")
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13516,84 +13631,6 @@
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 163.83 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b3c2bc-a214-4b80-8167-ad29bf4b74d0")
-		(property "Reference" "#PWR21"
-			(at 163.83 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5Vlimited"
-			(at 163.83 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 163.83 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aae93417-2fb1-4144-bead-f000da524d73")
-		)
-		(instances
-			(project "PCB Shield"
-				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -15206,10 +15243,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9df974a-7922-4b2d-a528-3c19b20c6e31")
 		(property "Reference" "J1"
-			(at 111.76 50.7999 0)
+			(at 107.696 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15220,7 +15256,7 @@
 			)
 		)
 		(property "Value" "Conn_1to20"
-			(at 111.76 53.3399 0)
+			(at 105.156 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15734,84 +15770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 181.61 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3723605-d051-4396-8918-0f1efacae0a5")
-		(property "Reference" "#PWR26"
-			(at 181.61 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5Vlimited"
-			(at 181.61 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64f0c37f-2c0f-4b6a-acd0-eba9576c688f")
-		)
-		(instances
-			(project "PCB Shield"
-				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 143.51 163.83 0)
 		(unit 1)
@@ -15884,6 +15842,85 @@
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
 					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 144.78 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c708a9ca-6da8-4a09-8492-9e78c692292c")
+		(property "Reference" "#PWR015"
+			(at 148.59 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 140.97 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdcc4319-3814-41a3-b2c3-2f00a5ea03b4")
+		)
+		(instances
+			(project "PCB Shield"
+				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16338,85 +16375,6 @@
 			(project "PCB Shield"
 				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 144.78 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0f91d17-3be3-42dd-b700-ad2b03e8493d")
-		(property "Reference" "#PWR15"
-			(at 148.59 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5Vlimited"
-			(at 140.97 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 144.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b62c43a9-983b-4ff3-b75a-3081cde0d069")
-		)
-		(instances
-			(project "PCB Shield"
-				(path "/9e193586-b0fa-43d6-aa55-137433de4788"
-					(reference "#PWR15")
 					(unit 1)
 				)
 			)
