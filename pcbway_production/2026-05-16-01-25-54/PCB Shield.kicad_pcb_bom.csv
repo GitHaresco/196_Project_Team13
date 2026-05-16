@@ -1,0 +1,22 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,MANUFACTURER,STANDARD,PARTREV,SNAPEDA_PN,MAXIMUM_PACKAGE_HEIGHT
+"C1, C7",2,0.1uF,CL31B104KBCNNNC,,CL31B104KBCNNNC,,smt,CAP CER 0.1UF 50V X7R 1206,Samsung Electro-Mechanics,,,,
+C2,1,1uF,CL31B105KAHNNNE,,CL31B105KAHNNNE,,smt,CAP CER 0.1UF 50V X7R 1206,Samsung Electro-Mechanics,,,,
+"C3, C4, C5, C6, C8, C9",6,470uF,25ZLH470MEFC10X12,,25ZLH470MEFC10X12.5,,tht,CAP ALUM 470UF 20% 25V RADIAL TH,Rubycon,,,,
+"D1, D2, D3, D4, D5, D6, D7, D8",8,CMD17-21VGD/TR8,CMD17-21VGD_TR8,,CMD17-21VGD/TR8 ,,smt,LED GREEN DIFFUSED 0805 SMD,Visual Communications Company - VCC,,,,
+"J1, J3",2,Conn_1to20,196_Conn_1to20,,PH1-20-UA,,smt,"Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)",Adam Tech,,,,
+"J10, J11, J12, J13, J14, J15, J16, J9",8,TB002-500-02BE,TB002-500-02BE,,TB002-500-02BE ,,tht,"TERMINAL BLOCK, SCREW TYPE, 5.00",CUI,Manufacturer Recommendations,,,
+J2,1,Conn_01x08_Socket,PinSocket_1x08_P2.54mm_Vertical,,PH1-20-UA,,tht,"Generic connector, single row, 01x08, script generated",Adam Tech,,,,
+"J4, J5",2,Conn_20to49,196_Conn_20to48,,PH1-20-UA,,tht,"Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)",Adam Tech,,,,
+"J6, J7",2,Conn_01x04_Socket,PinSocket_1x04_P2.54mm_Vertical,,PH1-20-UA,,tht,"Generic connector, single row, 01x04, script generated",Adam Tech,,,,
+J8,1,OSTT7020150,OSTT7020150,,OSTT7020150,,tht,TERM BLK 2P SIDE ENT 6.35MM PCB,On Shore Technology Inc.,,,,
+LS1,1,AI-3035-TWT-3V-R,Buzzer_12x9.5RM7.6,,AI-3035-TWT-3V-R ,,tht,BUZZER PIEZO 3V 30MM TH,"PUI Audio, Inc.",IPC 7351B,E,AI-3035-TWT-3V-R,20.1 mm
+Q1,1,DMN2075U-7,SOT95P237X112-3N-2-V,,DMN2075U-7,,tht,MOSFET N-CH 20V 4.2A SOT23-3,Diodes Incorporated,,,,
+R1,1,4k7,R_1206_3216Metric,,CRCW120610K0FKEA,,smt,RES SMD 10K OHM 1% 1/4W 1206,Vishay Dale,,,,
+R10,1,220,R_1206_3216Metric,,RCS1206150RJNEA,,smt,RES 150 OHM 5% 1W 1206,Vishay Dale,,,,
+R2,1,16.2,CRCW120616R2FKEA,,CRCW120616R2FKEA,,tht,RES SMD 16.2 OHM 1% 1/4W 1206,Vishay Dale,,,,
+"R3, R5",2,4k7,RC1206FR-074K7L,,RC1206FR-074K7L ,,smt,RES 4.7K OHM 1% 1/4W 1206,YAGEO,,,,
+"R6, R7, R8, R9",4,220,RMCF1206FT220R,,RMCF1206FT220R,,smt,RES 220 OHM 1% 1/4W 1206,Stackpole Electronics Inc,,,,
+SW1,1,GRB066L02BBGGL1,GRB066L02BBGGL1,,GRB066L02BBGGL1,,tht,SWITCH ROCKER DPST-NO 20A 250V,CW Industries,,,,
+U1,1,ESDA6V1L,SOT_DA6V1L_STM-M,,ESDA6V1L,,smt,TVS DIODE 5.25VWM SOT23-3,STMicroelectronics,,,,
+U2,1,74AHCT125S14-13,74AHCT125S14-13,,74AHCT125S14-13 ,,smt,IC BUFFER NON-INVERT 5.5V 14-SO,Diodes Incorporated,,,,
+"VR1, VR2",2,10K,3361P-1-103GLF,,3361P-1-103GLF,,smt,TRIMMER 10K OHM 0.5W GW TOP ADJ,Bourns,Manufacturer Recommendations,08/19,,5.84mm
